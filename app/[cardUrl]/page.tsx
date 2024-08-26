@@ -3,7 +3,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import cards from '@/app/data/cards'; // Adjust the import path as needed
+import cards from '@/data/cards';
 
 export interface CardItemType {
   title: string;
@@ -24,10 +24,12 @@ const CardPage = ({ params }: { params: { cardUrl: string } }) => {
   if (!card) return <div>There is an unexpected error</div>;
 
   return (
-    <div>
-      <h1>{card.title}</h1>
-      <p>{card.url}</p>
-      <img src={card.img} alt={card.title} />
+    <div className="container-md p-4">
+      <div className="mx-auto text-center">
+        <h1>{card.title}</h1>
+        <p>{card.url}</p>
+        <img className='mx-auto w-50' src={card.img} alt={card.title} />
+      </div>
       <Link href="/">Go Back</Link>
     </div>
   );

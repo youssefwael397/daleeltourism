@@ -6,13 +6,14 @@ import {
   TwitterCircleFilled,
   InstagramFilled,
   WhatsAppOutlined,
-  SendOutlined ,
+  SendOutlined,
+  MailOutlined,
 } from '@ant-design/icons';
 
 const Footer = () => (
   <footer className="footer">
     <section className="bg-light py-4 py-md-5 py-xl-8 border-top border-light">
-      <div className="container overflow-hidden">
+      <div className="container-md overflow-hidden">
         <div className="row gy-4 gy-lg-0 justify-content-xl-between">
           <div className="col-12 col-md-2 col-lg-2 col-xl-2">
             <div className="widget">
@@ -40,15 +41,43 @@ const Footer = () => (
           <div className="col-12 col-md-4 col-lg-4 col-xl-4">
             <div className="widget">
               <h4 className="widget-title mb-4">Contacts</h4>
-              <address className="mb-4">
+              {/* <address className="mb-4">
                 8014 Edith Blvd NE, Albuquerque, New York, United States
-              </address>
+              </address> */}
               <p className="mb-1">
                 <Link
-                  href="tel:+201010932484"
+                  href="https://wa.me/+201010932484"
                   className="link-secondary text-decoration-none"
                 >
+                  <WhatsAppOutlined
+                    className="me-2"
+                    style={{ fontSize: '18px', color: '#25D366' }}
+                  />
                   (20) 1010-932-484
+                </Link>
+              </p>
+              <p className="mb-1">
+                <Link
+                  href="https://t.me/+201010932484"
+                  className="link-secondary text-decoration-none"
+                >
+                  <SendOutlined
+                    className="me-2"
+                    style={{ fontSize: '18px', color: '#0088CC' }}
+                  />
+                  (20) 1010-932-484
+                </Link>
+              </p>
+              <p className="mb-1">
+                <Link
+                  href="mailto:daleeltourism@gmail.com"
+                  className="link-secondary text-decoration-none"
+                >
+                  <MailOutlined
+                    className="me-2"
+                    style={{ fontSize: '18px', color: '#007bff' }}
+                  />
+                  daleeltourism@gmail.com
                 </Link>
               </p>
             </div>
@@ -58,7 +87,7 @@ const Footer = () => (
     </section>
 
     <div className="bg-light py-4 py-md-5 py-xl-8 border-top border-light-subtle">
-      <div className="container overflow-hidden">
+      <div className="container-md overflow-hidden">
         <div className="row gy-4 gy-md-0 align-items-md-center">
           <div className="col-xs-12 col-md-7 order-1 order-md-0">
             <div className="copyright text-center text-md-start">
