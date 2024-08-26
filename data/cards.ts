@@ -1,58 +1,58 @@
-import { CardItemType } from './../components/Home/CardItem';
+import { CardItemType } from '@/app/[lng]/components/Home/CardItem';
 const cards: CardItemType[] = [
   {
-    title: 'DOHA TOUR',
-    url: 'DOHA-TOUR',
+    title: 'DOHA_TOUR',
+    url: 'DOHA_TOUR',
     img: '/assets/covers/1.jpg',
   },
   {
-    title: 'DOHA TOUR + MUSEUM',
-    url: 'DOHA-TOUR-MUSEUM',
+    title: 'DOHA_TOUR_MUSEUM',
+    url: 'DOHA_TOUR_MUSEUM',
     img: '/assets/covers/2.jpg',
   },
   {
-    title: 'NORTHWEST OF QATAR',
-    url: 'NORTHWEST-OF-QATAR',
+    title: 'NORTHWEST_OF_QATAR',
+    url: 'NORTHWEST_OF_QATAR',
     img: '/assets/covers/3.jpg',
   },
   {
-    title: 'MANGROVES RESERVE',
-    url: 'MANGROVES-RESERVE',
+    title: 'MANGROVES_RESERVE',
+    url: 'MANGROVES_RESERVE',
     img: '/assets/covers/4.jpg',
   },
   {
-    title: 'FISHING IN DOHA',
-    url: 'FISHING-IN-DOHA',
+    title: 'FISHING_IN_DOHA',
+    url: 'FISHING_IN_DOHA',
     img: '/assets/covers/5.jpeg',
   },
   {
-    title: 'DESERT SAFARI',
-    url: 'DESERT-SAFARI',
+    title: 'DESERT_SAFARI',
+    url: 'DESERT_SAFARI',
     img: '/assets/covers/6.jpg',
   },
   {
-    title: 'SAFARI WITH DINNER',
-    url: 'SAFARI-WITH-DINNER',
+    title: 'SAFARI_WITH_DINNER',
+    url: 'SAFARI_WITH_DINNER',
     img: '/assets/covers/7.jpeg',
   },
   {
-    title: 'YACHT CHARTER IN QATAR',
-    url: 'YACHT-CHARTER-IN-QATAR',
+    title: 'YACHT_CHARTER_IN_QATAR',
+    url: 'YACHT_CHARTER_IN_QATAR',
     img: '/assets/covers/8.jpg',
   },
   {
-    title: 'HELICOPTER FLIGHT',
-    url: 'HELICOPTER-FLIGHT',
+    title: 'HELICOPTER_FLIGHT',
+    url: 'HELICOPTER_FLIGHT',
     img: '/assets/covers/9.jpg',
   },
   {
-    title: 'QUEST THEME PARK',
-    url: 'QUEST-THEME-PARK',
+    title: 'QUEST_THEME_PARK',
+    url: 'QUEST_THEME_PARK',
     img: '/assets/covers/10.jpg',
   },
   {
-    title: 'MERYAL AQUAPARK',
-    url: 'MERYAL-AQUAPARK',
+    title: 'MERYAL_AQUAPARK',
+    url: 'MERYAL_AQUAPARK',
     img: '/assets/covers/11.webp',
   },
 ];
