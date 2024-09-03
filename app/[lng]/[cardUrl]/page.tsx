@@ -1,37 +1,71 @@
-// app/[cardUrl]/page.tsx
-'use client'; // Ensure this is a Client Component
-
-import { useEffect, useState } from 'react';
+import { ReactElement } from 'react';
 import Link from 'next/link';
 import cards from '@/data/cards';
+import SingleHeader from '../components/SingleHeader';
+import { CardItemType } from '../components/Home/CardItem';
+import MoreDetails, { MoreInfoItem } from '../components/Activity/MoreDetails';
+import Gallery from '../components/Activity/Gallery';
+import Prices from '../components/Activity/Prices';
+import Faqs from '../components/Activity/Faqs';
+import MakeAnOrder from '../components/Activity/MakeAnOrder';
+import SimilarExcursions from '../components/Activity/SimilarExcursions';
 
-export interface CardItemType {
-  title: string;
-  url: string;
-  img: string;
-}
+const dummyDetails: MoreInfoItem[] = [
+  {
+    title: 'Jeep riding',
+    description:
+      'Breathtaking, extreme desert jeep driving will be a wonderful experience and will give you a lot of impressions.',
+  },
+  {
+    title: 'Photo stop in the desert',
+    description:
+      'The desert landscapes amaze with their picturesque expanses. We will make a stop at sunset and enjoy the view of the luminary leaning over the horizon.',
+  },
+  {
+    title: 'Visiting the Bay',
+    description:
+      'This is one of the few places on the planet where the endless desert sands meet the sea - Khor Al-Adaid.',
+  },
+];
 
-const CardPage = ({ params }: { params: { cardUrl: string } }) => {
-  const { cardUrl } = params;
-  const [card, setCard] = useState<CardItemType | undefined>();
+const CardPage = ({
+  params,
+}: {
+  params: { cardUrl: string; lng: string };
+}): ReactElement => {
+  const { cardUrl, lng } = params;
 
-  useEffect(() => {
-    // Replace this with your actual data fetching logic
-    const found = cards.find((item: CardItemType) => item.url === cardUrl);
-    setCard(found);
-  }, [cardUrl]);
+  // Fetch card data on the server side
+  const card = cards.find((item: CardItemType) => item.url === cardUrl);
 
-  if (!card) return <div>There is an unexpected error</div>;
+  if (!card) {
+    return <div>There is an unexpected error</div>;
+  }
 
   return (
-    <div className="container-md p-4">
-      <div className="mx-auto text-center">
-        <h1>{card.title}</h1>
-        <p>{card.url}</p>
-        <img className='mx-auto w-50' src={card.img} alt={card.title} />
-      </div>
-      <Link href="/">Go Back</Link>
-    </div>
+    <>
+      <SingleHeader
+        cardUrl={cardUrl}
+        lng={lng}
+        src={card.header}
+        type={card.headerType}
+      />
+      <MoreDetails
+        description="Desert safari always brings joy and adrenaline to all participants!
+
+Rushing through the dunes, holding your breath on the fast take-offs and steep descents is a real pleasure for those who value active recreation.
+
+The uniqueness of a safari in Qatar is that here you can take unique photos against the backdrop of the golden sands of the endless sea of ​​the desert."
+        moreInfo={dummyDetails}
+        header="Safari"
+        secondHeader="Desert safari"
+      />
+      <Gallery />
+      <Prices />
+      <Faqs />
+      <MakeAnOrder />
+      <SimilarExcursions />
+    </>
   );
 };
 

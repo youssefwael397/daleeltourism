@@ -11,6 +11,8 @@ export interface CardItemType {
   title: string;
   url: string;
   img: string;
+  header: string;
+  headerType: 'img'|'vid';
 }
 
 const CardItem = async ({

@@ -1,7 +1,6 @@
-import { Menu, Dropdown } from 'antd';
+import { Dropdown } from 'antd';
 import { DownOutlined, GlobalOutlined } from '@ant-design/icons'; // Import the icons
 import Link from 'next/link';
-import { useTranslation } from '@/app/i18n';
 import { languages } from '@/app/i18n/settings';
 import { ReactElement } from 'react';
 
@@ -12,7 +11,6 @@ interface LanguageSwitcherProps {
 const LanguageSwitcher: React.FC<LanguageSwitcherProps> = async ({
   lng,
 }): Promise<ReactElement> => {
-  const { t } = await useTranslation(lng);
 
   // Create menu items
   const menuItems = languages.map((l) => ({
