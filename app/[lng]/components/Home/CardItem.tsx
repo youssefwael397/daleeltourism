@@ -3,7 +3,9 @@
 import { useTranslation } from '@/app/i18n';
 import { Card } from 'antd';
 import Link from 'next/link';
-import { ReactElement } from 'react';
+import { ReactElement, ReactNode } from 'react';
+import { IMoreDetails } from '../Activity/MoreDetails';
+import { IGallery, IImage } from '../Activity/Gallery';
 
 const { Meta } = Card;
 
@@ -12,7 +14,10 @@ export interface CardItemType {
   url: string;
   img: string;
   header: string;
-  headerType: 'img'|'vid';
+  headerType: 'img' | 'vid';
+  moreDetails: IMoreDetails;
+  gallery: IImage[];
+  prices: JSX.Element[];
 }
 
 const CardItem = async ({
