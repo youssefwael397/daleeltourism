@@ -12,6 +12,7 @@
     "@ant-design/icons": "^5.4.0",
     "@popperjs/core": "^2.11.8",
     "accept-language": "^3.0.20",
+    "animate.css": "^4.1.1",
     "antd": "^5.20.2",
     "autoprefixer": "^10.4.20",
     "bootstrap": "^5.3.3",

@@ -7,6 +7,7 @@ import { ReactNode } from 'react';
 import { languages } from '../i18n/settings';
 import Navbar from './components/shared/Navbar';
 import Footer from './components/shared/Footer';
+import { Header } from 'antd/es/layout/layout';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -32,6 +33,19 @@ const RootLayout: NextPage<RootLayoutProps> = ({
 }) => {
   return (
     <html lang={lng}>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+      </head>
       <body className={inter.className}>
         <Navbar lng={lng} />
         {children}

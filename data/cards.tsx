@@ -62,8 +62,10 @@ const cards: CardItemType[] = [
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-bus"></i>
+          </div>
           <div className="title">Group Tour</div>
         </div>
         <p>(Every Mon, Wed, Sat)</p>
@@ -72,8 +74,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-car-side"></i>
+          </div>
           <div className="title">Individual excursion</div>
         </div>
         <p>(Daily)</p>
@@ -83,8 +87,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={3}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-user-tie"></i>
+          </div>
           <div className="title">Russian speaking guide</div>
         </div>
       </div>,
@@ -154,8 +160,10 @@ const cards: CardItemType[] = [
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-bus"></i>
+          </div>
           <div className="title">Group Tour</div>
         </div>
         <p>(Every Thursday)</p>
@@ -165,8 +173,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-car-side"></i>
+          </div>
           <div className="title">Individual excursion</div>
         </div>
         <p>(Daily)</p>
@@ -177,8 +187,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={3}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-user-tie"></i>
+          </div>
           <div className="title">Russian speaking guide</div>
         </div>
       </div>,
@@ -247,8 +259,10 @@ const cards: CardItemType[] = [
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-car-side"></i>
+          </div>
           <div className="title">Individual excursion</div>
         </div>
         <p>(Daily)</p>
@@ -259,8 +273,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-user-tie"></i>
+          </div>
           <div className="title">Russian speaking guide</div>
         </div>
       </div>,
@@ -330,8 +346,10 @@ const cards: CardItemType[] = [
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-bus"></i>
+          </div>
           <div className="title">Group Tour</div>
         </div>
         <p>( Wednesdays and Sundays)</p>
@@ -341,8 +359,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-car-side"></i>
+          </div>
           <div className="title"> Individual transfer </div>
         </div>
         <p>( up to 6 passengers in a car)</p>
@@ -352,14 +372,18 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={3}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-anchor"></i>
+          </div>
           <div className="title">Kayaking</div>
         </div>
       </div>,
       <div key={4}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-concierge-bell"></i>
+          </div>
           <div className="title">Dinner</div>
         </div>
       </div>,
@@ -431,24 +455,31 @@ const cards: CardItemType[] = [
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-start">
+        <div className="d-flex align-items-start justify-content-center">
           <div className="icon">$</div>
-          <div className="title">600</div>
+          <div className="title fs-2">600</div>
         </div>
-        <div className="d-flex align-items-start">
-          <div className="icon"></div>
+        <p>(for the group)</p>
+        <div className="d-flex align-items-start justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-users"></i>
+          </div>
           <div className="title">Up to 6 people on board</div>
         </div>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-start">
-          <div className="icon"></div>
+        <div className="d-flex align-items-start justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-user-tie"></i>
+          </div>
           <div className="title">Services of an experienced captain</div>
         </div>
       </div>,
       <div key={3}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-fish"></i>
+          </div>
           <div className="title">Everything you need for fishing</div>
         </div>
       </div>,
@@ -476,7 +507,7 @@ const cards: CardItemType[] = [
         },
         {
           title: `Photo stop in the desert`,
-          description: ``,
+          description: `The desert landscapes amaze with their picturesque expanses. We will make a stop at sunset and enjoy the view of the luminary leaning over the horizon.`,
         },
         {
           title: `Visiting the Bay`,
@@ -512,8 +543,10 @@ const cards: CardItemType[] = [
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-users"></i>
+          </div>
           <div className="title">Group Safari</div>
         </div>
         <p>(Tue, Thu, Sun)</p>
@@ -523,8 +556,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-biking"></i>
+          </div>
           <div className="title">ATV/Buggy Ride</div>
         </div>
         <p>30 min</p>
@@ -534,15 +569,16 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={3}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-truck-monster"></i>
+          </div>
           <div className="title">Individual</div>
         </div>
         <p>
           daily <br /> (up to 6 passengers)
         </p>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
           <div className="title">Desert Safari</div>
         </div>
         <p>$275/car</p>
@@ -612,8 +648,10 @@ const cards: CardItemType[] = [
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-truck-monster"></i>
+          </div>
           <div className="title">Individual</div>
         </div>
         <p>
@@ -626,8 +664,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-biking"></i>
+          </div>
           <div className="title">ATV/Buggy Ride</div>
         </div>
         <p>30 min</p>
@@ -673,8 +713,10 @@ const cards: CardItemType[] = [
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-ship"></i>
+          </div>
           <div className="title">Boat 12 meters</div>
         </div>
         <p>
@@ -684,8 +726,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-ship"></i>
+          </div>
           <div className="title">Yacht 20 meters</div>
         </div>
         <p>
@@ -695,8 +739,10 @@ const cards: CardItemType[] = [
         </p>
       </div>,
       <div key={3}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-tint"></i>
+          </div>
           <div className="title"> Water and towels</div>
         </div>
       </div>,
@@ -760,14 +806,19 @@ const cards: CardItemType[] = [
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-helicopter"></i>
+          </div>
           <div className="title">Individual flight</div>
         </div>
+        <p>(up to 4 passengers) $2800/board</p>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-car"></i>
+          </div>
           <div className="title">Individual transfer</div>
         </div>
       </div>,
@@ -791,41 +842,51 @@ const cards: CardItemType[] = [
       moreInfo: [
         {
           title: 'Extreme rides',
-          description: `Roller Coaster “ EpiQ Coaster” 
-Attraction "Magma Blast" 
-Attraction "Gravity".
-Aeroflip attraction 
-Interactive attraction “Time Machine” 
-Roller Coaster " Flaps" 
-Climbing wall “Rock to the sky”`,
+          description: [
+            `Roller Coaster “ EpiQ Coaster”`,
+            `Attraction "Magma Blast"`,
+            `Attraction "Gravity"`,
+            `Aeroflip attraction`,
+            `Interactive attraction “Time Machine”`,
+            `Roller Coaster " Flaps"`,
+            `Climbing wall “Rock to the sky”`,
+          ],
         },
         {
           title: `Family attractions`,
-          description: `Laser tag
-Carousel "Time Turner"
-Oryx Express Ride
-Spike's Air Castle Ride
-Carousels
-Electric Autodrome`,
+          description: [
+            `Laser tag`,
+            `Carousel "Time Turner"`,
+            `Oryx Express Ride`,
+            `Spike's Air Castle Ride`,
+            `Carousels`,
+            `Electric Autodrome`,
+          ],
         },
         {
-          title: `Quests and games`,
-          description: `Games for the whole family with prizes
-Children's playground - labyrinth
-Attraction "Pirate Ship"
-Mini Ferris Wheel
-Children's attractions`,
+          title: 'Quests and games',
+          description: [
+            'Games for the whole family with prizes',
+            "Children's playground - labyrinth",
+            "Attraction 'Pirate Ship'",
+            'Mini Ferris Wheel',
+            "Children's attractions",
+          ],
         },
         {
-          title: `3D attractions`,
-          description: `Attraction "The Legend of the Golden Oryx"
-Attraction "Wings of Destiny"`,
+          title: '3D attractions',
+          description: [
+            "Attraction 'The Legend of the Golden Oryx'",
+            "Attraction 'Wings of Destiny'",
+          ],
         },
         {
-          title: `Interactive attractions`,
-          description: `VR Entertainment Station 
-Attraction "Slide with Firnas"
-VR Racing`,
+          title: 'Interactive attractions',
+          description: [
+            'VR Entertainment Station',
+            "Attraction 'Slide with Firnas'",
+            'VR Racing',
+          ],
         },
       ],
     },
@@ -857,8 +918,10 @@ VR Racing`,
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-ticket-alt"></i>
+          </div>
           <div className="title">Ticket</div>
         </div>
         <p>
@@ -868,8 +931,10 @@ VR Racing`,
         </p>
       </div>,
       <div key={2}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-bus"></i>
+          </div>
           <div className="title">Ticket + group transfer</div>
         </div>
         <p>(Mondays and Fridays)</p>
@@ -886,7 +951,7 @@ VR Racing`,
     url: 'MERYAL_AQUAPARK',
     img: '/assets/covers/11.webp',
     header:
-      'https://www.youtube.com/embed/BC7D3ek5qr4?controls=0&rel=0&playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fmyqatar.travel&widgetid=1',
+      'https://www.youtube.com/embed/BC7D3ek5qr4?autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fmyqatar.travel&widgetid=1',
     headerType: 'vid',
     moreDetails: {
       header: 'Meryal Aquapark',
@@ -898,44 +963,50 @@ VR Racing`,
       moreInfo: [
         {
           title: 'Extreme rides',
-          description: `Oil Silk Lagoon
-The boiler
-Vertigo
-The fractionator
-Reformer
-Extruder
-Cracker
-Alqatara
-Oil slip
-Rapid Refinery
-Duhkan No 10
-Jet Fuel Falls
-Leap of Fate
-Roughneck
-Cracking unit
-Rusty Splash
-Wildcats well`,
+          description: [
+            'Oil Silk Lagoon',
+            'The boiler',
+            'Vertigo',
+            'The fractionator',
+            'Reformer',
+            'Extruder',
+            'Cracker',
+            'Alqatara',
+            'Oil slip',
+            'Rapid Refinery',
+            'Duhkan No 10',
+            'Jet Fuel Falls',
+            'Leap of Fate',
+            'Roughneck',
+            'Cracking unit',
+            'Rusty Splash',
+            'Wildcats well',
+          ],
         },
         {
-          title: `Family attractions`,
-          description: `Second escape
-Vaporizer
-Oil strike Tsunami
-Action River
-Wave River
-Alghazal
-Splashes in Motion`,
+          title: 'Family attractions',
+          description: [
+            'Second escape',
+            'Vaporizer',
+            'Oil strike Tsunami',
+            'Action River',
+            'Wave River',
+            'Alghazal',
+            'Splashes in Motion',
+          ],
         },
         {
-          title: `Children's attractions`,
-          description: `Distillers
-Driller
-Oil blast
-Alsfun
-Oil Splash
-Blow Out
-Rusty Railway
-Traitorous tanker`,
+          title: "Children's attractions",
+          description: [
+            'Distillers',
+            'Driller',
+            'Oil blast',
+            'Alsfun',
+            'Oil Splash',
+            'Blow Out',
+            'Rusty Railway',
+            'Traitorous tanker',
+          ],
         },
       ],
     },
@@ -975,8 +1046,10 @@ Traitorous tanker`,
     ],
     prices: [
       <div key={1}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="icon"></div>
+        <div className="d-flex align-items-baseline justify-content-center">
+          <div className="icon">
+            <i aria-hidden="true" className="fas fa-ticket-alt"></i>
+          </div>
           <div className="title">Ticket</div>
         </div>
         <p>

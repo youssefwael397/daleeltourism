@@ -7,7 +7,12 @@ type PropsType = {
   lng: string;
 };
 
-export default async function SingleHeader({ cardUrl, src, type, lng }: PropsType) {
+export default async function SingleHeader({
+  cardUrl,
+  src,
+  type,
+  lng,
+}: PropsType) {
   const { t } = await useTranslation(lng, 'headers');
   const title = t(`${cardUrl}.title`);
   const subTitle = t(`${cardUrl}.subTitle`);
@@ -17,14 +22,14 @@ export default async function SingleHeader({ cardUrl, src, type, lng }: PropsTyp
       <div
         style={{ position: 'relative', maxHeight: '70vh', overflow: 'hidden' }}
       >
-        {type === 'img' && <img src={src} alt={title} className="img-fluid" />}
+        {type === 'img' && <img src={src} alt={title} className="w-100" />}
         {type === 'vid' && (
           <iframe
             src={src}
             title={t(cardUrl)}
             allowFullScreen
-            className="img-fluid"
-            style={{ height: '100%' }}
+            className="w-100"
+            style={{ height: '70vh' }}
           />
         )}
         <div
@@ -48,7 +53,7 @@ export default async function SingleHeader({ cardUrl, src, type, lng }: PropsTyp
         >
           <h2 className="text-white">
             {title}
-            <span>{subTitle}</span>
+            <p>{subTitle}</p>
           </h2>
         </div>
       </div>

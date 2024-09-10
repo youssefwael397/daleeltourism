@@ -24,7 +24,7 @@ const dummyFaqs: FaqItem[] = [
 
 const Faqs = () => {
   return (
-    <div className="bg-light">
+    <div className="faqs-container">
       <div className="d-flex gap-5 container">
         <div className="w-50">
           <h2>Frequently Asked Questions</h2>
