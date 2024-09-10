@@ -4,16 +4,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
 import './styles.scss';
 import { ReactNode } from 'react';
-import { languages } from '../i18n/settings';
+// import { languages } from '../i18n/settings';
 import Navbar from './components/shared/Navbar';
 import Footer from './components/shared/Footer';
 import { Header } from 'antd/es/layout/layout';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export async function generateStaticParams() {
-  return languages.map((lng) => ({ lng }));
-}
+// export async function generateStaticParams() {
+//   return languages.map((lng) => ({ lng }));
+// }
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -23,16 +25,19 @@ export const metadata: Metadata = {
 interface RootLayoutProps {
   children: ReactNode;
   params: {
-    lng: string;
+    locale: string;
   };
 }
 
-const RootLayout: NextPage<RootLayoutProps> = ({
+export default async function RootLayout({
   children,
-  params: { lng },
-}) => {
+  params: { locale },
+}: RootLayoutProps){
+
+  const messages = await getMessages();
+
   return (
-    <html lang={lng}>
+    <html lang={locale}>
       <head>
         <link
           rel="stylesheet"
@@ -47,12 +52,12 @@ const RootLayout: NextPage<RootLayoutProps> = ({
         />
       </head>
       <body className={inter.className}>
-        <Navbar lng={lng} />
-        {children}
-        <Footer lng={lng} />
+        <NextIntlClientProvider messages={messages}>
+          <Navbar />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
 };
-
-export default RootLayout;

@@ -1,4 +1,3 @@
-import { useTranslation } from '@/app/i18n';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
@@ -10,9 +9,10 @@ import {
   SendOutlined,
   MailOutlined,
 } from '@ant-design/icons';
+import { useTranslations } from 'next-intl';
 
-const Footer = async ({ lng }: { lng: string }) => {
-  const { t } = await useTranslation(lng, 'footer');
+const Footer = ({ }) => {
+  const t = useTranslations( 'footer');
 
   return (
     <footer className="footer">

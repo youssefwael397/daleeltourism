@@ -1,14 +1,11 @@
 // components/Navbar.tsx
 import { WhatsAppOutlined } from '@ant-design/icons';
 import Image from 'next/image';
-import Link from 'next/link';
 import LanguageSwitcher from '../../LanguageSwitcher';
+import { Link } from '@/navigation';
 
-interface NavbarProps {
-  lng: string;
-}
 
-const Navbar: React.FC<NavbarProps> = ({ lng }) => {
+const Navbar: React.FC = () => {
   return (
     <nav className="container-fluid navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-md d-flex justify-between">
@@ -16,7 +13,7 @@ const Navbar: React.FC<NavbarProps> = ({ lng }) => {
         <Link href="/" className="navbar-brand">
           <Image src="/logo.png" alt="Logo" width={80} height={80} priority />
         </Link>
-        <div className='d-flex justify-content-center align-items-center gap-2'>
+        <div className="d-flex justify-content-center align-items-center gap-2">
           {/* <Link
             href="https://wa.me/+201010932484"
             target="_blank"
@@ -27,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({ lng }) => {
             <WhatsAppOutlined style={{ fontSize: '34px', color: '#25D366' }} />
           </Link> */}
           {/* Add LanguageSwitcher here */}
-          <LanguageSwitcher lng={lng} />
+          <LanguageSwitcher />
         </div>
       </div>
     </nav>

@@ -1,21 +1,18 @@
-import { useTranslation } from '@/app/i18n';
+import { useTranslations } from "next-intl";
 
 type PropsType = {
-  cardUrl: string;
+  title: string;
+  subTitle: string;
   src: string;
   type: string;
-  lng: string;
 };
 
-export default async function SingleHeader({
-  cardUrl,
+export default function SingleHeader({
+  title,
+  subTitle,
   src,
   type,
-  lng,
 }: PropsType) {
-  const { t } = await useTranslation(lng, 'headers');
-  const title = t(`${cardUrl}.title`);
-  const subTitle = t(`${cardUrl}.subTitle`);
 
   return (
     <div className="w-100">
@@ -26,7 +23,7 @@ export default async function SingleHeader({
         {type === 'vid' && (
           <iframe
             src={src}
-            title={t(cardUrl)}
+            title={title}
             allowFullScreen
             className="w-100"
             style={{ height: '70vh' }}

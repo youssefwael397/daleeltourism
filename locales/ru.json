@@ -1,0 +1,70 @@
+{
+    "cards": {
+        "DOHA_TOUR": "Тур по Дохе",
+        "DOHA_TOUR_MUSEUM": "Тур по Дохе + Музей",
+        "NORTHWEST_OF_QATAR": "Северо-запад Катара",
+        "MANGROVES_RESERVE": "Заповедник Мангров",
+        "FISHING_IN_DOHA": "Рыбалка в Дохе",
+        "DESERT_SAFARI": "Сафари в пустыне",
+        "SAFARI_WITH_DINNER": "Сафари с ужином",
+        "YACHT_CHARTER_IN_QATAR": "Аренда яхты в Катаре",
+        "HELICOPTER_FLIGHT": "Полет на вертолете",
+        "QUEST_THEME_PARK": "Тематический парк Quest",
+        "MERYAL_AQUAPARK": "Аквапарк Meryal"
+    },
+    "footer": {
+        "aboutUs": "На протяжении более 20 лет RUSTAR TOURISM рассказывает сказку Востока людям по всему миру!",
+        "reliablePartner": "RUSTAR TOURISM известен как надежный партнер по туризму с многолетним опытом и высококачественными услугами.",
+        "contacts": "Контакты",
+        "whatsapp": "WhatsApp",
+        "telegram": "Telegram",
+        "email": "Электронная почта",
+        "copyright": "© 2024. Все права защищены Daleel Tourism"
+    },
+    "headers": {
+        "DOHA_TOUR": {
+            "title": "Обзорная экскурсия",
+            "subTitle": "в Дохе"
+        },
+        "DOHA_TOUR_MUSEUM": {
+            "title": "Экскурсия с посещением",
+            "subTitle": "Национального музея"
+        },
+        "NORTHWEST_OF_QATAR": {
+            "title": "Экскурсия на северо-запад",
+            "subTitle": "Катара"
+        },
+        "MANGROVES_RESERVE": {
+            "title": "Экскурсия в мангровых",
+            "subTitle": "заповедник"
+        },
+        "FISHING_IN_DOHA": {
+            "title": "Глубоководная рыбалка",
+            "subTitle": "в Дохе"
+        },
+        "DESERT_SAFARI": {
+            "title": "Джип-сафари по пустыне",
+            "subTitle": "в Катаре"
+        },
+        "SAFARI_WITH_DINNER": {
+            "title": "Джип-сафари по пустыне",
+            "subTitle": "в Катаре"
+        },
+        "YACHT_CHARTER_IN_QATAR": {
+            "title": "Морские прогулки",
+            "subTitle": "в Катаре"
+        },
+        "HELICOPTER_FLIGHT": {
+            "title": "Полет на вертолете",
+            "subTitle": "в Дохе"
+        },
+        "QUEST_THEME_PARK": {
+            "title": "Парк развлечений Quest",
+            "subTitle": "в Дохе"
+        },
+        "MERYAL_AQUAPARK": {
+            "title": "Аквапарк Merial",
+            "subTitle": "в Дохе"
+        }
+    }
+}

@@ -13,12 +13,12 @@ import SimilarExcursions from '../components/Activity/SimilarExcursions';
 const CardPage = ({
   params,
 }: {
-  params: { cardUrl: string; lng: string };
+  params: { cardUrl: string};
 }): ReactElement => {
-  const { cardUrl, lng } = params;
+  const { cardUrl } = params;
 
   // Fetch card data on the server side
-  const card = cards.find((item: CardItemType) => item.url === cardUrl);
+  const card = cards().find((item: CardItemType) => item.url === cardUrl);
 
   if (!card) {
     return <div>There is an unexpected error</div>;
@@ -27,8 +27,8 @@ const CardPage = ({
   return (
     <>
       <SingleHeader
-        cardUrl={cardUrl}
-        lng={lng}
+        title={card.title}
+        subTitle={card.subTitle}
         src={card.header}
         type={card.headerType}
       />

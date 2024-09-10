@@ -1,16 +1,16 @@
 'use client';
 
-import { useTranslation } from '@/app/i18n';
 import { Card } from 'antd';
-import Link from 'next/link';
-import { ReactElement, ReactNode } from 'react';
+import { ReactElement } from 'react';
 import { IMoreDetails } from '../Activity/MoreDetails';
-import { IGallery, IImage } from '../Activity/Gallery';
+import { IImage } from '../Activity/Gallery';
+import { Link } from '@/navigation';
 
 const { Meta } = Card;
 
 export interface CardItemType {
   title: string;
+  subTitle: string;
   url: string;
   img: string;
   header: string;
@@ -20,15 +20,11 @@ export interface CardItemType {
   prices: JSX.Element[];
 }
 
-const CardItem = async ({
+const CardItem = ({
   data,
-  lng,
 }: {
   data: CardItemType;
-  lng: string;
-}): Promise<ReactElement> => {
-  const { t } = await useTranslation(lng, 'cards');
-
+}): ReactElement => {
   return (
     <Link href={`/${data.url}`} passHref className="text-decoration-none">
       <Card
@@ -37,7 +33,7 @@ const CardItem = async ({
         cover={<img alt={data.title} src={data.img} />}
         bordered
       >
-        <Meta className="text-center fs-3 fw-bold" title={t(data.title)} />
+        <Meta className="text-center fs-3 fw-bold" title={data.title} />
       </Card>
     </Link>
   );
