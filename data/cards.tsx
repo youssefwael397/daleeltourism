@@ -13,57 +13,53 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/1.jpg',
       headerType: 'img',
       moreDetails: {
-        header: 'Doha City Tour',
+        header: t('details.DOHA_TOUR.header'),
         descriptions: [
-          `Explore Doha's unique heritage, storied history and modern achievements on a city tour in just 4 hours. We'll stroll through Souq Waqif, Dhow Harbour, visit the Qatar Heritage Village and head to The Pearl Island.`,
-          `Our journey begins at Souq Waqif, Doha's oldest market. We'll stroll through a bustling maze of alleys where you'll get to know the city's trading heritage and traditions.`,
-          `Our next stop is the Katara Cultural Village. This is the largest and most comprehensive cultural project in Qatar, which is famous for its beautiful theaters and concert halls, and its crown jewel is the Golden Masjid Mosque.`,
-          `Next we will have a photo stop at the place where pearls used to be mined. Now “Pearl” is an artificial island with luxurious towers and villas, elite shops, hotels and exquisite restaurants.`,
+          t('details.DOHA_TOUR.description1'),
+          t('details.DOHA_TOUR.description2'),
+          t('details.DOHA_TOUR.description3'),
+          t('details.DOHA_TOUR.description4'),
         ],
-        secondHeader: 'Attractions',
+        secondHeader: t('details.DOHA_TOUR.attractionsHeader'),
         moreInfo: [
           {
-            title: 'Arab Bazaar',
-            description:
-              'Souq Waqif is a colorful attraction where you can truly touch the traditions and life of the local population. The local bazaar is filled with the smells of incense and spices, Arabic perfumes and hookah. Here you can see old men fingering their beads on benches, slowly strolling ladies wrapped in black abayas, sedate and well-groomed Arab men sitting in cafes, smoking hookah.',
+            title: t('details.DOHA_TOUR.attractions.bazaar.title'),
+            description: t('details.DOHA_TOUR.attractions.bazaar.description'),
           },
           {
-            title: `Ethnic village "Katara"`,
-            description: `The vast territory of the complex includes a magnificent drama theatre and an open amphitheater in the ancient Greek style, a luxurious Opera House, a planetarium, the glittering Golden and Blue Mosques, richly decorated with marvelous mosaics, as well as a multifunctional cinema, a congress hall, galleries and exhibition halls. The village is full of restaurants and cafes with authentic and international cuisine and shops offering to buy works by local artists.`,
+            title: t('details.DOHA_TOUR.attractions.katara.title'),
+            description: t('details.DOHA_TOUR.attractions.katara.description'),
           },
           {
-            title: `Pearl Island`,
-            description: `"The Pearl of Qatar" - "Arabian Riviera", which consists of: 
-          Qanat Quartier - a Venice-inspired neighbourhood with colourful buildings, picturesque canals and bridges
-          Porto Arabia - a Mediterranean corner with luxury yachts, restaurants and fashionable residential complexes
-          Medina Centrale is a family-friendly area with gardens, playgrounds, and many cafes and shops`,
+            title: t('details.DOHA_TOUR.attractions.pearl.title'),
+            description: t('details.DOHA_TOUR.attractions.pearl.description'),
           },
         ],
       },
       gallery: [
         {
           src: '/assets/gallery/1/1.jpg',
-          title: 'Ethnic village "Katara"',
+          title: t('gallery.DOHA_TOUR.1'),
         },
         {
           src: '/assets/gallery/1/2.jpg',
-          title: 'Island "Pearl"',
+          title: t('gallery.DOHA_TOUR.2'),
         },
         {
           src: '/assets/gallery/1/3.jpg',
-          title: 'Doha Corniche',
+          title: t('gallery.DOHA_TOUR.3'),
         },
         {
           src: '/assets/gallery/1/4.jpg',
-          title: 'Museum of Islamic Art',
+          title: t('gallery.DOHA_TOUR.4'),
         },
         {
           src: '/assets/gallery/1/5.jpg',
-          title: `Dow's Harbor`,
+          title: t('gallery.DOHA_TOUR.5'),
         },
         {
           src: '/assets/gallery/1/6.jpg',
-          title: 'Arab Bazaar',
+          title: t('gallery.DOHA_TOUR.6'),
         },
       ],
       prices: [
@@ -72,11 +68,12 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-bus"></i>
             </div>
-            <div className="title">Group Tour</div>
+            <div className="title">{t('prices.DOHA_TOUR.groupTour.title')}</div>
           </div>
-          <p>(Every Mon, Wed, Sat)</p>
+          <p>{t('prices.DOHA_TOUR.groupTour.schedule')}</p>
           <p>
-            $60/adult <br /> $40/child (3-11 years)
+            {t('prices.DOHA_TOUR.groupTour.adultPrice')} <br />
+            {t('prices.DOHA_TOUR.groupTour.childPrice')}
           </p>
         </div>,
         <div key={2}>
@@ -84,12 +81,14 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-car-side"></i>
             </div>
-            <div className="title">Individual excursion</div>
+            <div className="title">
+              {t('prices.DOHA_TOUR.individualTour.title')}
+            </div>
           </div>
-          <p>(Daily)</p>
+          <p>{t('prices.DOHA_TOUR.individualTour.schedule')}</p>
           <p>
-            1-6 people
-            <br /> $500/ excursion
+            {t('prices.DOHA_TOUR.individualTour.groupSize')}
+            <br /> {t('prices.DOHA_TOUR.individualTour.price')}
           </p>
         </div>,
         <div key={3}>
@@ -97,7 +96,7 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-user-tie"></i>
             </div>
-            <div className="title">Russian speaking guide</div>
+            <div className="title">{t('prices.DOHA_TOUR.russianGuide')}</div>
           </div>
         </div>,
       ],
@@ -110,59 +109,68 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/2.jpg',
       headerType: 'img',
       moreDetails: {
-        header: 'Doha City Tour with Visit to Qatar National Museum',
+        header: t('details.DOHA_TOUR_MUSEUM.header'),
         descriptions: [
-          `On a sightseeing tour of Doha, in just 4 hours, you will be able to get acquainted with the symbols of the capital of Qatar: from bazaars and camels to yachts and skyscrapers.`,
-          `We will begin our acquaintance with the country's heritage in the ethnic village of "Katara". On its territory there is a modern marble amphitheater, the Blue and Golden Mosques.`,
-          `Then, to immerse yourself in the oriental atmosphere of the city, you will go to the old market Souq Waqif. Here, in addition to the traditional spices of oriental markets, they sell live camels and Arabian horses, which you can even feed.`,
-          `Then, to immerse yourself in the oriental atmosphere of the city, you will go to the old market Souq Waqif. Here, in addition to the traditional spices of oriental markets, they sell live camels and Arabian horses, which you can even feed.`,
-          `We will visit the National Museum of Qatar to witness the country's past and present, and then take a short cruise on a traditional Dhow boat along the coastline.`,
+          t('details.DOHA_TOUR_MUSEUM.description1'),
+          t('details.DOHA_TOUR_MUSEUM.description2'),
+          t('details.DOHA_TOUR_MUSEUM.description3'),
+          t('details.DOHA_TOUR_MUSEUM.description4'),
+          t('details.DOHA_TOUR_MUSEUM.description5'),
         ],
         secondHeader: 'Attractions',
         moreInfo: [
           {
-            title: 'Ethnic village "Katara"',
-            description:
-              'The vast territory of the complex includes a magnificent drama theatre and an open amphitheater in the ancient Greek style, a luxurious Opera House, a planetarium, the glittering Golden and Blue Mosques, richly decorated with marvelous mosaics, as well as a multifunctional cinema, a congress hall, galleries and exhibition halls. The village is full of restaurants and cafes with authentic and international cuisine and shops offering to buy works by local artists.',
+            title: t('details.DOHA_TOUR_MUSEUM.attractions.katara.title'),
+            description: t(
+              'details.DOHA_TOUR_MUSEUM.attractions.katara.description'
+            ),
           },
           {
-            title: `Arab Bazaar`,
-            description: `Souq Waqif is a colorful attraction where you can truly touch the traditions and life of the local population. The local bazaar is filled with the smells of incense and spices, Arabic perfumes and hookah. Here you can see old men fingering their beads on benches, slowly strolling ladies wrapped in black abayas, sedate and well-groomed Arab men sitting in cafes, smoking hookah.`,
+            title: t('details.DOHA_TOUR_MUSEUM.attractions.bazaar.title'),
+            description: t(
+              'details.DOHA_TOUR_MUSEUM.attractions.bazaar.description'
+            ),
           },
           {
-            title: `National Museum of Qatar`,
-            description: `The National Museum of Qatar looks like a chaotic composition of huge white disks, and is more reminiscent of a space station than an exhibition complex. But it is not only the appearance that is surprising. The story of the past and present of the country with the help of 3D technologies and new inventions is the main feature of the ultra-modern museum.`,
+            title: t(
+              'details.DOHA_TOUR_MUSEUM.attractions.National_Museum.title'
+            ),
+            description: t(
+              'details.DOHA_TOUR_MUSEUM.attractions.National_Museum.description'
+            ),
           },
           {
-            title: 'Arabian Boat Cruise',
-            description: `Admire stunning views of Doha's skyline with its futuristic skyscrapers as you glide across the sparkling sea on this cruise aboard an Arabian Dhow, a classic traditional wooden vessel.`,
+            title: t('details.DOHA_TOUR_MUSEUM.attractions.Arabian_Boat.title'),
+            description: t(
+              'details.DOHA_TOUR_MUSEUM.attractions.Arabian_Boat.description'
+            ),
           },
         ],
       },
       gallery: [
         {
           src: '/assets/gallery/2/1.jpg',
-          title: 'Ethnic village "Katara"',
+          title: t('gallery.DOHA_TOUR_MUSEUM.1'),
         },
         {
           src: '/assets/gallery/2/2.jpg',
-          title: 'eating in the ethnographic village',
+          title: t('gallery.DOHA_TOUR_MUSEUM.2'),
         },
         {
           src: '/assets/gallery/2/3.jpg',
-          title: 'National Museum of Qatar',
+          title: t('gallery.DOHA_TOUR_MUSEUM.3'),
         },
         {
           src: '/assets/gallery/2/4.jpg',
-          title: 'Arabian Boat Cruise',
+          title: t('gallery.DOHA_TOUR_MUSEUM.4'),
         },
         {
           src: '/assets/gallery/2/5.jpg',
-          title: `Musherib District`,
+          title: t('gallery.DOHA_TOUR_MUSEUM.5'),
         },
         {
           src: '/assets/gallery/2/6.jpg',
-          title: 'Arab Bazaar',
+          title: t('gallery.DOHA_TOUR_MUSEUM.6'),
         },
       ],
       prices: [
@@ -171,12 +179,15 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-bus"></i>
             </div>
-            <div className="title">Group Tour</div>
+            <div className="title">
+              {t('prices.DOHA_TOUR_MUSEUM.groupTour.title')}
+            </div>
           </div>
-          <p>(Every Thursday)</p>
+          <p>{t('prices.DOHA_TOUR_MUSEUM.groupTour.schedule')}</p>
           <p>
-            $85/adult
-            <br /> $45/child (3-11 years)
+            {t('prices.DOHA_TOUR_MUSEUM.groupTour.adultPrice')}
+            <br />
+            {t('prices.DOHA_TOUR_MUSEUM.groupTour.childPrice')}
           </p>
         </div>,
         <div key={2}>
@@ -184,13 +195,15 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-car-side"></i>
             </div>
-            <div className="title">Individual excursion</div>
+            <div className="title">
+              {t('prices.DOHA_TOUR_MUSEUM.individualTour.title')}
+            </div>
           </div>
-          <p>(Daily)</p>
+          <p>{t('prices.DOHA_TOUR_MUSEUM.individualTour.schedule')}</p>
           <p>
-            1-6 people
-            <br /> $500/ excursion
-            <br /> +$20/person
+            {t('prices.DOHA_TOUR_MUSEUM.individualTour.groupSize')}
+            <br /> {t('prices.DOHA_TOUR_MUSEUM.individualTour.price')}
+            <br /> {t('prices.DOHA_TOUR_MUSEUM.individualTour.oneMorePrice')}
           </p>
         </div>,
         <div key={3}>
@@ -198,7 +211,9 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-user-tie"></i>
             </div>
-            <div className="title">Russian speaking guide</div>
+            <div className="title">
+              {t('prices.DOHA_TOUR_MUSEUM.russianGuide')}
+            </div>
           </div>
         </div>,
       ],
@@ -211,58 +226,73 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/3.jpg',
       headerType: 'img',
       moreDetails: {
-        header: 'Excursion to the North-West of Qatar',
+        header: t('details.NORTHWEST_OF_QATAR.header'),
         descriptions: [
-          `We will head to the northwest of the country, where we will discover new, amazing sights of Qatar.`,
-          `We will visit the municipal town of Shehaniya, 40 minutes drive from Doha. Camel racing takes place here from November to April, and in the remaining months of the year, camels are prepared and trained for this event.`,
-          `We will then discover the unique exhibits of the Sheikh Faisal Museum, who became a collector at the age of 10 and collected countless exhibits from almost 4 continents.`,
-          `And in the city of education we will be able to appreciate the unusual design of the mosque, which will leave a new and vivid idea of ​​these temples. The building stands on 5 pillars, which represent the 5 pillars of Islam. The mosque itself can accommodate up to 3,000 believers, and its entire interior is painted white.`,
+          t('details.NORTHWEST_OF_QATAR.description1'),
+          t('details.NORTHWEST_OF_QATAR.description2'),
+          t('details.NORTHWEST_OF_QATAR.description3'),
+          t('details.NORTHWEST_OF_QATAR.description4'),
         ],
-        secondHeader: 'Attractions',
+        secondHeader: t('details.NORTHWEST_OF_QATAR.attractionsHeader'),
         moreInfo: [
           {
-            title: 'Camel racing in Shehaniya',
-            description:
-              'Camel racing is an ancient sport that is currently actively developing in Qatar as a professional sport. The specially built camel racing track in Al Shehaniya, located 35 kilometers west of Doha, attracts numerous fans to the races every Friday during the winter season. The camels are controlled by unique robot jockeys.',
+            title: t(
+              'details.NORTHWEST_OF_QATAR.attractions.camel_racing.title'
+            ),
+            description: t(
+              'details.NORTHWEST_OF_QATAR.attractions.camel_racing.description'
+            ),
           },
           {
-            title: `Sheikh Faisal Museum`,
-            description: `This museum gives you the opportunity to enter the Sheikh's opulent mansions and look at his personal belongings. Sheikh Faisal devoted his entire life to collecting beautiful objects. His extensive and remarkable collection includes: carpets, furniture, swords, ancient tapestries, Bedouin clothing and even an entire Syrian house (moved inside the museum).`,
+            title: t(
+              'details.NORTHWEST_OF_QATAR.attractions.Sheikh_Faisal_Museum.title'
+            ),
+            description: t(
+              'details.NORTHWEST_OF_QATAR.attractions.Sheikh_Faisal_Museum.description'
+            ),
           },
           {
-            title: `Student town`,
-            description: `A real educational hub near Doha is Education City, a city within a city, where the headquarters of the Qatar Foundation is located. And also – campuses, universities, educational centers.`,
+            title: t(
+              'details.NORTHWEST_OF_QATAR.attractions.Student_town.title'
+            ),
+            description: t(
+              'details.NORTHWEST_OF_QATAR.attractions.Student_town.description'
+            ),
           },
           {
-            title: 'Doha Mosque',
-            description: `The most unusual mosque in Doha in terms of architecture is a futuristic snow-white building without a single sharp angle. The mosque building is like a spaceship that has landed in the desert and is designed as two intertwined ribbons of minarets that reach into the sky.`,
+            title: t(
+              'details.NORTHWEST_OF_QATAR.attractions.Doha_Mosque.title'
+            ),
+            description: t(
+              'details.NORTHWEST_OF_QATAR.attractions.Doha_Mosque.description'
+            ),
           },
         ],
       },
       gallery: [
         {
           src: '/assets/gallery/3/1.jpg',
-          title: 'Shehaniya',
+          title: t('gallery.NORTHWEST_OF_QATAR.1'),
         },
         {
           src: '/assets/gallery/3/2.jpg',
-          title: 'Camel racing',
+          title: t('gallery.NORTHWEST_OF_QATAR.2'),
         },
         {
           src: '/assets/gallery/3/3.jpg',
-          title: 'Sheikh Faisal Museum Exhibitions',
+          title: t('gallery.NORTHWEST_OF_QATAR.3'),
         },
         {
           src: '/assets/gallery/3/4.jpg',
-          title: 'Sheikh Faisal Museum',
+          title: t('gallery.NORTHWEST_OF_QATAR.4'),
         },
         {
           src: '/assets/gallery/3/5.jpg',
-          title: `University town`,
+          title: t('gallery.NORTHWEST_OF_QATAR.5'),
         },
         {
           src: '/assets/gallery/3/6.jpg',
-          title: 'Eid mubarak',
+          title: t('gallery.NORTHWEST_OF_QATAR.6'),
         },
       ],
       prices: [
@@ -271,13 +301,17 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-car-side"></i>
             </div>
-            <div className="title">Individual excursion</div>
+            <div className="title">
+              {t('prices.NORTHWEST_OF_QATAR.Individual_excursion.title')}
+            </div>
           </div>
-          <p>(Daily)</p>
+          <p>{t('prices.NORTHWEST_OF_QATAR.Individual_excursion.schedule')}</p>
           <p>
-            1-6 people
-            <br /> $500/ excursion
-            <br /> +$15/person
+            {t('prices.NORTHWEST_OF_QATAR.Individual_excursion.groupSize')}
+            <br />{' '}
+            {t('prices.NORTHWEST_OF_QATAR.Individual_excursion.adultPrice')}
+            <br />{' '}
+            {t('prices.NORTHWEST_OF_QATAR.Individual_excursion.oneMorePrice')}
           </p>
         </div>,
         <div key={2}>
@@ -285,7 +319,9 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-user-tie"></i>
             </div>
-            <div className="title">Russian speaking guide</div>
+            <div className="title">
+              {t('prices.NORTHWEST_OF_QATAR.russianGuide')}
+            </div>
           </div>
         </div>,
       ],
@@ -298,59 +334,64 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/4.jpg',
       headerType: 'img',
       moreDetails: {
-        header: 'Excursion to the North-West of Qatar',
-        descriptions: [
-          `Excursion to the mangrove reserve is a fascinating journey along the salty waters of the bay on kayaks. An evergreen forest, which despite difficult conditions, has become a unique ecosystem. It is in this ecological and interesting place that you can ride enjoying the surrounding wonders of nature. After a short briefing, anyone can set off on a voyage overcoming the simple bends of the water surface between the mangroves.`,
-        ],
-        secondHeader: 'Route',
+        header: t('details.MANGROVES_RESERVE.header'),
+        descriptions: [t('details.MANGROVES_RESERVE.description1')],
+        secondHeader: t('details.MANGROVES_RESERVE.secondHeader'),
         moreInfo: [
           {
-            title: 'Pick up from hotel',
-            description: '',
+            title: t('details.MANGROVES_RESERVE.routes.hotel.title'),
+            description: t(
+              'details.MANGROVES_RESERVE.routes.hotel.description'
+            ),
           },
           {
-            title: `Trip to Al Takhira Reserve`,
-            description: ``,
+            title: t('details.MANGROVES_RESERVE.routes.trip.title'),
+            description: t('details.MANGROVES_RESERVE.routes.trip.description'),
           },
           {
-            title: `Kayaking trip`,
-            description: ``,
+            title: t('details.MANGROVES_RESERVE.routes.Kayaking_trip.title'),
+            description: t(
+              'details.MANGROVES_RESERVE.routes.Kayaking_trip.description'
+            ),
           },
           {
-            title: 'Dinner',
-            description: ``,
+            title: t('details.MANGROVES_RESERVE.routes.Dinner.title'),
+            description: t(
+              'details.MANGROVES_RESERVE.routes.Dinner.description'
+            ),
           },
           {
-            title: 'Return transfer to the hotel',
-            description: ``,
+            title: t('details.MANGROVES_RESERVE.routes.transfer.title'),
+            description: t(
+              'details.MANGROVES_RESERVE.routes.transfer.description'
+            ),
           },
         ],
       },
       gallery: [
         {
           src: '/assets/gallery/4/1.jpg',
-          title: 'Mangrove Reserve',
+          title: t('gallery.MANGROVES_RESERVE.1'),
         },
         {
           src: '/assets/gallery/4/2.jpg',
-          title: 'Kayaking trip',
+          title: t('gallery.MANGROVES_RESERVE.2'),
         },
         {
           src: '/assets/gallery/4/3.webp',
-          title: 'Unique mangrove forest',
+          title: t('gallery.MANGROVES_RESERVE.3'),
         },
         {
           src: '/assets/gallery/4/4.jpg',
-          title: 'Kayaking',
+          title: t('gallery.MANGROVES_RESERVE.4'),
         },
         {
           src: '/assets/gallery/4/5.jpeg',
-          title: `Sun over the mangroves`,
+          title: t('gallery.MANGROVES_RESERVE.5'),
         },
         {
           src: '/assets/gallery/4/6.jpg',
-          title:
-            'This is the habitat of flamingos. We will see them if we are lucky.',
+          title: t('gallery.MANGROVES_RESERVE.6'),
         },
       ],
       prices: [
@@ -359,12 +400,14 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-bus"></i>
             </div>
-            <div className="title">Group Tour</div>
+            <div className="title">
+              {t('prices.MANGROVES_RESERVE.groupTour.title')}
+            </div>
           </div>
-          <p>( Wednesdays and Sundays)</p>
+          <p>{t('prices.MANGROVES_RESERVE.groupTour.schedule')}</p>
           <p>
-            $85/adult
-            <br /> $45/child (6-11 years)
+            {t('prices.MANGROVES_RESERVE.groupTour.adultPrice')}
+            <br /> {t('prices.MANGROVES_RESERVE.groupTour.childPrice')}
           </p>
         </div>,
         <div key={2}>
@@ -372,12 +415,14 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-car-side"></i>
             </div>
-            <div className="title"> Individual transfer </div>
+            <div className="title">
+              {t('prices.MANGROVES_RESERVE.individualTour.title')}
+            </div>
           </div>
-          <p>( up to 6 passengers in a car)</p>
+          <p>{t('prices.MANGROVES_RESERVE.individualTour.groupSize')}</p>
           <p>
-            +$150/car
-            <br /> round trip
+            {t('prices.MANGROVES_RESERVE.individualTour.price')}
+            <br /> {t('prices.MANGROVES_RESERVE.individualTour.trip')}
           </p>
         </div>,
         <div key={3}>
@@ -385,7 +430,9 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-anchor"></i>
             </div>
-            <div className="title">Kayaking</div>
+            <div className="title">
+              {t('prices.MANGROVES_RESERVE.Kayaking')}
+            </div>
           </div>
         </div>,
         <div key={4}>
@@ -393,7 +440,7 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-concierge-bell"></i>
             </div>
-            <div className="title">Dinner</div>
+            <div className="title">{t('prices.MANGROVES_RESERVE.Dinner')}</div>
           </div>
         </div>,
       ],
@@ -406,75 +453,88 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/5.jpeg',
       headerType: 'img',
       moreDetails: {
-        header: 'Fishing in Qatar',
+        header: t('details.FISHING_IN_DOHA.header'),
         descriptions: [
-          `Accompanied by an experienced crew, you will set off on a comfortable boat on the waves towards an adventure. Feel like a real fisherman among the sea waves.`,
-          `The vessel is equipped with everything necessary for trolling and spinning fishing, and there is a toilet on board.`,
-          `And it doesn’t matter whether you are an experienced fisherman or a beginner, real excitement and a great mood will always be with you.`,
+          t('details.FISHING_IN_DOHA.description1'),
+          t('details.FISHING_IN_DOHA.description2'),
+          t('details.FISHING_IN_DOHA.description3'),
         ],
-        secondHeader: 'Included',
+        secondHeader: t('details.FISHING_IN_DOHA.attractionsHeader'),
         moreInfo: [
           {
-            title: 'Transfer from and to the hotel',
-            description: '',
+            title: t('details.FISHING_IN_DOHA.attractions.transfer.title'),
+            description: t(
+              'details.FISHING_IN_DOHA.attractions.transfer.description'
+            ),
           },
           {
-            title: `Boat 10 meters`,
-            description: ``,
+            title: t('details.FISHING_IN_DOHA.attractions.boat.title'),
+            description: t(
+              'details.FISHING_IN_DOHA.attractions.boat.description'
+            ),
           },
           {
-            title: `On board there is an echo sounder, GPS, toilet`,
-            description: ``,
+            title: t('details.FISHING_IN_DOHA.attractions.equipment.title'),
+            description: t(
+              'details.FISHING_IN_DOHA.attractions.equipment.description'
+            ),
           },
           {
-            title:
-              'Fishing equipment – ​​trolling, casting, jigging and bottom fishing',
-            description: ``,
+            title: t('details.FISHING_IN_DOHA.attractions.fishing.title'),
+            description: t(
+              'details.FISHING_IN_DOHA.attractions.fishing.description'
+            ),
           },
           {
-            title: 'Maximum 6 people on fishing trip.',
-            description: ``,
+            title: t('details.FISHING_IN_DOHA.attractions.maxPeople.title'),
+            description: t(
+              'details.FISHING_IN_DOHA.attractions.maxPeople.description'
+            ),
           },
         ],
       },
       gallery: [
         {
           src: '/assets/gallery/5/1.jpeg',
-          title: 'A boat equipped for fishing',
+          title: t('gallery.FISHING_IN_DOHA.1'),
         },
         {
           src: '/assets/gallery/5/2.jpeg',
-          title: 'A boat equipped for fishing',
+          title: t('gallery.FISHING_IN_DOHA.2'),
         },
         {
           src: '/assets/gallery/5/3.jpeg',
-          title: `A boat equipped for fishing`,
+          title: t('gallery.FISHING_IN_DOHA.3'),
         },
         {
           src: '/assets/gallery/5/4.jpeg',
-          title: `A boat equipped for fishing`,
+          title: t('gallery.FISHING_IN_DOHA.4'),
         },
         {
           src: '/assets/gallery/5/5.jpeg',
-          title: `A boat equipped for fishing`,
+          title: t('gallery.FISHING_IN_DOHA.5'),
         },
         {
           src: '/assets/gallery/5/6.jpeg',
-          title: `A boat equipped for fishing`,
+          title: t('gallery.FISHING_IN_DOHA.6'),
         },
       ],
       prices: [
         <div key={1}>
           <div className="d-flex align-items-start justify-content-center">
             <div className="icon">$</div>
-            <div className="title fs-2">600</div>
+            <div className="title fs-2">
+              {t('prices.FISHING_IN_DOHA.groupTour.price')}
+            </div>
           </div>
-          <p>(for the group)</p>
+          <p>{t('prices.FISHING_IN_DOHA.groupTour.description')}</p>
           <div className="d-flex align-items-start justify-content-center">
             <div className="icon">
               <i aria-hidden="true" className="fas fa-users"></i>
             </div>
-            <div className="title">Up to 6 people on board</div>
+            <div className="title">
+              {t('prices.FISHING_IN_DOHA.groupTour.groupSize')}
+            </div>
           </div>
         </div>,
         <div key={2}>
@@ -482,7 +542,9 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-user-tie"></i>
             </div>
-            <div className="title">Services of an experienced captain</div>
+            <div className="title">
+              {t('prices.FISHING_IN_DOHA.individualTour.title')}
+            </div>
           </div>
         </div>,
         <div key={3}>
@@ -490,7 +552,9 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-fish"></i>
             </div>
-            <div className="title">Everything you need for fishing</div>
+            <div className="title">
+              {t('prices.FISHING_IN_DOHA.russianGuide')}
+            </div>
           </div>
         </div>,
       ],
@@ -503,53 +567,58 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/6.jpg',
       headerType: 'img',
       moreDetails: {
-        header: 'Safari',
+        header: t('details.DESERT_SAFARI.header'),
         descriptions: [
-          `Desert safari always brings joy and adrenaline to all participants!`,
-          `Rushing through the dunes, holding your breath on the fast take-offs and steep descents is a real pleasure for those who value active recreation.`,
-          `The uniqueness of a safari in Qatar is that here you can take unique photos against the backdrop of the golden sands of the endless sea of ​​the desert.`,
+          t('details.DESERT_SAFARI.description1'),
+          t('details.DESERT_SAFARI.description2'),
+          t('details.DESERT_SAFARI.description3'),
         ],
-        secondHeader: 'Desert Safari',
+        secondHeader: t('details.DESERT_SAFARI.attractionsHeader'),
         moreInfo: [
           {
-            title: 'Jeep riding',
-            description:
-              'Breathtaking, extreme desert jeep driving will be a wonderful experience and will give you a lot of impressions.',
+            title: t('details.DESERT_SAFARI.attractions.jeepRiding.title'),
+            description: t(
+              'details.DESERT_SAFARI.attractions.jeepRiding.description'
+            ),
           },
           {
-            title: `Photo stop in the desert`,
-            description: `The desert landscapes amaze with their picturesque expanses. We will make a stop at sunset and enjoy the view of the luminary leaning over the horizon.`,
+            title: t('details.DESERT_SAFARI.attractions.photoStop.title'),
+            description: t(
+              'details.DESERT_SAFARI.attractions.photoStop.description'
+            ),
           },
           {
-            title: `Visiting the Bay`,
-            description: `This is one of the few places on the planet where the endless desert sands meet the sea - Khor Al-Adaid`,
+            title: t('details.DESERT_SAFARI.attractions.bayVisit.title'),
+            description: t(
+              'details.DESERT_SAFARI.attractions.bayVisit.description'
+            ),
           },
         ],
       },
       gallery: [
         {
           src: '/assets/gallery/6/1.jpg',
-          title: 'Desert Safari in Jeeps',
+          title: t('gallery.DESERT_SAFARI.1'),
         },
         {
           src: '/assets/gallery/6/2.jpg',
-          title: 'Safari in Qatar',
+          title: t('gallery.DESERT_SAFARI.2'),
         },
         {
-          src: '/assets/gallery/6/3.jpg',
-          title: `Opportunity to ride quad bikes`,
+          src: '/assets/gallery/6/3.jpeg',
+          title: t('gallery.DESERT_SAFARI.3'),
         },
         {
           src: '/assets/gallery/6/4.webp',
-          title: `Safari in Qatar`,
+          title: t('gallery.DESERT_SAFARI.4'),
         },
         {
           src: '/assets/gallery/6/5.jpeg',
-          title: `Sea in the desert`,
+          title: t('gallery.DESERT_SAFARI.5'),
         },
         {
           src: '/assets/gallery/6/6.jpeg',
-          title: `Opportunity to ride camels`,
+          title: t('gallery.DESERT_SAFARI.6'),
         },
       ],
       prices: [
@@ -558,12 +627,14 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-users"></i>
             </div>
-            <div className="title">Group Safari</div>
+            <div className="title">
+              {t('prices.DESERT_SAFARI.groupSafari.title')}
+            </div>
           </div>
-          <p>(Tue, Thu, Sun)</p>
+          <p>{t('prices.DESERT_SAFARI.groupSafari.schedule')}</p>
           <p>
-            $60/adult
-            <br /> $45/child (4-11 yrs)
+            {t('prices.DESERT_SAFARI.groupSafari.adultPrice')} <br />
+            {t('prices.DESERT_SAFARI.groupSafari.childPrice')}
           </p>
         </div>,
         <div key={2}>
@@ -571,12 +642,14 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-biking"></i>
             </div>
-            <div className="title">ATV/Buggy Ride</div>
+            <div className="title">
+              {t('prices.DESERT_SAFARI.atvRide.title')}
+            </div>
           </div>
-          <p>30 min</p>
+          <p>{t('prices.DESERT_SAFARI.atvRide.duration')}</p>
           <p>
-            +$65/ATV
-            <br /> +$180/2 seater buggy
+            {t('prices.DESERT_SAFARI.atvRide.atvPrice')} <br />
+            {t('prices.DESERT_SAFARI.atvRide.buggyPrice')}
           </p>
         </div>,
         <div key={3}>
@@ -584,15 +657,12 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-truck-monster"></i>
             </div>
-            <div className="title">Individual</div>
+            <div className="title">
+              {t('prices.DESERT_SAFARI.individualSafari.title')}
+            </div>
           </div>
-          <p>
-            daily <br /> (up to 6 passengers)
-          </p>
-          <div className="d-flex align-items-baseline justify-content-center">
-            <div className="title">Desert Safari</div>
-          </div>
-          <p>$275/car</p>
+          <p>{t('prices.DESERT_SAFARI.individualSafari.schedule')}</p>
+          <p>{t('prices.DESERT_SAFARI.individualSafari.price')}</p>
         </div>,
       ],
     },
@@ -604,58 +674,59 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/7.jpg',
       headerType: 'img',
       moreDetails: {
-        header: 'Dinner Safari',
+        header: t('details.SAFARI_WITH_DINNER.header'),
         descriptions: [
-          `Desert Safari in Qatar is an adventure that fills all participants with strong emotions!`,
-          `Riding along the dunes, feeling the adrenaline rush from fast take-offs and steep descents is a real pleasure for those who value active recreation.`,
-          `The special thing about this safari is that it includes a visit to a UNESCO protected and recognized site. This is a rare place on the planet where desert dunes meet the sea - Khor Al Adaid.`,
-          `You can swim in the sea among the desert sands and end the day with a barbecue dinner in an authentic Bedouin camp, surrounded by thousands of stars.`,
+          t('details.SAFARI_WITH_DINNER.description1'),
+          t('details.SAFARI_WITH_DINNER.description2'),
+          t('details.SAFARI_WITH_DINNER.description3'),
+          t('details.SAFARI_WITH_DINNER.description4'),
         ],
-        secondHeader: 'Desert Safari',
+        secondHeader: t('details.SAFARI_WITH_DINNER.secondHeader'),
         moreInfo: [
           {
-            title: 'Jeep riding',
-            description:
-              'Breathtaking, extreme desert jeep driving will be a wonderful experience and will give you a lot of impressions.',
+            title: t('moreInfo.SAFARI_WITH_DINNER.jeepRiding.title'),
+            description: t(
+              'moreInfo.SAFARI_WITH_DINNER.jeepRiding.description'
+            ),
           },
           {
-            title: `Photo stop in the desert`,
-            description: `The desert landscapes amaze with their picturesque expanses. We will make a stop at sunset and enjoy the view of the sun setting over the sea horizon.`,
+            title: t('moreInfo.SAFARI_WITH_DINNER.photoStop.title'),
+            description: t('moreInfo.SAFARI_WITH_DINNER.photoStop.description'),
           },
           {
-            title: `Swimming in the sea`,
-            description: `Dive into the amazing waters of the unique Khor Al Adaid – where the sea meets the desert.`,
+            title: t('moreInfo.SAFARI_WITH_DINNER.swimming.title'),
+            description: t('moreInfo.SAFARI_WITH_DINNER.swimming.description'),
           },
           {
-            title: `BBQ Dinner`,
-            description: `Enjoy an open-air desert dinner at a Bedouin camp.`,
+            title: t('moreInfo.SAFARI_WITH_DINNER.bbqDinner.title'),
+            description: t('moreInfo.SAFARI_WITH_DINNER.bbqDinner.description'),
           },
         ],
       },
       gallery: [
         {
           src: '/assets/gallery/7/1.jpg',
-          title: 'Desert Safari in Jeeps',
+          title: t('gallery.SAFARI_WITH_DINNER.1'),
         },
         {
           src: '/assets/gallery/7/2.jpeg',
-          title: 'Opportunity to ride quad bikes',
+          title: t('gallery.SAFARI_WITH_DINNER.2'),
         },
         {
           src: '/assets/gallery/7/3.jpeg',
-          title: `Sea in the desert`,
+          title: t('gallery.SAFARI_WITH_DINNER.3'),
         },
         {
           src: '/assets/gallery/7/4.jpeg',
-          title: `Opportunity to ride camels`,
+          title: t('gallery.SAFARI_WITH_DINNER.4'),
         },
         {
           src: '/assets/gallery/7/5.jpg',
-          title: `Camp on the seashore in the desert`,
+          title: t('gallery.SAFARI_WITH_DINNER.5'),
         },
         {
           src: '/assets/gallery/7/6.jpg',
-          title: `Dinner - barbecue`,
+          title: t('gallery.SAFARI_WITH_DINNER.6'),
         },
       ],
       prices: [
@@ -664,30 +735,24 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-truck-monster"></i>
             </div>
-            <div className="title">Individual</div>
+            <div className="title">
+              {t('prices.SAFARI_WITH_DINNER.individual.title')}
+            </div>
           </div>
-          <p>
-            daily <br /> (up to 6 passengers)
-          </p>
-          <p>
-            Safari + swimming and dinner
-            <br />
-            $450/car
-          </p>
+          <p>{t('prices.SAFARI_WITH_DINNER.individual.description')}</p>
+          <p>{t('prices.SAFARI_WITH_DINNER.individual.price')}</p>
         </div>,
         <div key={2}>
           <div className="d-flex align-items-baseline justify-content-center">
             <div className="icon">
               <i aria-hidden="true" className="fas fa-biking"></i>
             </div>
-            <div className="title">ATV/Buggy Ride</div>
+            <div className="title">
+              {t('prices.SAFARI_WITH_DINNER.atv.title')}
+            </div>
           </div>
-          <p>30 min</p>
-          <p>
-            +$65/ATV
-            <br />
-            +$180/2 seater buggy
-          </p>
+          <p>{t('prices.SAFARI_WITH_DINNER.atv.description')}</p>
+          <p>{t('prices.SAFARI_WITH_DINNER.atv.price')}</p>
         </div>,
       ],
     },
@@ -699,29 +764,29 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/8.jpg',
       headerType: 'img',
       moreDetails: {
-        header: 'Yacht Charter in Qatar',
+        header: t('details.YACHT_CHARTER_IN_QATAR.header'),
         descriptions: [
-          `Renting a yacht in Qatar is a great opportunity to spend time on the water in luxury and comfort, admire the beauty of the coastline, have a romantic date or relax with family and friends.`,
-          `Doha, located right by the water, offers beautiful city panoramas that will open up before you during your walk.`,
-          `Dive into the warm sea, bask in the rays of the gentle sun and feel like an exclusive guest on board a snow-white yacht in Doha.`,
+          t('details.YACHT_CHARTER_IN_QATAR.description1'),
+          t('details.YACHT_CHARTER_IN_QATAR.description2'),
+          t('details.YACHT_CHARTER_IN_QATAR.description3'),
         ],
       },
       gallery: [
         {
           src: '/assets/gallery/8/1.jpeg',
-          title: 'Boat 12 meters',
+          title: t('gallery.YACHT_CHARTER_IN_QATAR.1'),
         },
         {
           src: '/assets/gallery/8/2.jpeg',
-          title: 'Boat 12 meters',
+          title: t('gallery.YACHT_CHARTER_IN_QATAR.2'),
         },
         {
           src: '/assets/gallery/8/3.jpeg',
-          title: `Boat 12 meters`,
+          title: t('gallery.YACHT_CHARTER_IN_QATAR.3'),
         },
         {
           src: '/assets/gallery/8/4.jpeg',
-          title: `Boat 12 meters`,
+          title: t('gallery.YACHT_CHARTER_IN_QATAR.4'),
         },
       ],
       prices: [
@@ -730,12 +795,13 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-ship"></i>
             </div>
-            <div className="title">Boat 12 meters</div>
+            <div className="title">
+              {t('prices.YACHT_CHARTER_IN_QATAR.boat12m.title')}
+            </div>
           </div>
           <p>
-            $600/2 hours, extra hour $200
-            <br />
-            max 8 people
+            {t('prices.YACHT_CHARTER_IN_QATAR.boat12m.price')} <br />
+            {t('prices.YACHT_CHARTER_IN_QATAR.boat12m.capacity')}
           </p>
         </div>,
         <div key={2}>
@@ -743,12 +809,13 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-ship"></i>
             </div>
-            <div className="title">Yacht 20 meters</div>
+            <div className="title">
+              {t('prices.YACHT_CHARTER_IN_QATAR.yacht20m.title')}
+            </div>
           </div>
           <p>
-            $1700/3 hours, extra hour $500
-            <br />
-            max 16 people
+            {t('prices.YACHT_CHARTER_IN_QATAR.yacht20m.price')} <br />
+            {t('prices.YACHT_CHARTER_IN_QATAR.yacht20m.capacity')}
           </p>
         </div>,
         <div key={3}>
@@ -756,7 +823,9 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-tint"></i>
             </div>
-            <div className="title"> Water and towels</div>
+            <div className="title">
+              {t('prices.YACHT_CHARTER_IN_QATAR.extras.title')}
+            </div>
           </div>
         </div>,
       ],
@@ -769,53 +838,59 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/9.jpg',
       headerType: 'img',
       moreDetails: {
-        header: 'Helicopter flight',
+        header: t('details.HELICOPTER_FLIGHT.header'),
         descriptions: [
-          `Take to the skies above the capital of Qatar, picturesque Doha, on a 30-minute helicopter tour. Enjoy the views of the city and see its main attractions.`,
-          `You will admire the cultural village of Katara, spread out on the east coast between the West Bay area and Pearl Island, which stretches 32 km into the azure Persian Gulf, sparkling with the roofs of skyscrapers.`,
-          `You will see the unique architectural Zigzag Towers, which are the tallest and largest residential zigzag twin towers in the world.`,
-          `And to finish the tour, you will fly along the coastline and see Lake Alkotafia.`,
+          t('details.HELICOPTER_FLIGHT.description1'),
+          t('details.HELICOPTER_FLIGHT.description2'),
+          t('details.HELICOPTER_FLIGHT.description3'),
+          t('details.HELICOPTER_FLIGHT.description4'),
         ],
-        secondHeader: 'Route',
+        secondHeader: t('details.HELICOPTER_FLIGHT.secondHeader'),
         moreInfo: [
           {
-            title: 'Katara Heritage Village',
-            description: `The Cultural Village is an amazing initiative of hope for people's participation through art and cultural exchange, made possible by His Highness Sheikh Hamad bin Khalifa Al Thani, the Father Emir of the State of Qatar.`,
+            title: t('moreInfo.HELICOPTER_FLIGHT.kataraHeritageVillage.title'),
+            description: t(
+              'moreInfo.HELICOPTER_FLIGHT.kataraHeritageVillage.description'
+            ),
           },
           {
-            title: `Island "Pearl"`,
-            description: `The Pearl Qatar is a modern district located on an artificial island. It is the largest construction project initiated by Sheikh Abdullah bin Khalifa Al Tan.`,
+            title: t('moreInfo.HELICOPTER_FLIGHT.pearlIsland.title'),
+            description: t(
+              'moreInfo.HELICOPTER_FLIGHT.pearlIsland.description'
+            ),
           },
           {
-            title: `Zigzag Towers`,
-            description: `Situated on the best stretch of the waterfront between Lusail and Pearl, the twin towers of West Bay Lagoon Plaza, or the Dancing Towers, have become one of the country's symbols thanks to their unusual architecture.`,
+            title: t('moreInfo.HELICOPTER_FLIGHT.zigzagTowers.title'),
+            description: t(
+              'moreInfo.HELICOPTER_FLIGHT.zigzagTowers.description'
+            ),
           },
         ],
       },
       gallery: [
         {
           src: '/assets/gallery/9/1.jpg',
-          title: 'Helicopter flight in Doha',
+          title: t('gallery.HELICOPTER_FLIGHT.1'),
         },
         {
           src: '/assets/gallery/9/2.jpg',
-          title: 'Island "Pearl"',
+          title: t('gallery.HELICOPTER_FLIGHT.2'),
         },
         {
           src: '/assets/gallery/9/3.jpg',
-          title: `Island "Pearl"`,
+          title: t('gallery.HELICOPTER_FLIGHT.3'),
         },
         {
           src: '/assets/gallery/9/4.jpg',
-          title: `Great buildings`,
+          title: t('gallery.HELICOPTER_FLIGHT.4'),
         },
         {
           src: '/assets/gallery/9/5.jpeg',
-          title: `Nice views`,
+          title: t('gallery.HELICOPTER_FLIGHT.5'),
         },
         {
           src: '/assets/gallery/9/6.jpg',
-          title: `Helicopter flight in Doha`,
+          title: t('gallery.HELICOPTER_FLIGHT.6'),
         },
       ],
       prices: [
@@ -824,17 +899,25 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-helicopter"></i>
             </div>
-            <div className="title">Individual flight</div>
+            <div className="title">
+              {t('prices.HELICOPTER_FLIGHT.individualFlight.title')}
+            </div>
           </div>
-          <p>(up to 4 passengers) $2800/board</p>
+          <p>
+            {t('prices.HELICOPTER_FLIGHT.individualFlight.description')} <br />
+            {t('prices.HELICOPTER_FLIGHT.individualFlight.price')}
+          </p>
         </div>,
         <div key={2}>
           <div className="d-flex align-items-baseline justify-content-center">
             <div className="icon">
               <i aria-hidden="true" className="fas fa-car"></i>
             </div>
-            <div className="title">Individual transfer</div>
+            <div className="title">
+              {t('prices.HELICOPTER_FLIGHT.individualTransfer.title')}
+            </div>
           </div>
+          <p>{t('prices.HELICOPTER_FLIGHT.individualTransfer.description')}</p>
         </div>,
       ],
     },
@@ -846,61 +929,67 @@ const Cards = (): CardItemType[] => {
       header: '/assets/headers/10.jpg',
       headerType: 'img',
       moreDetails: {
-        header: 'Quest Theme Park',
+        header: t('details.QUEST_THEME_PARK.header'),
         descriptions: [
-          `Quest is a 32,000 sq m indoor theme park located in Msheireb as part of the Doha Oasis mixed-use development. It features thrilling rides including the EpiQ Coaster, the world’s tallest roller coaster, and Magma Blast, the world’s tallest indoor drop tower.`,
-          `And those who prefer less extreme entertainment will find simulators with multimedia control and virtual reality attractions in the park.`,
-          `Quest is a great place for a family holiday, there are a lot of miniature attractions for young guests and family holidays.`,
-          `In this kingdom of wonders everyone will find something fascinating and interesting for themselves.`,
+          t('details.QUEST_THEME_PARK.description1'),
+          t('details.QUEST_THEME_PARK.description2'),
+          t('details.QUEST_THEME_PARK.description3'),
+          t('details.QUEST_THEME_PARK.description4'),
         ],
-        secondHeader: 'Attractions',
+        secondHeader: t('details.QUEST_THEME_PARK.secondHeader'),
         moreInfo: [
           {
-            title: 'Extreme rides',
+            title: t('moreInfo.QUEST_THEME_PARK.extremeRides.title'),
             description: [
-              `Roller Coaster “ EpiQ Coaster”`,
-              `Attraction "Magma Blast"`,
-              `Attraction "Gravity"`,
-              `Aeroflip attraction`,
-              `Interactive attraction “Time Machine”`,
-              `Roller Coaster " Flaps"`,
-              `Climbing wall “Rock to the sky”`,
+              t('moreInfo.QUEST_THEME_PARK.extremeRides.description.0'),
+              t('moreInfo.QUEST_THEME_PARK.extremeRides.description.1'),
+              t('moreInfo.QUEST_THEME_PARK.extremeRides.description.2'),
+              t('moreInfo.QUEST_THEME_PARK.extremeRides.description.3'),
+              t('moreInfo.QUEST_THEME_PARK.extremeRides.description.4'),
+              t('moreInfo.QUEST_THEME_PARK.extremeRides.description.5'),
+              t('moreInfo.QUEST_THEME_PARK.extremeRides.description.6'),
             ],
           },
           {
-            title: `Family attractions`,
+            title: t('moreInfo.QUEST_THEME_PARK.familyAttractions.title'),
             description: [
-              `Laser tag`,
-              `Carousel "Time Turner"`,
-              `Oryx Express Ride`,
-              `Spike's Air Castle Ride`,
-              `Carousels`,
-              `Electric Autodrome`,
+              t('moreInfo.QUEST_THEME_PARK.familyAttractions.description.0'),
+              t('moreInfo.QUEST_THEME_PARK.familyAttractions.description.1'),
+              t('moreInfo.QUEST_THEME_PARK.familyAttractions.description.2'),
+              t('moreInfo.QUEST_THEME_PARK.familyAttractions.description.3'),
+              t('moreInfo.QUEST_THEME_PARK.familyAttractions.description.4'),
+              t('moreInfo.QUEST_THEME_PARK.familyAttractions.description.5'),
             ],
           },
           {
-            title: 'Quests and games',
+            title: t('moreInfo.QUEST_THEME_PARK.questsAndGames.title'),
             description: [
-              'Games for the whole family with prizes',
-              "Children's playground - labyrinth",
-              "Attraction 'Pirate Ship'",
-              'Mini Ferris Wheel',
-              "Children's attractions",
+              t('moreInfo.QUEST_THEME_PARK.questsAndGames.description.0'),
+              t('moreInfo.QUEST_THEME_PARK.questsAndGames.description.1'),
+              t('moreInfo.QUEST_THEME_PARK.questsAndGames.description.2'),
+              t('moreInfo.QUEST_THEME_PARK.questsAndGames.description.3'),
+              t('moreInfo.QUEST_THEME_PARK.questsAndGames.description.4'),
             ],
           },
           {
-            title: '3D attractions',
+            title: t('moreInfo.QUEST_THEME_PARK.3DAttractions.title'),
             description: [
-              "Attraction 'The Legend of the Golden Oryx'",
-              "Attraction 'Wings of Destiny'",
+              t('moreInfo.QUEST_THEME_PARK.3DAttractions.description.0'),
+              t('moreInfo.QUEST_THEME_PARK.3DAttractions.description.1'),
             ],
           },
           {
-            title: 'Interactive attractions',
+            title: t('moreInfo.QUEST_THEME_PARK.interactiveAttractions.title'),
             description: [
-              'VR Entertainment Station',
-              "Attraction 'Slide with Firnas'",
-              'VR Racing',
+              t(
+                'moreInfo.QUEST_THEME_PARK.interactiveAttractions.description.0'
+              ),
+              t(
+                'moreInfo.QUEST_THEME_PARK.interactiveAttractions.description.1'
+              ),
+              t(
+                'moreInfo.QUEST_THEME_PARK.interactiveAttractions.description.2'
+              ),
             ],
           },
         ],
@@ -908,27 +997,27 @@ const Cards = (): CardItemType[] => {
       gallery: [
         {
           src: '/assets/gallery/10/1.jpg',
-          title: 'Quest Theme Park',
+          title: t('gallery.QUEST_THEME_PARK.1'),
         },
         {
           src: '/assets/gallery/10/2.jpg',
-          title: 'Imaginarium',
+          title: t('gallery.QUEST_THEME_PARK.2'),
         },
         {
           src: '/assets/gallery/10/3.jpg',
-          title: `Magma Blast`,
+          title: t('gallery.QUEST_THEME_PARK.3'),
         },
         {
           src: '/assets/gallery/10/4.jpg',
-          title: `Oryx Express`,
+          title: t('gallery.QUEST_THEME_PARK.4'),
         },
         {
           src: '/assets/gallery/10/5.jpg',
-          title: `Time Machine`,
+          title: t('gallery.QUEST_THEME_PARK.5'),
         },
         {
           src: '/assets/gallery/10/6.jpg',
-          title: `Gravity Zone`,
+          title: t('gallery.QUEST_THEME_PARK.6'),
         },
       ],
       prices: [
@@ -937,27 +1026,22 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-ticket-alt"></i>
             </div>
-            <div className="title">Ticket</div>
+            <div className="title">
+              {t('prices.QUEST_THEME_PARK.ticket.title')}
+            </div>
           </div>
-          <p>
-            $65/adult
-            <br />
-            $45/child (4-11 years)
-          </p>
+          <p>{t('prices.QUEST_THEME_PARK.ticket.description')}</p>
         </div>,
         <div key={2}>
           <div className="d-flex align-items-baseline justify-content-center">
             <div className="icon">
               <i aria-hidden="true" className="fas fa-bus"></i>
             </div>
-            <div className="title">Ticket + group transfer</div>
+            <div className="title">
+              {t('prices.QUEST_THEME_PARK.ticketGroupTransfer.title')}
+            </div>
           </div>
-          <p>(Mondays and Fridays)</p>
-          <p>
-            $85/adult
-            <br />
-            $65/child (4-11 years)
-          </p>
+          <p>{t('prices.QUEST_THEME_PARK.ticketGroupTransfer.description')}</p>
         </div>,
       ],
     },
@@ -970,58 +1054,57 @@ const Cards = (): CardItemType[] => {
         'https://www.youtube.com/embed/BC7D3ek5qr4?autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fmyqatar.travel&widgetid=1',
       headerType: 'vid',
       moreDetails: {
-        header: 'Meryal Aquapark',
+        header: t('details.MERYAL_AQUAPARK.header'),
         descriptions: [
-          `Experience a world of adventure at Meryal Water Park. Qatar's largest water park features 45 thrilling rides and 52 incredible water slides. Only Meryal is home to the world's tallest slide, the Icon Tower.`,
-          `The park is located on the coast, which allows everyone to relax on the sandy beach. Here you can also have a snack in any of the many restaurants and cafes.`,
+          t('details.MERYAL_AQUAPARK.description1'),
+          t('details.MERYAL_AQUAPARK.description2'),
         ],
-        secondHeader: 'Attractions',
+        secondHeader: t('details.MERYAL_AQUAPARK.secondHeader'),
         moreInfo: [
           {
-            title: 'Extreme rides',
+            title: t('moreInfo.MERYAL_AQUAPARK.extremeRides.title'),
             description: [
-              'Oil Silk Lagoon',
-              'The boiler',
-              'Vertigo',
-              'The fractionator',
-              'Reformer',
-              'Extruder',
-              'Cracker',
-              'Alqatara',
-              'Oil slip',
-              'Rapid Refinery',
-              'Duhkan No 10',
-              'Jet Fuel Falls',
-              'Leap of Fate',
-              'Roughneck',
-              'Cracking unit',
-              'Rusty Splash',
-              'Wildcats well',
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.0'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.1'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.2'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.3'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.4'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.5'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.6'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.7'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.8'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.9'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.10'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.11'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.12'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.13'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.14'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.15'),
+              t('moreInfo.MERYAL_AQUAPARK.extremeRides.description.16'),
             ],
           },
           {
-            title: 'Family attractions',
+            title: t('moreInfo.MERYAL_AQUAPARK.familyAttractions.title'),
             description: [
-              'Second escape',
-              'Vaporizer',
-              'Oil strike Tsunami',
-              'Action River',
-              'Wave River',
-              'Alghazal',
-              'Splashes in Motion',
+              t('moreInfo.MERYAL_AQUAPARK.familyAttractions.description.0'),
+              t('moreInfo.MERYAL_AQUAPARK.familyAttractions.description.1'),
+              t('moreInfo.MERYAL_AQUAPARK.familyAttractions.description.2'),
+              t('moreInfo.MERYAL_AQUAPARK.familyAttractions.description.3'),
+              t('moreInfo.MERYAL_AQUAPARK.familyAttractions.description.4'),
+              t('moreInfo.MERYAL_AQUAPARK.familyAttractions.description.5'),
             ],
           },
           {
-            title: "Children's attractions",
+            title: t('moreInfo.MERYAL_AQUAPARK.childrenAttractions.title'),
             description: [
-              'Distillers',
-              'Driller',
-              'Oil blast',
-              'Alsfun',
-              'Oil Splash',
-              'Blow Out',
-              'Rusty Railway',
-              'Traitorous tanker',
+              t('moreInfo.MERYAL_AQUAPARK.childrenAttractions.description.0'),
+              t('moreInfo.MERYAL_AQUAPARK.childrenAttractions.description.1'),
+              t('moreInfo.MERYAL_AQUAPARK.childrenAttractions.description.2'),
+              t('moreInfo.MERYAL_AQUAPARK.childrenAttractions.description.3'),
+              t('moreInfo.MERYAL_AQUAPARK.childrenAttractions.description.4'),
+              t('moreInfo.MERYAL_AQUAPARK.childrenAttractions.description.5'),
+              t('moreInfo.MERYAL_AQUAPARK.childrenAttractions.description.6'),
+              t('moreInfo.MERYAL_AQUAPARK.childrenAttractions.description.7'),
             ],
           },
         ],
@@ -1029,35 +1112,35 @@ const Cards = (): CardItemType[] => {
       gallery: [
         {
           src: '/assets/gallery/11/1.webp',
-          title: 'Water slides for the whole family',
+          title: t('gallery.MERYAL_AQUAPARK.1'),
         },
         {
           src: '/assets/gallery/11/2.jpeg',
-          title: `The world's tallest water slide`,
+          title: t('gallery.MERYAL_AQUAPARK.2'),
         },
         {
           src: '/assets/gallery/11/3.jpg',
-          title: `Unique attractions`,
+          title: t('gallery.MERYAL_AQUAPARK.3'),
         },
         {
           src: '/assets/gallery/11/4.jpg',
-          title: `The huge territory of the water park Meryal Water Park`,
+          title: t('gallery.MERYAL_AQUAPARK.4'),
         },
         {
           src: '/assets/gallery/11/5.jpg',
-          title: `Attractions for children`,
+          title: t('gallery.MERYAL_AQUAPARK.5'),
         },
         {
           src: '/assets/gallery/11/6.jpg',
-          title: `Nice pictures`,
+          title: t('gallery.MERYAL_AQUAPARK.6'),
         },
         {
           src: '/assets/gallery/11/7.webp',
-          title: `Nice pictures`,
+          title: t('gallery.MERYAL_AQUAPARK.7'),
         },
         {
           src: '/assets/gallery/11/8.webp',
-          title: `Meryal Aquapark`,
+          title: t('gallery.MERYAL_AQUAPARK.8'),
         },
       ],
       prices: [
@@ -1066,13 +1149,11 @@ const Cards = (): CardItemType[] => {
             <div className="icon">
               <i aria-hidden="true" className="fas fa-ticket-alt"></i>
             </div>
-            <div className="title">Ticket</div>
+            <div className="title">
+              {t('prices.MERYAL_AQUAPARK.ticket.title')}
+            </div>
           </div>
-          <p>
-            $75 /adult
-            <br />
-            $65/child (3-11 years)
-          </p>
+          <p>{t('prices.MERYAL_AQUAPARK.ticket.description')}</p>
         </div>,
       ],
     },

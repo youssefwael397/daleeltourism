@@ -1,6 +1,6 @@
-import type { Metadata, NextPage } from 'next';
-import { Inter } from 'next/font/google';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import './globals.css';
 import './styles.scss';
 import { ReactNode } from 'react';
@@ -12,10 +12,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
 const inter = Inter({ subsets: ['latin'] });
-
-// export async function generateStaticParams() {
-//   return languages.map((lng) => ({ lng }));
-// }
 
 export const metadata: Metadata = {
   title: 'Home',

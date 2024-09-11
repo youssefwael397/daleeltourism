@@ -1,5 +1,4 @@
 import { ReactElement } from 'react';
-import Link from 'next/link';
 import cards from '@/data/cards';
 import SingleHeader from '../components/SingleHeader';
 import { CardItemType } from '../components/Home/CardItem';

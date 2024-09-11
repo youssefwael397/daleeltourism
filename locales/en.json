@@ -21,7 +21,7 @@
         "email": "Email",
         "copyright": "© 2024. All rights reserved by Daleel Tourism"
     },
-    "headers":{
+    "headers": {
         "DOHA_TOUR": {
             "title": "Overview excursion",
             "subTitle": "in Doha"
@@ -65,6 +65,569 @@
         "MERYAL_AQUAPARK": {
             "title": "Water park Merial",
             "subTitle": "in Doha"
+        }
+    },
+    "details": {
+        "DOHA_TOUR": {
+            "header": "Doha City Tour",
+            "description1": "Explore Doha's unique heritage, storied history and modern achievements on a city tour in just 4 hours. We'll stroll through Souq Waqif, Dhow Harbour, visit the Qatar Heritage Village and head to The Pearl Island.",
+            "description2": "Our journey begins at Souq Waqif, Doha's oldest market. We'll stroll through a bustling maze of alleys where you'll get to know the city's trading heritage and traditions.",
+            "description3": "Our next stop is the Katara Cultural Village. This is the largest and most comprehensive cultural project in Qatar, which is famous for its beautiful theaters and concert halls, and its crown jewel is the Golden Masjid Mosque.",
+            "description4": "Next we will have a photo stop at the place where pearls used to be mined. Now “Pearl” is an artificial island with luxurious towers and villas, elite shops, hotels and exquisite restaurants.",
+            "attractionsHeader": "Attractions",
+            "attractions": {
+                "bazaar": {
+                    "title": "Arab Bazaar",
+                    "description": "Souq Waqif is a colorful attraction where you can truly touch the traditions and life of the local population. The local bazaar is filled with the smells of incense and spices, Arabic perfumes and hookah. Here you can see old men fingering their beads on benches, slowly strolling ladies wrapped in black abayas, sedate and well-groomed Arab men sitting in cafes, smoking hookah."
+                },
+                "katara": {
+                    "title": "Ethnic village 'Katara'",
+                    "description": "The vast territory of the complex includes a magnificent drama theatre and an open amphitheater in the ancient Greek style, a luxurious Opera House, a planetarium, the glittering Golden and Blue Mosques, richly decorated with marvelous mosaics, as well as a multifunctional cinema, a congress hall, galleries and exhibition halls. The village is full of restaurants and cafes with authentic and international cuisine and shops offering to buy works by local artists."
+                },
+                "pearl": {
+                    "title": "Pearl Island",
+                    "description": "\"The Pearl of Qatar\" - \"Arabian Riviera\", which consists of: \nQanat Quartier - a Venice-inspired neighbourhood with colourful buildings, picturesque canals and bridges Porto Arabia - a Mediterranean corner with luxury yachts, restaurants and fashionable residential complexes Medina Centrale is a family-friendly area with gardens, playgrounds, and many cafes and shops"
+                }
+            }
+        },
+        "DOHA_TOUR_MUSEUM": {
+            "header": "Doha City Tour with Visit to Qatar National Museum",
+            "description1": "On a sightseeing tour of Doha, in just 4 hours, you will be able to get acquainted with the symbols of the capital of Qatar: from bazaars and camels to yachts and skyscrapers.",
+            "description2": "We will begin our acquaintance with the country's heritage in the ethnic village of \"Katara\". On its territory there is a modern marble amphitheater, the Blue and Golden Mosques.",
+            "description3": "Then, to immerse yourself in the oriental atmosphere of the city, you will go to the old market Souq Waqif. Here, in addition to the traditional spices of oriental markets, they sell live camels and Arabian horses, which you can even feed.",
+            "description4": "Then, to immerse yourself in the oriental atmosphere of the city, you will go to the old market Souq Waqif. Here, in addition to the traditional spices of oriental markets, they sell live camels and Arabian horses, which you can even feed.",
+            "description5": "We will visit the National Museum of Qatar to witness the country's past and present, and then take a short cruise on a traditional Dhow boat along the coastline.",
+            "attractionsHeader": "Attractions",
+            "attractions": {
+                "katara": {
+                    "title": "Ethnic village 'Katara'",
+                    "description": "The vast territory of the complex includes a magnificent drama theatre and an open amphitheater in the ancient Greek style, a luxurious Opera House, a planetarium, the glittering Golden and Blue Mosques, richly decorated with marvelous mosaics, as well as a multifunctional cinema, a congress hall, galleries and exhibition halls. The village is full of restaurants and cafes with authentic and international cuisine and shops offering to buy works by local artists."
+                },
+                "bazaar": {
+                    "title": "Arab Bazaar",
+                    "description": "Souq Waqif is a colorful attraction where you can truly touch the traditions and life of the local population. The local bazaar is filled with the smells of incense and spices, Arabic perfumes and hookah. Here you can see old men fingering their beads on benches, slowly strolling ladies wrapped in black abayas, sedate and well-groomed Arab men sitting in cafes, smoking hookah."
+                },
+                "pearl": {
+                    "title": "Pearl Island",
+                    "description": "\"The Pearl of Qatar\" - \"Arabian Riviera\", which consists of: \nQanat Quartier - a Venice-inspired neighbourhood with colourful buildings, picturesque canals and bridges Porto Arabia - a Mediterranean corner with luxury yachts, restaurants and fashionable residential complexes Medina Centrale is a family-friendly area with gardens, playgrounds, and many cafes and shops"
+                },
+                "National_Museum": {
+                    "title": "National Museum of Qatar",
+                    "description": "The National Museum of Qatar looks like a chaotic composition of huge white disks, and is more reminiscent of a space station than an exhibition complex. But it is not only the appearance that is surprising. The story of the past and present of the country with the help of 3D technologies and new inventions is the main feature of the ultra-modern museum."
+                },
+                "Arabian_Boat": {
+                    "title": "Arabian Boat Cruise",
+                    "description": "Admire stunning views of Doha's skyline with its futuristic skyscrapers as you glide across the sparkling sea on this cruise aboard an Arabian Dhow, a classic traditional wooden vessel."
+                }
+            }
+        },
+        "NORTHWEST_OF_QATAR": {
+            "header": "Excursion to the North-West of Qatar",
+            "description1": "We will head to the northwest of the country, where we will discover new, amazing sights of Qatar.",
+            "description2": "We will visit the municipal town of Shehaniya, 40 minutes drive from Doha. Camel racing takes place here from November to April, and in the remaining months of the year, camels are prepared and trained for this event.",
+            "description3": "We will then discover the unique exhibits of the Sheikh Faisal Museum, who became a collector at the age of 10 and collected countless exhibits from almost 4 continents.",
+            "description4": "And in the city of education we will be able to appreciate the unusual design of the mosque, which will leave a new and vivid idea of ​​these temples. The building stands on 5 pillars, which represent the 5 pillars of Islam. The mosque itself can accommodate up to 3,000 believers, and its entire interior is painted white.",
+            "attractionsHeader": "Attractions",
+            "attractions": {
+                "camel_racing": {
+                    "title": "Camel racing in Shehaniya",
+                    "description": "Camel racing is an ancient sport that is currently actively developing in Qatar as a professional sport. The specially built camel racing track in Al Shehaniya, located 35 kilometers west of Doha, attracts numerous fans to the races every Friday during the winter season. The camels are controlled by unique robot jockeys."
+                },
+                "Sheikh_Faisal_Museum": {
+                    "title": "Sheikh Faisal Museum",
+                    "description": "This museum gives you the opportunity to enter the Sheikh's opulent mansions and look at his personal belongings. Sheikh Faisal devoted his entire life to collecting beautiful objects. His extensive and remarkable collection includes: carpets, furniture, swords, ancient tapestries, Bedouin clothing and even an entire Syrian house (moved inside the museum)."
+                },
+                "Student_town": {
+                    "title": "Student town",
+                    "description": "A real educational hub near Doha is Education City, a city within a city, where the headquarters of the Qatar Foundation is located. And also – campuses, universities, educational centers."
+                },
+                "Doha_Mosque": {
+                    "title": "Doha Mosque",
+                    "description": "The most unusual mosque in Doha in terms of architecture is a futuristic snow-white building without a single sharp angle. The mosque building is like a spaceship that has landed in the desert and is designed as two intertwined ribbons of minarets that reach into the sky."
+                }
+            }
+        },
+        "MANGROVES_RESERVE": {
+            "header": "Excursion to the mangrove reserve",
+            "description1": "Excursion to the mangrove reserve is a fascinating journey along the salty waters of the bay on kayaks. An evergreen forest, which despite difficult conditions, has become a unique ecosystem. It is in this ecological and interesting place that you can ride enjoying the surrounding wonders of nature. After a short briefing, anyone can set off on a voyage overcoming the simple bends of the water surface between the mangroves.",
+            "secondHeader": "Route",
+            "routes": {
+                "hotel": {
+                    "title": "Pick up from hotel",
+                    "description": ""
+                },
+                "trip": {
+                    "title": "Trip to Al Takhira Reserve",
+                    "description": ""
+                },
+                "Kayaking_trip": {
+                    "title": "Kayaking trip",
+                    "description": ""
+                },
+                "Dinner": {
+                    "title": "Dinner",
+                    "description": ""
+                },
+                "transfer": {
+                    "title": "Return transfer to the hotel",
+                    "description": ""
+                }
+            }
+        },
+        "FISHING_IN_DOHA": {
+            "header": "Fishing in Qatar",
+            "description1": "Accompanied by an experienced crew, you will set off on a comfortable boat on the waves towards an adventure. Feel like a real fisherman among the sea waves.",
+            "description2": "The vessel is equipped with everything necessary for trolling and spinning fishing, and there is a toilet on board.",
+            "description3": "And it doesn’t matter whether you are an experienced fisherman or a beginner, real excitement and a great mood will always be with you.",
+            "attractionsHeader": "Included",
+            "attractions": {
+                "transfer": {
+                    "title": "Transfer from and to the hotel",
+                    "description": ""
+                },
+                "boat": {
+                    "title": "Boat 10 meters",
+                    "description": ""
+                },
+                "equipment": {
+                    "title": "On board there is an echo sounder, GPS, toilet",
+                    "description": ""
+                },
+                "fishing": {
+                    "title": "Fishing equipment – trolling, casting, jigging and bottom fishing",
+                    "description": ""
+                },
+                "maxPeople": {
+                    "title": "Maximum 6 people on fishing trip.",
+                    "description": ""
+                }
+            }
+        },
+        "DESERT_SAFARI": {
+            "header": "Safari",
+            "description1": "Desert safari always brings joy and adrenaline to all participants!",
+            "description2": "Rushing through the dunes, holding your breath on the fast take-offs and steep descents is a real pleasure for those who value active recreation.",
+            "description3": "The uniqueness of a safari in Qatar is that here you can take unique photos against the backdrop of the golden sands of the endless sea of the desert.",
+            "attractionsHeader": "Desert Safari",
+            "attractions": {
+                "jeepRiding": {
+                    "title": "Jeep riding",
+                    "description": "Breathtaking, extreme desert jeep driving will be a wonderful experience and will give you a lot of impressions."
+                },
+                "photoStop": {
+                    "title": "Photo stop in the desert",
+                    "description": "The desert landscapes amaze with their picturesque expanses. We will make a stop at sunset and enjoy the view of the luminary leaning over the horizon."
+                },
+                "bayVisit": {
+                    "title": "Visiting the Bay",
+                    "description": "This is one of the few places on the planet where the endless desert sands meet the sea - Khor Al-Adaid."
+                }
+            }
+        },
+        "SAFARI_WITH_DINNER": {
+            "header": "Dinner Safari",
+            "description1": "Desert Safari in Qatar is an adventure that fills all participants with strong emotions!",
+            "description2": "Riding along the dunes, feeling the adrenaline rush from fast take-offs and steep descents is a real pleasure for those who value active recreation.",
+            "description3": "The special thing about this safari is that it includes a visit to a UNESCO protected and recognized site. This is a rare place on the planet where desert dunes meet the sea - Khor Al Adaid.",
+            "description4": "You can swim in the sea among the desert sands and end the day with a barbecue dinner in an authentic Bedouin camp, surrounded by thousands of stars.",
+            "secondHeader": "Desert Safari"
+        },
+        "YACHT_CHARTER_IN_QATAR": {
+            "header": "Yacht Charter in Qatar",
+            "description1": "Renting a yacht in Qatar is a great opportunity to spend time on the water in luxury and comfort, admire the beauty of the coastline, have a romantic date or relax with family and friends.",
+            "description2": "Doha, located right by the water, offers beautiful city panoramas that will open up before you during your walk.",
+            "description3": "Dive into the warm sea, bask in the rays of the gentle sun and feel like an exclusive guest on board a snow-white yacht in Doha."
+        },
+        "HELICOPTER_FLIGHT": {
+            "header": "Helicopter Flight",
+            "description1": "Take to the skies above the capital of Qatar, picturesque Doha, on a 30-minute helicopter tour. Enjoy the views of the city and see its main attractions.",
+            "description2": "You will admire the cultural village of Katara, spread out on the east coast between the West Bay area and Pearl Island, which stretches 32 km into the azure Persian Gulf, sparkling with the roofs of skyscrapers.",
+            "description3": "You will see the unique architectural Zigzag Towers, which are the tallest and largest residential zigzag twin towers in the world.",
+            "description4": "And to finish the tour, you will fly along the coastline and see Lake Alkotafia.",
+            "secondHeader": "Route"
+        },
+        "QUEST_THEME_PARK": {
+            "header": "Quest Theme Park",
+            "description1": "Quest is a 32,000 sq m indoor theme park located in Msheireb as part of the Doha Oasis mixed-use development. It features thrilling rides including the EpiQ Coaster, the world’s tallest roller coaster, and Magma Blast, the world’s tallest indoor drop tower.",
+            "description2": "And those who prefer less extreme entertainment will find simulators with multimedia control and virtual reality attractions in the park.",
+            "description3": "Quest is a great place for a family holiday, there are a lot of miniature attractions for young guests and family holidays.",
+            "description4": "In this kingdom of wonders everyone will find something fascinating and interesting for themselves.",
+            "secondHeader": "Attractions"
+        },
+        "MERYAL_AQUAPARK": {
+            "header": "Meryal Aquapark",
+            "description1": "Experience a world of adventure at Meryal Water Park. Qatar's largest water park features 45 thrilling rides and 52 incredible water slides. Only Meryal is home to the world's tallest slide, the Icon Tower.",
+            "description2": "The park is located on the coast, which allows everyone to relax on the sandy beach. Here you can also have a snack in any of the many restaurants and cafes.",
+            "secondHeader": "Attractions"
+        }
+    },
+    "moreInfo": {
+        "SAFARI_WITH_DINNER": {
+            "jeepRiding": {
+                "title": "Jeep riding",
+                "description": "Breathtaking, extreme desert jeep driving will be a wonderful experience and will give you a lot of impressions."
+            },
+            "photoStop": {
+                "title": "Photo stop in the desert",
+                "description": "The desert landscapes amaze with their picturesque expanses. We will make a stop at sunset and enjoy the view of the sun setting over the sea horizon."
+            },
+            "swimming": {
+                "title": "Swimming in the sea",
+                "description": "Dive into the amazing waters of the unique Khor Al Adaid – where the sea meets the desert."
+            },
+            "bbqDinner": {
+                "title": "BBQ Dinner",
+                "description": "Enjoy an open-air desert dinner at a Bedouin camp."
+            }
+        },
+        "HELICOPTER_FLIGHT": {
+            "kataraHeritageVillage": {
+                "title": "Katara Heritage Village",
+                "description": "The Cultural Village is an amazing initiative of hope for people's participation through art and cultural exchange, made possible by His Highness Sheikh Hamad bin Khalifa Al Thani, the Father Emir of the State of Qatar."
+            },
+            "pearlIsland": {
+                "title": "Island 'Pearl'",
+                "description": "The Pearl Qatar is a modern district located on an artificial island. It is the largest construction project initiated by Sheikh Abdullah bin Khalifa Al Tan."
+            },
+            "zigzagTowers": {
+                "title": "Zigzag Towers",
+                "description": "Situated on the best stretch of the waterfront between Lusail and Pearl, the twin towers of West Bay Lagoon Plaza, or the Dancing Towers, have become one of the country's symbols thanks to their unusual architecture."
+            }
+        },
+        "QUEST_THEME_PARK": {
+            "extremeRides": {
+                "title": "Extreme Rides",
+                "description": [
+                    "Roller Coaster 'EpiQ Coaster'",
+                    "Attraction 'Magma Blast'",
+                    "Attraction 'Gravity'",
+                    "Aeroflip Attraction",
+                    "Interactive Attraction 'Time Machine'",
+                    "Roller Coaster 'Flaps'",
+                    "Climbing Wall 'Rock to the Sky'"
+                ]
+            },
+            "familyAttractions": {
+                "title": "Family Attractions",
+                "description": [
+                    "Laser Tag",
+                    "Carousel 'Time Turner'",
+                    "Oryx Express Ride",
+                    "Spike's Air Castle Ride",
+                    "Carousels",
+                    "Electric Autodrome"
+                ]
+            },
+            "questsAndGames": {
+                "title": "Quests and Games",
+                "description": [
+                    "Games for the whole family with prizes",
+                    "Children's Playground - Labyrinth",
+                    "Attraction 'Pirate Ship'",
+                    "Mini Ferris Wheel",
+                    "Children's Attractions"
+                ]
+            },
+            "3DAttractions": {
+                "title": "3D Attractions",
+                "description": [
+                    "Attraction 'The Legend of the Golden Oryx'",
+                    "Attraction 'Wings of Destiny'"
+                ]
+            },
+            "interactiveAttractions": {
+                "title": "Interactive Attractions",
+                "description": [
+                    "VR Entertainment Station",
+                    "Attraction 'Slide with Firnas'",
+                    "VR Racing"
+                ]
+            }
+        },
+        "MERYAL_AQUAPARK": {
+            "extremeRides": {
+                "title": "Extreme Rides",
+                "description": [
+                    "Oil Silk Lagoon",
+                    "The Boiler",
+                    "Vertigo",
+                    "The Fractionator",
+                    "Reformer",
+                    "Extruder",
+                    "Cracker",
+                    "Alqatara",
+                    "Oil Slip",
+                    "Rapid Refinery",
+                    "Duhkan No 10",
+                    "Jet Fuel Falls",
+                    "Leap of Fate",
+                    "Roughneck",
+                    "Cracking Unit",
+                    "Rusty Splash",
+                    "Wildcats Well"
+                ]
+            },
+            "familyAttractions": {
+                "title": "Family Attractions",
+                "description": [
+                    "Second Escape",
+                    "Vaporizer",
+                    "Oil Strike Tsunami",
+                    "Action River",
+                    "Wave River",
+                    "Alghazal",
+                    "Splashes in Motion"
+                ]
+            },
+            "childrenAttractions": {
+                "title": "Children's Attractions",
+                "description": [
+                    "Distillers",
+                    "Driller",
+                    "Oil Blast",
+                    "Alsfun",
+                    "Oil Splash",
+                    "Blow Out",
+                    "Rusty Railway",
+                    "Traitorous Tanker"
+                ]
+            }
+        }
+    },
+    "gallery": {
+        "DOHA_TOUR": {
+            "1": "Ethnic village 'Katara'",
+            "2": "Island 'Pearl'",
+            "3": "Doha Corniche",
+            "4": "Museum of Islamic Art",
+            "5": "Dow's Harbor",
+            "6": "Arab Bazaar"
+        },
+        "DOHA_TOUR_MUSEUM": {
+            "1": "Ethnic village \"Katara\"",
+            "2": "eating in the ethnographic village",
+            "3": "National Museum of Qatar",
+            "4": "Arabian Boat Cruise",
+            "5": "Musherib District",
+            "6": "Arab Bazaar"
+        },
+        "NORTHWEST_OF_QATAR": {
+            "1": "Shehaniya",
+            "2": "Camel racing",
+            "3": "Sheikh Faisal Museum Exhibitions",
+            "4": "Sheikh Faisal Museum",
+            "5": "University town",
+            "6": "Eid mubarak"
+        },
+        "MANGROVES_RESERVE": {
+            "1": "Mangrove Reserve",
+            "2": "Kayaking trip",
+            "3": "Unique mangrove forest",
+            "4": "Kayaking",
+            "5": "Sun over the mangroves",
+            "6": "This is the habitat of flamingos. We will see them if we are lucky."
+        },
+        "FISHING_IN_DOHA": {
+            "1": "A boat equipped for fishing",
+            "2": "A boat equipped for fishing",
+            "3": "A boat equipped for fishing",
+            "4": "A boat equipped for fishing",
+            "5": "A boat equipped for fishing",
+            "6": "A boat equipped for fishing"
+        },
+        "DESERT_SAFARI": {
+            "1": "Desert Safari in Jeeps",
+            "2": "Safari in Qatar",
+            "3": "Opportunity to ride quad bikes",
+            "4": "Safari in Qatar",
+            "5": "Sea in the desert",
+            "6": "Opportunity to ride camels"
+        },
+        "SAFARI_WITH_DINNER": {
+            "1": "Desert Safari in Jeeps",
+            "2": "Opportunity to ride quad bikes",
+            "3": "Sea in the desert",
+            "4": "Opportunity to ride camels",
+            "5": "Camp on the seashore in the desert",
+            "6": "Dinner - barbecue"
+        },
+        "YACHT_CHARTER_IN_QATAR": {
+            "1": "Boat 12 meters",
+            "2": "Boat 12 meters",
+            "3": "Boat 12 meters",
+            "4": "Boat 12 meters"
+        },
+        "HELICOPTER_FLIGHT": {
+            "1": "Helicopter flight in Doha",
+            "2": "Island 'Pearl'",
+            "3": "Island 'Pearl'",
+            "4": "Great buildings",
+            "5": "Nice views",
+            "6": "Helicopter flight in Doha"
+        },
+        "QUEST_THEME_PARK": {
+            "1": "Quest Theme Park",
+            "2": "Imaginarium",
+            "3": "Magma Blast",
+            "4": "Oryx Express",
+            "5": "Time Machine",
+            "6": "Gravity Zone"
+        },
+        "MERYAL_AQUAPARK": {
+            "1": "Water Slides for the Whole Family",
+            "2": "The World's Tallest Water Slide",
+            "3": "Unique Attractions",
+            "4": "The Huge Territory of Meryal Water Park",
+            "5": "Attractions for Children",
+            "6": "Nice Pictures",
+            "7": "Nice Pictures",
+            "8": "Meryal Aquapark"
+        }
+    },
+    "prices": {
+        "DOHA_TOUR": {
+            "groupTour": {
+                "title": "Group Tour",
+                "schedule": "(Every Mon, Wed, Sat)",
+                "adultPrice": "$60/adult",
+                "childPrice": "$40/child (3-11 years)"
+            },
+            "individualTour": {
+                "title": "Individual excursion",
+                "schedule": "(Daily)",
+                "groupSize": "1-6 people",
+                "price": "$500/excursion"
+            },
+            "russianGuide": "Russian speaking guide"
+        },
+        "DOHA_TOUR_MUSEUM": {
+            "groupTour": {
+                "title": "Group Tour",
+                "schedule": "(Every Thursday)",
+                "adultPrice": "$85/adult",
+                "childPrice": "$45/child (3-11 years)"
+            },
+            "individualTour": {
+                "title": "Individual excursion",
+                "schedule": "(Daily)",
+                "groupSize": "1-6 people",
+                "price": "$500/excursion",
+                "oneMorePrice": "+$20/person"
+            },
+            "russianGuide": "Russian speaking guide"
+        },
+        "NORTHWEST_OF_QATAR": {
+            "Individual_excursion": {
+                "title": "Individual excursion",
+                "schedule": "(Daily)",
+                "groupSize": "1-6 people",
+                "adultPrice": "$500/ excursion",
+                "oneMorePrice": "+$15/person"
+            },
+            "russianGuide": "Russian speaking guide"
+        },
+        "MANGROVES_RESERVE": {
+            "groupTour": {
+                "title": "Group Tour",
+                "schedule": "(Wednesdays and Sundays)",
+                "adultPrice": "$85/adult",
+                "childPrice": "$45/child (6-11 years)"
+            },
+            "individualTour": {
+                "title": "Individual transfer",
+                "groupSize": "(up to 6 passengers in a car)",
+                "price": "+$150/car",
+                "trip": "round trip"
+            },
+            "Kayaking": "Kayaking",
+            "Dinner": "Dinner"
+        },
+        "FISHING_IN_DOHA": {
+            "groupTour": {
+                "title": "Group Tour",
+                "price": "$600",
+                "description": "(for the group)",
+                "groupSize": "Up to 6 people on board"
+            },
+            "individualTour": {
+                "title": "Individual excursion",
+                "price": "$500",
+                "description": "Services of an experienced captain"
+            },
+            "russianGuide": "Everything you need for fishing"
+        },
+        "DESERT_SAFARI": {
+            "groupSafari": {
+                "title": "Group Safari",
+                "schedule": "(Tue, Thu, Sun)",
+                "adultPrice": "$60/adult",
+                "childPrice": "$45/child (4-11 yrs)"
+            },
+            "atvRide": {
+                "title": "ATV/Buggy Ride",
+                "duration": "30 min",
+                "atvPrice": "+$65/ATV",
+                "buggyPrice": "+$180/2 seater buggy"
+            },
+            "individualSafari": {
+                "title": "Individual",
+                "schedule": "daily (up to 6 passengers)",
+                "price": "$275/car"
+            }
+        },
+        "SAFARI_WITH_DINNER": {
+            "individual": {
+                "title": "Individual",
+                "description": "daily (up to 6 passengers)",
+                "price": "Safari + swimming and dinner - $450/car"
+            },
+            "atv": {
+                "title": "ATV/Buggy Ride",
+                "description": "30 min",
+                "price": "+$65/ATV +$180/2 seater buggy"
+            }
+        },
+        "YACHT_CHARTER_IN_QATAR": {
+            "boat12m": {
+                "title": "Boat 12 meters",
+                "price": "$600/2 hours, extra hour $200",
+                "capacity": "max 8 people"
+            },
+            "yacht20m": {
+                "title": "Yacht 20 meters",
+                "price": "$1700/3 hours, extra hour $500",
+                "capacity": "max 16 people"
+            },
+            "extras": {
+                "title": "Water and towels"
+            }
+        },
+        "HELICOPTER_FLIGHT": {
+            "individualFlight": {
+                "title": "Individual Flight",
+                "description": "(up to 4 passengers)",
+                "price": "$2800/board"
+            },
+            "individualTransfer": {
+                "title": "Individual Transfer",
+                "description": ""
+            }
+        },
+        "QUEST_THEME_PARK": {
+            "ticket": {
+                "title": "Ticket",
+                "description": "$65/adult\n$45/child (4-11 years)"
+            },
+            "ticketGroupTransfer": {
+                "title": "Ticket + Group Transfer",
+                "description": "(Mondays and Fridays)\n$85/adult\n$65/child (4-11 years)"
+            }
+        },
+        "MERYAL_AQUAPARK": {
+            "ticket": {
+                "title": "Ticket",
+                "description": "$75/adult\n$65/child (3-11 years)"
+            }
         }
     }
 }

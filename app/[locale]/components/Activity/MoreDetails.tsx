@@ -3,7 +3,7 @@ import DetailsCollapse from './MoreDrtails/DetailsCollapse';
 
 export interface IMoreInfoItem {
   title: string;
-  description: string| string[];
+  description: string | string[];
 }
 
 export interface IMoreDetails {
@@ -19,7 +19,6 @@ const MoreDetails: React.FC<IMoreDetails> = ({
   descriptions,
   moreInfo,
 }) => {
-  console.log('🚀 ~ moreInfo:', moreInfo);
   return (
     <div className="container">
       <div className="d-flex gap-5 justify-content-center my-5">
@@ -36,7 +35,7 @@ const MoreDetails: React.FC<IMoreDetails> = ({
             {moreInfo[0].description === '' ? (
               <ul className="list-group">
                 {moreInfo.map((item, index) => (
-                  <li className="list-group-item" key={index}>
+                  <li className="list-group-item mb-5" key={index}>
                     {item.title}
                   </li>
                 ))}
