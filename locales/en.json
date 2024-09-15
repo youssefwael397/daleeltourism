@@ -629,5 +629,263 @@
                 "description": "$75/adult\n$65/child (3-11 years)"
             }
         }
+    },
+    "buttons": {
+        "order": "Order"
+    },
+    "why_us": {
+        "title": "Why with us",
+        "reasons": [
+            "Legal entity with 24 years of experience",
+            "Own fleet of vehicles",
+            "Staff of licensed guides",
+            "Pick up at any hotel",
+            "Legal and insured"
+        ]
+    },
+    "faqs": {
+        "title": "Frequently Asked Questions",
+        "DOHA_TOUR": [
+            {
+                "q": "How to dress properly for an excursion?",
+                "a": "The dress code is strict: knees and shoulders must be covered with opaque clothing for both women and men."
+            },
+            {
+                "q": "Conditions for visiting an excursion with children",
+                "a": "Children under 3 years old are free (without a seat on the bus on a group excursion).\nChildren 3-11 years old – child ticket.\nFrom 12 years old – adult ticket."
+            },
+            {
+                "q": "Do I need to bring drinking water with me?",
+                "a": "One bottle of water per person will be provided in the bus. If you need more, you can take water with you."
+            },
+            {
+                "q": "Will they take us back to the hotel?",
+                "a": "Yes, the transfer is both ways."
+            }
+        ],
+        "DOHA_TOUR_MUSEUM": [
+            {
+                "q": "How to dress properly for an excursion?",
+                "a": "The dress code is strict: knees and shoulders must be covered with opaque clothing for both women and men."
+            },
+            {
+                "q": "Conditions for visiting an excursion with children",
+                "a": "Children under 3 years old are free (without a seat on the bus on a group excursion).\nChildren 3-11 years old – child ticket.\nFrom 12 years old – adult ticket."
+            },
+            {
+                "q": "Do I need to bring drinking water with me?",
+                "a": "One bottle of water per person will be provided in the bus. If you need more, you can take water with you."
+            },
+            {
+                "q": "Will they take us back to the hotel?",
+                "a": "Yes, the transfer is both ways."
+            }
+        ],
+        "NORTHWEST_OF_QATAR": [
+            {
+                "q": "How to dress properly for an excursion?",
+                "a": "Smart casual dress code (closed – for visiting museums, palaces and mosques).\nClothing must be long (to the ankles and wrists), not transparent and without slits.\nWomen must cover their heads with a headscarf when visiting a mosque.\nTattoos must also be covered with clothing.\nYou should bring warm clothes with you; the bus is air-conditioned."
+            },
+            {
+                "q": "Conditions for visiting an excursion with children",
+                "a": "The excursion is conducted on an individual basis.\nTicket surcharges apply only to guests aged 12 years and over.\nChildren under 12 do not need to pay for tickets - admission is free"
+            },
+            {
+                "q": "Duration of the excursion",
+                "a": "Duration of the excursion is half a day"
+            },
+            {
+                "q": "Will they take us back to the hotel?",
+                "a": "Yes, the transfer is both ways."
+            }
+        ],
+        "MANGROVES_RESERVE": [
+            {
+                "q": "How should I dress?",
+                "a": "Dress code: comfortable, sporty, closed. We recommend taking hats, sunglasses and sunscreen with you."
+            },
+            {
+                "q": "Can I take water and food with me?",
+                "a": "Water will be provided on the bus at 0.5 ml per person, and water and food will be provided during lunch."
+            },
+            {
+                "q": "Conditions for visiting an excursion with children",
+                "a": "Children under 6 years of age are not allowed on the tour.\nChildren 6 years and older are allowed to attend the excursion."
+            },
+            {
+                "q": "How long does the tour last?",
+                "a": "The tour will take approximately 4 hours."
+            }
+        ],
+        "FISHING_IN_DOHA": [
+            {
+                "q": "Dress code",
+                "a": "The dress code is sportswear and beachwear.\nYou must bring swimming accessories, towels, a hat, sunglasses and cream."
+            },
+            {
+                "q": "What documents do you need to take with you?",
+                "a": "You must have your original passport with you to pass inspection at the port of departure."
+            },
+            {
+                "q": "Can I take water and food with me?",
+                "a": "There will be water on board, but you are welcome to bring extra drinks and snacks. The boat is equipped with a portable refrigerator."
+            },
+            {
+                "q": "Weather conditions",
+                "a": "In case of adverse weather conditions, we will notify you as quickly as possible.\nThe fishing trip will be rescheduled to another date or the excursion fee will be refunded."
+            }
+        ],
+        "DESERT_SAFARI": [
+            {
+                "q": "Will it be possible to take a ride behind the wheel of a jeep?",
+                "a": "For safety reasons, guests are not allowed to drive a jeep during the safari. You will be served by a professional driver."
+            },
+            {
+                "q": "Is it possible to choose the seat in the car?",
+                "a": "Yes, sure."
+            },
+            {
+                "q": "What is the best way to dress for a safari?",
+                "a": "Dress code: sportswear, comfortable. Due to the possible decrease in air temperature in the desert at night, we recommend having warm clothes with you."
+            },
+            {
+                "q": "Is it possible to go on a jeep safari with children?",
+                "a": "Yes, however extreme riding is not recommended for children under 6 years of age.\nChildren 12 years and under must be accompanied by an adult."
+            },
+            {
+                "q": "Can pregnant women take part?",
+                "a": "No."
+            },
+            {
+                "q": "Will they take us back to the hotel?",
+                "a": "Yes, the transfer is both ways."
+            }
+        ],
+        "SAFARI_WITH_DINNER": [
+            {
+                "q": "Will it be possible to take a ride behind the wheel of a jeep?",
+                "a": "For safety reasons, guests are not allowed to drive a jeep during the safari. You will be served by a professional driver."
+            },
+            {
+                "q": "Is it possible to choose the seat in the car?",
+                "a": "Yes, sure."
+            },
+            {
+                "q": "What is the best way to dress for a safari?",
+                "a": "Dress code: sportswear, comfortable. Due to the possible decrease in air temperature in the desert at night, we recommend having warm clothes with you.\nWhen booking an 8-hour tour, please bring your swimming gear."
+            },
+            {
+                "q": "Is it possible to go on a jeep safari with children?",
+                "a": "Yes, however extreme riding is not recommended for children under 6 years of age.\nChildren 12 years and under must be accompanied by an adult."
+            },
+            {
+                "q": "Can pregnant women take part?",
+                "a": "No."
+            },
+            {
+                "q": "Will they take us back to the hotel?",
+                "a": "Yes, the transfer is both ways."
+            },
+            {
+                "q": "Changes in Ramadan and Religious Holidays",
+                "a": "The entertainment program may be subject to change or cancellation.\nServing alcoholic beverages may be prohibited.\nThe same may also apply to cases of national mourning."
+            }
+        ],
+        "YACHT_CHARTER_IN_QATAR": [
+            {
+                "q": "Why take your passports with you?",
+                "a": "The Coast Guard requires all passengers to show their passports when the ship leaves the port at sea, otherwise the cruise may not take place."
+            },
+            {
+                "q": "How should I dress?",
+                "a": "Dress code: beach, comfortable. You must have swimming accessories with you."
+            },
+            {
+                "q": "Is it possible to go on a boat trip with children?",
+                "a": "Yes, children aged 6-7 years can already enjoy a boat trip"
+            },
+            {
+                "q": "Is it possible to sail a yacht yourself?",
+                "a": "No. In Doha, you need a local license to operate a boat or yacht."
+            }
+        ],
+        "HELICOPTER_FLIGHT": [
+            {
+                "q": "Dress code",
+                "a": "Smart casual, comfortable attire. Hats and scarves are not allowed on board."
+            },
+            {
+                "q": "What documents do you need to take with you?",
+                "a": "You must have the original passport with a valid tourist visa and printed copies of them."
+            },
+            {
+                "q": "Features of the excursion",
+                "a": "The helicopter can accommodate up to 4 people.\nBefore the flight, you must go through registration, weighing and instructions.\nIt is prohibited to use flash photography when taking photographs in flight.\nPersons with reduced mobility must be accompanied by an adult who pays for the flight and is fully responsible for boarding and disembarking from the helicopter."
+            },
+            {
+                "q": "Flight duration",
+                "a": "30 minutes."
+            },
+            {
+                "q": "Why do I need to provide my weight when booking?",
+                "a": "Reporting weight is necessary to ensure safe and correct weight distribution in the helicopter."
+            },
+            {
+                "q": "Helicopter Flight Altitude",
+                "a": "Flight altitude 270-300 meters."
+            },
+            {
+                "q": "Seating arrangements in a helicopter",
+                "a": "Seating in the helicopter is based on the weight of each passenger. It is not possible to reserve a specific seat, and changing seats is prohibited."
+            },
+            {
+                "q": "What can you take with you on a flight?",
+                "a": "It is permitted to carry and use smartphones, amateur video and photo cameras during the flight.\nIt is prohibited to use professional cameras (with a lens of 400 mm or more), selfie sticks and tablets.\nIt is prohibited to bring water and food on board the helicopter.\nThe administration reserves the right to prohibit the carriage on board of items that are considered dangerous or cause inconvenience to other passengers during the flight.\nLockers are provided to store your belongings during the flight."
+            },
+            {
+                "q": "Conditions for flying with children",
+                "a": "Children of any age are allowed to fly.\nPregnant women are allowed to fly up to 32 weeks."
+            },
+            {
+                "q": "Weather conditions",
+                "a": "In case of unfavorable weather conditions (visibility less than 5000 m), we will notify you as quickly as possible.\nThe flight will be rescheduled to another date or the amount for the excursion will be refunded."
+            }
+        ],
+        "QUEST_THEME_PARK": [
+            {
+                "q": "Dress code",
+                "a": "Dress code: smart casual (closed).\nYou should bring warm clothes with you; the bus is air-conditioned."
+            },
+            {
+                "q": "Return transfer",
+                "a": "Return transfer is provided."
+            },
+            {
+                "q": "Duration of the excursion",
+                "a": "Duration of the excursion is half a day (5 hours in the park if you choose the option with transfer)"
+            },
+            {
+                "q": "Conditions for visiting an excursion with children",
+                "a": "Children under 4 years old are free (without a seat on the bus on a group excursion).\nChildren 4-11 years old – child ticket.\nFrom 12 years old – adult ticket."
+            }
+        ],
+        "MERYAL_AQUAPARK": [
+            {
+                "q": "Dress code",
+                "a": "Dress code: comfortable (closed). Bring swimsuits and towels.\nSwimsuits must be made of opaque fabric and cover the body well. Revealing swimsuits, swimsuits with buckles, zippers, rivets or any metal decorations are not allowed.\nThe administration reserves the right to refuse any visitor in an inappropriate swimsuit."
+            },
+            {
+                "q": "Conditions for visiting the water park with children",
+                "a": "Children under 3 years old are served free of charge3-11 years old – at the price of a child ticket\n12 years and older - adult ticket price"
+            }
+        ]
+    },
+    "make_an_order": {
+        "title": "Make an order",
+        "points": {
+            "hotel": "The most convenient way to make a reservation is to write to your hotel guide. If you do not have his contact, write to the support service.",
+            "whatsapp": "+971528996301",
+            "openning": "Open from 08.00 to 20.00"
+        }
     }
 }

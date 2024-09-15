@@ -34,7 +34,7 @@ const CardPage = ({
       <MoreDetails {...card.moreDetails} />
       <Gallery images={card.gallery} />
       <Prices header={cardUrl} elements={card.prices} />
-      <Faqs />
+      <Faqs cardUrl={cardUrl} />
       <MakeAnOrder />
       {/* <SimilarExcursions /> */}
     </>

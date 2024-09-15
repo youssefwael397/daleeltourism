@@ -1,6 +1,13 @@
 import React from 'react';
 import FaqsCollapse from './Faqs/FaqsCollapse';
-import { CalendarOutlined, CarOutlined, HomeOutlined, IdcardOutlined, InsuranceOutlined } from '@ant-design/icons';
+import {
+  CalendarOutlined,
+  CarOutlined,
+  HomeOutlined,
+  IdcardOutlined,
+  InsuranceOutlined,
+} from '@ant-design/icons';
+import { useTranslations } from 'next-intl';
 
 export interface FaqItem {
   q: string;
@@ -22,51 +29,55 @@ const dummyFaqs: FaqItem[] = [
   },
 ];
 
-const Faqs = () => {
+const Faqs = ({ cardUrl }: { cardUrl: string }) => {
+  const t = useTranslations();
+  const faqs = t(`faqs.${cardUrl}.0`);
+  console.log("🚀 ~ Faqs ~ faqs:", faqs)
+
   return (
     <div className="faqs-container">
       <div className="d-flex gap-5 container">
         <div className="w-50">
-          <h2>Frequently Asked Questions</h2>
+          <h2>{t('faqs.title')}</h2>
           <FaqsCollapse faqs={dummyFaqs} />
         </div>
         <div>
-          <h2>Why with us?</h2>
+          <h2>{t('why_us.title')}</h2>
           <ul>
             <li className="d-flex align-items-center fs-5 mt-3">
               <CalendarOutlined
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
               />
-              <p className="m-0">Legal entity with 24 years of experience</p>
+              <p className="m-0">{t('why_us.reasons.0')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
               <CarOutlined
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
               />
-              <p className="m-0">Own fleet of vehicles</p>
+              <p className="m-0">{t('why_us.reasons.1')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
               <IdcardOutlined
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
               />
-              <p className="m-0">Staff of licensed guides</p>
+              <p className="m-0">{t('why_us.reasons.2')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
               <HomeOutlined
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
               />
-              <p className="m-0">Pick up at any hotel</p>
+              <p className="m-0">{t('why_us.reasons.3')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
               <InsuranceOutlined
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
               />
-              <p className="m-0">Legal and insured</p>
+              <p className="m-0">{t('why_us.reasons.4')}</p>
             </li>
           </ul>
         </div>
