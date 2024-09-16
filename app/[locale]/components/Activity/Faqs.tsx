@@ -30,16 +30,20 @@ const dummyFaqs: FaqItem[] = [
 ];
 
 const Faqs = ({ cardUrl }: { cardUrl: string }) => {
+  // Load translations
   const t = useTranslations();
-  const faqs = t(`faqs.${cardUrl}.0`);
-  console.log("🚀 ~ Faqs ~ faqs:", faqs)
+  const tFaqs = useTranslations('faqs');
+
+  // Get the specific category FAQs
+  const faqCategory = tFaqs.raw(cardUrl);
+  console.log("🚀 ~ Faqs ~ faqCategory:", faqCategory)
 
   return (
     <div className="faqs-container">
       <div className="d-flex gap-5 container">
         <div className="w-50">
           <h2>{t('faqs.title')}</h2>
-          <FaqsCollapse faqs={dummyFaqs} />
+          <FaqsCollapse faqs={faqCategory} />
         </div>
         <div>
           <h2>{t('why_us.title')}</h2>

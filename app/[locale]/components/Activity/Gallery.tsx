@@ -86,6 +86,11 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
           {images.map(({ src, title }) => (
             <div key={title} style={{ textAlign: 'center' }}>
               <Image src={src} alt={title} preview={false} />
+              <p className="m-0 d-flex justify-content-center align-items-center">
+                <span className="text-white bg-black bg-opacity-25 px-4 py-2 text-center">
+                  {title}
+                </span>
+              </p>
             </div>
           ))}
         </Carousel>
