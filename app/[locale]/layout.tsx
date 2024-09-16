@@ -1,13 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import './globals.css';
 import './styles.scss';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import { ReactNode } from 'react';
-// import { languages } from '../i18n/settings';
 import Navbar from './components/shared/Navbar';
 import Footer from './components/shared/Footer';
-import { Header } from 'antd/es/layout/layout';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 

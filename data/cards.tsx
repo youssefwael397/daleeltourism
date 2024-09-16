@@ -19,6 +19,7 @@ const Cards = (): CardItemType[] => {
           t('details.DOHA_TOUR.description2'),
           t('details.DOHA_TOUR.description3'),
           t('details.DOHA_TOUR.description4'),
+          t('details.DOHA_TOUR.description5'),
         ],
         secondHeader: t('details.DOHA_TOUR.attractionsHeader'),
         moreInfo: [
@@ -33,6 +34,22 @@ const Cards = (): CardItemType[] => {
           {
             title: t('details.DOHA_TOUR.attractions.pearl.title'),
             description: t('details.DOHA_TOUR.attractions.pearl.description'),
+          },
+          {
+            title: t('details.DOHA_TOUR.attractions.future_city.title'),
+            description: t(
+              'details.DOHA_TOUR.attractions.future_city.description'
+            ),
+          },
+          {
+            title: t('details.DOHA_TOUR.attractions.waqif.title'),
+            description: t('details.DOHA_TOUR.attractions.waqif.description'),
+          },
+          {
+            title: t('details.DOHA_TOUR.attractions.art_gallery.title'),
+            description: t(
+              'details.DOHA_TOUR.attractions.art_gallery.description'
+            ),
           },
         ],
       },

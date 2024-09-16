@@ -1,4 +1,4 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import Image from 'next/image';
 import {
   FacebookFilled,
@@ -10,9 +10,10 @@ import {
   MailOutlined,
 } from '@ant-design/icons';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/navigation';
 
-const Footer = ({ }) => {
-  const t = useTranslations( 'footer');
+const Footer = ({}) => {
+  const t = useTranslations('footer');
 
   return (
     <footer className="footer">
@@ -30,8 +31,14 @@ const Footer = ({ }) => {
             <div className="col-12 col-md-4 col-lg-4 col-xl-4">
               <div className="widget">
                 <ul className="list-unstyled">
-                  <li className="mb-2">{t('aboutUs')}</li>
-                  <li className="mb-2">{t('reliablePartner')}</li>
+                  {/* <li className="mb-2">{t('aboutUs')}</li> */}
+                  {t('reliablePartner')
+                    .split('\n')
+                    .map((line, index) => (
+                      <li key={index} className="mb-2">
+                        {line}
+                      </li>
+                    ))}
                 </ul>
               </div>
             </div>
@@ -41,26 +48,26 @@ const Footer = ({ }) => {
                 <h4 className="widget-title mb-4">{t('contacts')}</h4>
                 <p className="mb-1">
                   <Link
-                    href="https://wa.me/+201010932484"
+                    href="https://wa.me/+97460023377"
                     className="link-secondary text-decoration-none"
                   >
                     <WhatsAppOutlined
                       className="me-2"
                       style={{ fontSize: '18px', color: '#25D366' }}
                     />
-                    (20) 1010-932-484
+                    +97460023377
                   </Link>
                 </p>
                 <p className="mb-1">
                   <Link
-                    href="https://t.me/+201010932484"
+                    href="https://t.me/qatartoursdaleel"
                     className="link-secondary text-decoration-none"
                   >
                     <SendOutlined
                       className="me-2"
                       style={{ fontSize: '18px', color: '#0088CC' }}
                     />
-                    (20) 1010-932-484
+                    @qatartoursdaleel
                   </Link>
                 </p>
                 <p className="mb-1">
@@ -93,43 +100,55 @@ const Footer = ({ }) => {
             <div className="col-xs-12 col-md-5 order-0 order-md-1">
               <div className="social-media-wrapper">
                 <ul className="list-unstyled m-0 p-0 d-flex justify-content-center justify-content-md-end">
-                  <li className="me-3">
+                  {/* <li className="me-3">
                     <Link href="#!" className="link-dark link-opacity-75-hover">
                       <FacebookFilled
                         style={{ fontSize: '24px', color: '#4267B2' }}
                       />
                     </Link>
-                  </li>
-                  <li className="me-3">
+                  </li> */}
+                  {/* <li className="me-3">
                     <Link href="#!" className="link-dark link-opacity-75-hover">
                       <YoutubeFilled
                         style={{ fontSize: '24px', color: '#FF0000' }}
                       />
                     </Link>
-                  </li>
-                  <li className="me-3">
+                  </li> */}
+                  {/* <li className="me-3">
                     <Link href="#!" className="link-dark link-opacity-75-hover">
                       <TwitterCircleFilled
                         style={{ fontSize: '24px', color: '#1DA1F2' }}
                       />
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="me-3">
-                    <Link href="#!" className="link-dark link-opacity-75-hover">
+                    <Link
+                      target="_blank"
+                      href="https://www.instagram.com/daleel.tourism.qatar/"
+                      className="link-dark link-opacity-75-hover"
+                    >
                       <InstagramFilled
                         style={{ fontSize: '24px', color: '#fd1d1d' }}
                       />
                     </Link>
                   </li>
                   <li className="me-3">
-                    <Link href="#!" className="link-dark link-opacity-75-hover">
+                    <Link
+                      target="_blank"
+                      href="https://wa.me/+97460023377"
+                      className="link-dark link-opacity-75-hover"
+                    >
                       <WhatsAppOutlined
                         style={{ fontSize: '24px', color: '#25D366' }}
                       />
                     </Link>
                   </li>
                   <li>
-                    <Link href="#!" className="link-dark link-opacity-75-hover">
+                    <Link
+                      target="_blank"
+                      href="https://t.me/qatartoursdaleel"
+                      className="link-dark link-opacity-75-hover"
+                    >
                       <SendOutlined
                         style={{ fontSize: '24px', color: '#0088CC' }}
                       />

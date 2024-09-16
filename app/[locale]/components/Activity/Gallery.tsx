@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Carousel, Image, Modal } from 'antd';
-import 'animate.css'; // Import animate.css
+import 'animate.css';
 
 export interface IImage {
   src: string;
@@ -16,7 +16,7 @@ export interface IGallery {
 const Gallery: React.FC<IGallery> = ({ images }) => {
   const [visible, setVisible] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-  const imageRefs = useRef<(HTMLDivElement | null)[]>([]); // Ref array to store references to each image container
+  const imageRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   const handleImageClick = (index: number) => {
     setSelectedImageIndex(index);
@@ -25,25 +25,25 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
 
   useEffect(() => {
     const observerOptions = {
-      threshold: 0.1, // Trigger when 10% of the element is visible
+      threshold: 0.1,
     };
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate__zoomIn');
-          observer.unobserve(entry.target); // Stop observing after animation
+          observer.unobserve(entry.target);
         }
       });
     }, observerOptions);
 
     imageRefs.current.forEach((ref) => {
-      if (ref) observer.observe(ref); // Observe each image container
+      if (ref) observer.observe(ref);
     });
 
     return () => {
       imageRefs.current.forEach((ref) => {
-        if (ref) observer.unobserve(ref); // Clean up observer on unmount
+        if (ref) observer.unobserve(ref);
       });
     };
   }, []);
@@ -54,9 +54,11 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
         <div className="row">
           {images.map(({ title, src }, index) => (
             <div
-              className="col-md-4 gallery-img p-2 animate__animated" // Add animate__animated class
+              className="col-md-4 gallery-img p-2 animate__animated"
               key={title}
-              ref={(el) => (imageRefs.current[index] = el)} // Store ref for each image container
+              ref={(el) => {
+                imageRefs.current[index] = el;
+              }}
             >
               <Image
                 src={src}

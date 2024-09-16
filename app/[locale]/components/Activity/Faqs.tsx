@@ -3,6 +3,7 @@ import FaqsCollapse from './Faqs/FaqsCollapse';
 import {
   CalendarOutlined,
   CarOutlined,
+  GlobalOutlined,
   HomeOutlined,
   IdcardOutlined,
   InsuranceOutlined,
@@ -36,37 +37,45 @@ const Faqs = ({ cardUrl }: { cardUrl: string }) => {
 
   // Get the specific category FAQs
   const faqCategory = tFaqs.raw(cardUrl);
-  console.log("🚀 ~ Faqs ~ faqCategory:", faqCategory)
+  console.log('🚀 ~ Faqs ~ faqCategory:', faqCategory);
 
   return (
     <div className="faqs-container">
-      <div className="d-flex gap-5 container">
-        <div className="w-50">
+      <div className="d-flex gap-5 container justify-content-center align-items-center">
+        {/* <div className="w-50">
           <h2>{t('faqs.title')}</h2>
           <FaqsCollapse faqs={faqCategory} />
-        </div>
+        </div> */}
         <div>
           <h2>{t('why_us.title')}</h2>
           <ul>
             <li className="d-flex align-items-center fs-5 mt-3">
-              <CalendarOutlined
+              <CarOutlined
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
               />
+              {/* <CalendarOutlined
+                className="me-4"
+                style={{ fontSize: '24px', color: '#54afbe' }}
+              /> */}
               <p className="m-0">{t('why_us.reasons.0')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
-              <CarOutlined
+              <HomeOutlined
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
               />
               <p className="m-0">{t('why_us.reasons.1')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
-              <IdcardOutlined
+              {/* <IdcardOutlined
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
-              />
+              /> */}
+              <i
+                className="fa-solid fa-plane me-4"
+                style={{ fontSize: '24px', color: '#54afbe' }}
+              ></i>
               <p className="m-0">{t('why_us.reasons.2')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
@@ -77,11 +86,26 @@ const Faqs = ({ cardUrl }: { cardUrl: string }) => {
               <p className="m-0">{t('why_us.reasons.3')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
-              <InsuranceOutlined
+              {/* <InsuranceOutlined
+                className="me-4"
+                style={{ fontSize: '24px', color: '#54afbe' }}
+              /> */}
+              <GlobalOutlined
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
               />
               <p className="m-0">{t('why_us.reasons.4')}</p>
+            </li>
+            <li className="d-flex align-items-center fs-5 mt-3">
+              {/* <InsuranceOutlined
+                className="me-4"
+                style={{ fontSize: '24px', color: '#54afbe' }}
+              /> */}
+              <i
+                className="fa-solid fa-tags me-4"
+                style={{ fontSize: '24px', color: '#54afbe' }}
+              ></i>
+              <p className="m-0">{t('why_us.reasons.5')}</p>
             </li>
           </ul>
         </div>

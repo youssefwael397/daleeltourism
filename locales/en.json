@@ -13,8 +13,7 @@
         "MERYAL_AQUAPARK": "Meryal Aquapark"
     },
     "footer": {
-        "aboutUs": "For over 20 years, RUSTAR TOURISM has been delivering the fairy tale of the East to people worldwide!",
-        "reliablePartner": "RUSTAR TOURISM is known as a reliable tourism partner with years of experience and high-quality services.",
+        "reliablePartner": "At DALEEL TOURISM, we are passionate about sharing the wonders of Qatar with you!\nOur certified Russian speaking guides bring a wealth of knowledge and experience, ensuring you uncover the rich secrets, vibrant cultures, delicious tastes, and cherished traditions of this incredible destination.\nJoin the many happy tourists who have explored Qatar with us and create unforgettable memories. Your adventure awaits!",
         "contacts": "Contacts",
         "whatsapp": "WhatsApp",
         "telegram": "Telegram",
@@ -70,33 +69,46 @@
     "details": {
         "DOHA_TOUR": {
             "header": "Doha City Tour",
-            "description1": "Explore Doha's unique heritage, storied history and modern achievements on a city tour in just 4 hours. We'll stroll through Souq Waqif, Dhow Harbour, visit the Qatar Heritage Village and head to The Pearl Island.",
-            "description2": "Our journey begins at Souq Waqif, Doha's oldest market. We'll stroll through a bustling maze of alleys where you'll get to know the city's trading heritage and traditions.",
-            "description3": "Our next stop is the Katara Cultural Village. This is the largest and most comprehensive cultural project in Qatar, which is famous for its beautiful theaters and concert halls, and its crown jewel is the Golden Masjid Mosque.",
-            "description4": "Next we will have a photo stop at the place where pearls used to be mined. Now “Pearl” is an artificial island with luxurious towers and villas, elite shops, hotels and exquisite restaurants.",
+            "description1": "Discover Doha's rich heritage, fascinating history, and contemporary achievements on a 4-hour city tour. We'll wander through Souq Waqif, Dhow Harbour, visit Qatar Heritage Village, and explore The Pearl Island.",
+            "description2": "Our adventure begins at Souq Waqif, the oldest market in Doha. Here, we’ll navigate a vibrant maze of alleyways, immersing ourselves in the city's trading traditions and culture.",
+            "description3": "",
+            "description4": "Next, we'll visit Katara Cultural Village, Qatar's largest and most extensive cultural project, renowned for its stunning theaters and concert halls, including the magnificent Golden Masjid Mosque.",
+            "description5": "We'll also make a photo stop at the site of the former pearl diving industry, now transformed into \"The Pearl\"—an artificial island featuring luxurious towers, upscale shops, hotels, and fine dining restaurants.",
             "attractionsHeader": "Attractions",
             "attractions": {
                 "bazaar": {
-                    "title": "Arab Bazaar",
-                    "description": "Souq Waqif is a colorful attraction where you can truly touch the traditions and life of the local population. The local bazaar is filled with the smells of incense and spices, Arabic perfumes and hookah. Here you can see old men fingering their beads on benches, slowly strolling ladies wrapped in black abayas, sedate and well-groomed Arab men sitting in cafes, smoking hookah."
+                    "title": "Doha Port, Fish Market, Corniche Waterfront",
+                    "description": "Explore Doha Port, a bustling hub where traditional dhow boats dock alongside modern vessels. Adjacent to the port is the Fish Market, filled with fresh catches and vibrant local vendors, showcasing Qatar's rich maritime heritage. Stroll along the Corniche, a picturesque waterfront promenade that offers stunning views of the Doha skyline, perfect for leisurely walks or relaxing picnics."
                 },
                 "katara": {
-                    "title": "Ethnic village 'Katara'",
-                    "description": "The vast territory of the complex includes a magnificent drama theatre and an open amphitheater in the ancient Greek style, a luxurious Opera House, a planetarium, the glittering Golden and Blue Mosques, richly decorated with marvelous mosaics, as well as a multifunctional cinema, a congress hall, galleries and exhibition halls. The village is full of restaurants and cafes with authentic and international cuisine and shops offering to buy works by local artists."
+                    "title": "Katara Cultural Village, Blue Mosque, Pigeon House, Amphitheater",
+                    "description": "Katara Cultural Village is a vibrant cultural hub that celebrates Qatar's artistic heritage. Here, you can admire the stunning architecture, visit art galleries, and enjoy various cultural events. The Blue Mosque, with its intricate designs, is a highlight of the village. Nearby, the Pigeon House symbolizes peace and hospitality. The amphitheater, an architectural marvel, hosts concerts and performances, making it a focal point for cultural gatherings."
                 },
                 "pearl": {
-                    "title": "Pearl Island",
-                    "description": "\"The Pearl of Qatar\" - \"Arabian Riviera\", which consists of: \nQanat Quartier - a Venice-inspired neighbourhood with colourful buildings, picturesque canals and bridges Porto Arabia - a Mediterranean corner with luxury yachts, restaurants and fashionable residential complexes Medina Centrale is a family-friendly area with gardens, playgrounds, and many cafes and shops"
+                    "title": "The Pearl Island, Marina for Yachts and Boats, Little Venice/Qanat Quartier, Medina Central Island",
+                    "description": "The Pearl Island is an exquisite artificial island known for its luxurious lifestyle. Enjoy a stroll along the marina, where yachts and boats are docked, and explore Little Venice, a charming area inspired by the Italian city, complete with canals and beautiful architecture. Qanat Quartier offers picturesque views and vibrant shops, while Medina Central Island features a mix of dining, shopping, and entertainment options, all set against a stunning backdrop."
+                },
+                "future_city": {
+                    "title": "A Visit to the Future City of Lusail, The Bay Waterfront, and Raffles Hotel",
+                    "description": "Lusail is a visionary city designed for the future, showcasing modern architecture and innovative urban planning. The Bay waterfront is ideal for leisurely walks or enjoying outdoor activities. Don't miss the famous Raffles Hotel, an architectural wonder shaped like two Arabian swords, which offers opulent accommodations and dining. Inside, you'll find an 11-story kaleidoscope, a breathtaking installation that reflects the city’s blend of tradition and modernity."
+                },
+                "waqif": {
+                    "title": "Traditional Souq Waqif Market",
+                    "description": "Immerse yourself in the vibrant atmosphere of Souq Waqif, a traditional market brimming with life. Wander through narrow alleys filled with shops selling spices, textiles, handcrafted goods, and souvenirs. Experience the rich Arab culture through the sounds, scents, and flavors of the bazaar. Enjoy local delicacies at nearby restaurants and cafes, giving you a taste of authentic Qatari cuisine."
+                },
+                "art_gallery": {
+                    "title": "Art Gallery, Horses and Camels of the Honor Guard, Falcon Market, Hookah Lounges, Restaurants, Souvenirs, and Spices",
+                    "description": "Visit local art galleries showcasing contemporary and traditional Qatari art. Witness the majestic horses and camels of the honor guard, a symbol of Qatar’s rich heritage. Explore the falcon market, where you can learn about this ancient sport and see these magnificent birds up close. The streets are lined with hookah lounges, offering a relaxed atmosphere to unwind. Savor a variety of international cuisines at restaurants catering to all tastes, and don’t forget to pick up unique souvenirs and aromatic spices to take home."
                 }
             }
         },
         "DOHA_TOUR_MUSEUM": {
             "header": "Doha City Tour with Visit to Qatar National Museum",
-            "description1": "On a sightseeing tour of Doha, in just 4 hours, you will be able to get acquainted with the symbols of the capital of Qatar: from bazaars and camels to yachts and skyscrapers.",
-            "description2": "We will begin our acquaintance with the country's heritage in the ethnic village of \"Katara\". On its territory there is a modern marble amphitheater, the Blue and Golden Mosques.",
-            "description3": "Then, to immerse yourself in the oriental atmosphere of the city, you will go to the old market Souq Waqif. Here, in addition to the traditional spices of oriental markets, they sell live camels and Arabian horses, which you can even feed.",
-            "description4": "Then, to immerse yourself in the oriental atmosphere of the city, you will go to the old market Souq Waqif. Here, in addition to the traditional spices of oriental markets, they sell live camels and Arabian horses, which you can even feed.",
-            "description5": "We will visit the National Museum of Qatar to witness the country's past and present, and then take a short cruise on a traditional Dhow boat along the coastline.",
+            "description1": "Join us for an exciting 4-hour sightseeing tour that introduces you to the iconic symbols of Qatar's capital. From bustling bazaars and majestic camels to luxurious yachts and soaring skyscrapers, this journey will showcase the diverse facets of the city.",
+            "description2": "We’ll kick off our exploration at the cultural gem of Katara, where you can admire the stunning marble amphitheater and the exquisite Blue and Golden Mosques. This vibrant ethnic village beautifully represents Qatar's heritage and artistic spirit.",
+            "description3": "Next, we’ll dive into the enchanting atmosphere of Souq Waqif, the old market. Here, you can browse a variety of traditional spices and discover unique souvenirs. Don’t miss the chance to see live camels and Arabian horses up close—some of which you can even feed!",
+            "description4": "Our adventure continues at the Qatar National Museum, where you’ll gain insights into the nation’s rich history and dynamic present through captivating exhibits.",
+            "description5": "To wrap up your experience, enjoy a short cruise on a traditional Dhow boat along the stunning coastline, taking in the breathtaking views of Doha’s skyline.",
             "attractionsHeader": "Attractions",
             "attractions": {
                 "katara": {
@@ -122,34 +134,34 @@
             }
         },
         "NORTHWEST_OF_QATAR": {
-            "header": "Excursion to the North-West of Qatar",
-            "description1": "We will head to the northwest of the country, where we will discover new, amazing sights of Qatar.",
-            "description2": "We will visit the municipal town of Shehaniya, 40 minutes drive from Doha. Camel racing takes place here from November to April, and in the remaining months of the year, camels are prepared and trained for this event.",
-            "description3": "We will then discover the unique exhibits of the Sheikh Faisal Museum, who became a collector at the age of 10 and collected countless exhibits from almost 4 continents.",
-            "description4": "And in the city of education we will be able to appreciate the unusual design of the mosque, which will leave a new and vivid idea of ​​these temples. The building stands on 5 pillars, which represent the 5 pillars of Islam. The mosque itself can accommodate up to 3,000 believers, and its entire interior is painted white.",
+            "header": "Journey to the Northwest: Discover Qatar's Hidden Gems",
+            "description1": "Join us as we venture northwest to uncover the stunning sights of Qatar. Our first stop will be the charming town of Shehaniya, just a 40-minute drive from Doha. This area is famous for its camel racing, which takes place from November to April. During the rest of the year, the camels are trained and prepared for this exciting event.",
+            "description2": "Next, we’ll explore the fascinating Sheikh Faisal Museum, where you’ll find an impressive collection amassed by the Sheikh since he began collecting at the age of 10. His diverse exhibits span nearly four continents, offering a glimpse into the rich history and culture of the region.",
+            "description3": "Finally, we’ll visit the City of Education, where you can marvel at the mosque’s unique design. This architectural masterpiece is supported by five pillars, symbolizing the Five Pillars of Islam. With a capacity to accommodate up to 3,000 worshippers, the mosque’s pristine white interior creates a serene and inspiring atmosphere.",
+            "description4": "Embark on this adventure to experience the extraordinary diversity and beauty of Qatar!",
             "attractionsHeader": "Attractions",
             "attractions": {
                 "camel_racing": {
-                    "title": "Camel racing in Shehaniya",
-                    "description": "Camel racing is an ancient sport that is currently actively developing in Qatar as a professional sport. The specially built camel racing track in Al Shehaniya, located 35 kilometers west of Doha, attracts numerous fans to the races every Friday during the winter season. The camels are controlled by unique robot jockeys."
+                    "title": "Camel Racing in Shehaniya",
+                    "description": "Camel racing in Shehaniya is a traditional sport held from November to April. This vibrant town hosts thrilling races that showcase the speed and agility of camels, with training and preparation taking place in the off-season."
                 },
                 "Sheikh_Faisal_Museum": {
                     "title": "Sheikh Faisal Museum",
-                    "description": "This museum gives you the opportunity to enter the Sheikh's opulent mansions and look at his personal belongings. Sheikh Faisal devoted his entire life to collecting beautiful objects. His extensive and remarkable collection includes: carpets, furniture, swords, ancient tapestries, Bedouin clothing and even an entire Syrian house (moved inside the museum)."
+                    "description": "The Sheikh Faisal Museum features an extensive collection amassed by Sheikh Faisal bin Qassim Al Thani, who began collecting at the age of 10. The museum spans nearly four continents and includes traditional Qatari artifacts, vintage cars, Islamic art, and various cultural items, offering insight into Qatar’s heritage and global history."
                 },
                 "Student_town": {
-                    "title": "Student town",
-                    "description": "A real educational hub near Doha is Education City, a city within a city, where the headquarters of the Qatar Foundation is located. And also – campuses, universities, educational centers."
+                    "title": "Education City",
+                    "description": "Education City is a pioneering educational and cultural complex that houses several prestigious universities and institutions. The area is designed to foster learning, research, and community engagement, featuring impressive architecture and hosting various events and exhibitions."
                 },
                 "Doha_Mosque": {
                     "title": "Doha Mosque",
-                    "description": "The most unusual mosque in Doha in terms of architecture is a futuristic snow-white building without a single sharp angle. The mosque building is like a spaceship that has landed in the desert and is designed as two intertwined ribbons of minarets that reach into the sky."
+                    "description": "The Doha Mosque is an architectural masterpiece known for its unique design and serene atmosphere. Supported by five pillars symbolizing the Five Pillars of Islam, the mosque accommodates up to 3,000 worshippers, with a pristine white interior that highlights its cultural and religious significance."
                 }
             }
         },
         "MANGROVES_RESERVE": {
-            "header": "Excursion to the mangrove reserve",
-            "description1": "Excursion to the mangrove reserve is a fascinating journey along the salty waters of the bay on kayaks. An evergreen forest, which despite difficult conditions, has become a unique ecosystem. It is in this ecological and interesting place that you can ride enjoying the surrounding wonders of nature. After a short briefing, anyone can set off on a voyage overcoming the simple bends of the water surface between the mangroves.",
+            "header": "Kayaking Adventure in the Mangrove Reserve",
+            "description1": "Embark on an exciting excursion to the mangrove reserve, where you’ll navigate the saline waters of the bay in kayaks. This lush, evergreen forest thrives in challenging conditions, creating a remarkable ecosystem. Here, you can paddle through the tranquil waters while taking in the stunning natural beauty surrounding you. After a brief orientation, everyone is welcome to embark on this journey, effortlessly gliding through the gentle curves of the waterways among the mangroves.",
             "secondHeader": "Route",
             "routes": {
                 "hotel": {
@@ -636,11 +648,12 @@
     "why_us": {
         "title": "Why with us",
         "reasons": [
-            "Legal entity with 24 years of experience",
-            "Own fleet of vehicles",
-            "Staff of licensed guides",
-            "Pick up at any hotel",
-            "Legal and insured"
+            "Different comfortable transfer",
+            "Hotel booking and pickup",
+            "⁠Airport transfer",
+            "First choice for russian speakers",
+            "Certified Russian speaking guides",
+            "⁠200+ satisfied tourists"
         ]
     },
     "faqs": {
