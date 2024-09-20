@@ -9,7 +9,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.DOHA_TOUR.title'),
       subTitle: t('headers.DOHA_TOUR.subTitle'),
       url: 'DOHA_TOUR',
-      img: '/assets/covers/1.jpg',
+      img: '/assets/covers/1.jpeg',
       header: '/assets/headers/1.jpg',
       headerType: 'img',
       moreDetails: {
@@ -55,11 +55,11 @@ const Cards = (): CardItemType[] => {
       },
       gallery: [
         {
-          src: '/assets/gallery/1/1.jpg',
+          src: '/assets/gallery/1/1.heic',
           title: t('gallery.DOHA_TOUR.1'),
         },
         {
-          src: '/assets/gallery/1/2.jpg',
+          src: '/assets/gallery/1/2.heic',
           title: t('gallery.DOHA_TOUR.2'),
         },
         {
@@ -75,7 +75,7 @@ const Cards = (): CardItemType[] => {
           title: t('gallery.DOHA_TOUR.5'),
         },
         {
-          src: '/assets/gallery/1/6.jpg',
+          src: '/assets/gallery/1/6.jpeg',
           title: t('gallery.DOHA_TOUR.6'),
         },
       ],
@@ -122,7 +122,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.DOHA_TOUR_MUSEUM.title'),
       subTitle: t('headers.DOHA_TOUR_MUSEUM.subTitle'),
       url: 'DOHA_TOUR_MUSEUM',
-      img: '/assets/covers/2.jpg',
+      img: '/assets/covers/2.jpeg',
       header: '/assets/headers/2.jpg',
       headerType: 'img',
       moreDetails: {
@@ -622,19 +622,19 @@ const Cards = (): CardItemType[] => {
           title: t('gallery.DESERT_SAFARI.2'),
         },
         {
-          src: '/assets/gallery/6/3.jpeg',
+          src: '/assets/gallery/6/3.jpg',
           title: t('gallery.DESERT_SAFARI.3'),
         },
         {
-          src: '/assets/gallery/6/4.webp',
+          src: '/assets/gallery/6/4.jpg',
           title: t('gallery.DESERT_SAFARI.4'),
         },
         {
-          src: '/assets/gallery/6/5.jpeg',
+          src: '/assets/gallery/6/5.jpg',
           title: t('gallery.DESERT_SAFARI.5'),
         },
         {
-          src: '/assets/gallery/6/6.jpeg',
+          src: '/assets/gallery/6/6.jpg',
           title: t('gallery.DESERT_SAFARI.6'),
         },
       ],
@@ -1066,7 +1066,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.MERYAL_AQUAPARK.title'),
       subTitle: t('headers.MERYAL_AQUAPARK.subTitle'),
       url: 'MERYAL_AQUAPARK',
-      img: '/assets/covers/11.webp',
+      img: '/assets/covers/11.jpeg',
       header:
         'https://www.youtube.com/embed/BC7D3ek5qr4?autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fmyqatar.travel&widgetid=1',
       headerType: 'vid',
@@ -1128,11 +1128,11 @@ const Cards = (): CardItemType[] => {
       },
       gallery: [
         {
-          src: '/assets/gallery/11/1.webp',
+          src: '/assets/gallery/11/1.jpg',
           title: t('gallery.MERYAL_AQUAPARK.1'),
         },
         {
-          src: '/assets/gallery/11/2.jpeg',
+          src: '/assets/gallery/11/2.jpg',
           title: t('gallery.MERYAL_AQUAPARK.2'),
         },
         {
@@ -1142,22 +1142,6 @@ const Cards = (): CardItemType[] => {
         {
           src: '/assets/gallery/11/4.jpg',
           title: t('gallery.MERYAL_AQUAPARK.4'),
-        },
-        {
-          src: '/assets/gallery/11/5.jpg',
-          title: t('gallery.MERYAL_AQUAPARK.5'),
-        },
-        {
-          src: '/assets/gallery/11/6.jpg',
-          title: t('gallery.MERYAL_AQUAPARK.6'),
-        },
-        {
-          src: '/assets/gallery/11/7.webp',
-          title: t('gallery.MERYAL_AQUAPARK.7'),
-        },
-        {
-          src: '/assets/gallery/11/8.webp',
-          title: t('gallery.MERYAL_AQUAPARK.8'),
         },
       ],
       prices: [

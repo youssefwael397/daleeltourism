@@ -7,7 +7,7 @@ import { Link } from '@/navigation';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="container-fluid navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="container-fluid navbar navbar-expand-lg navbar-light bg-light position-sticky">
       <div className="container-md d-flex justify-between">
         {/* Replace Navbar text with logo */}
         <Link href="/" className="navbar-brand">
