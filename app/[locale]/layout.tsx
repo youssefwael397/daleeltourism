@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
+import './gallery.css';
 import './styles.scss';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';

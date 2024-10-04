@@ -49,7 +49,7 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
   }, []);
 
   return (
-    <div className="gallery-container">
+    <div className="gallery-container bg-light">
       <div className="container">
         <div className="row">
           {images.map(({ title, src }, index) => (
@@ -77,6 +77,7 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
         open={visible}
         footer={null}
         onCancel={() => setVisible(false)}
+        className="gallery-modal"
         width="80%"
       >
         <Carousel
@@ -86,10 +87,15 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
           infinite={false}
         >
           {images.map(({ src, title }) => (
-            <div key={title} style={{ textAlign: 'center' }}>
-              <Image src={src} alt={title} preview={false} />
-              <p className="m-0 d-flex justify-content-center align-items-center">
-                <span className="text-white bg-black bg-opacity-25 px-4 py-2 text-center">
+            <div
+              key={title}
+              style={{ textAlign: 'center' }}
+              id="gallery-inner-carousel"
+              className="position-relative "
+            >
+              <Image src={src} alt={title} preview={false} width={'100'} />
+              <p className="m-0 d-flex justify-content-center">
+                <span className="text-white bg-black bg-opacity-50 px-4 py-2 text-center">
                   {title}
                 </span>
               </p>

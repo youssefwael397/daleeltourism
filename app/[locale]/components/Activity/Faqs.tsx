@@ -37,15 +37,10 @@ const Faqs = ({ cardUrl }: { cardUrl: string }) => {
 
   // Get the specific category FAQs
   const faqCategory = tFaqs.raw(cardUrl);
-  console.log('🚀 ~ Faqs ~ faqCategory:', faqCategory);
 
   return (
-    <div className="faqs-container">
+    <div className="faqs-container bg-light pt-3">
       <div className="d-flex gap-5 container justify-content-center align-items-center">
-        {/* <div className="w-50">
-          <h2>{t('faqs.title')}</h2>
-          <FaqsCollapse faqs={faqCategory} />
-        </div> */}
         <div>
           <h2>{t('why_us.title')}</h2>
           <ul>
@@ -54,10 +49,6 @@ const Faqs = ({ cardUrl }: { cardUrl: string }) => {
                 className="me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}
               />
-              {/* <CalendarOutlined
-                className="me-4"
-                style={{ fontSize: '24px', color: '#54afbe' }}
-              /> */}
               <p className="m-0">{t('why_us.reasons.0')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
@@ -68,10 +59,6 @@ const Faqs = ({ cardUrl }: { cardUrl: string }) => {
               <p className="m-0">{t('why_us.reasons.1')}</p>
             </li>
             <li className="d-flex align-items-center fs-5 mt-3">
-              {/* <IdcardOutlined
-                className="me-4"
-                style={{ fontSize: '24px', color: '#54afbe' }}
-              /> */}
               <i
                 className="fa-solid fa-plane me-4"
                 style={{ fontSize: '24px', color: '#54afbe' }}

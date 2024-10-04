@@ -6,13 +6,14 @@ interface IPrices {
   elements: ReactNode[];
 }
 
-
-
 const Prices: React.FC<IPrices> = ({ header, elements }) => {
   const t = useTranslations();
   return (
     <div className="container my-5">
-      <div className="w-25 mx-auto text-center prices-container pb-3">
+      <div
+        id="prices-container"
+        className="w-50 mx-auto text-center prices-container bg-light pb-3"
+      >
         <div className="header w-100 p-4 mb-3 text-center">
           {t(`cards.${header}`)}
         </div>

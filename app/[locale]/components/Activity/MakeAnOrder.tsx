@@ -9,7 +9,7 @@ import React from 'react';
 const MakeAnOrder = () => {
   const t = useTranslations();
   return (
-    <div className="w-50 mx-auto make-order-container">
+    <div id="make-order-container" className="w-50 mx-auto mt-3">
       <h1 className="text-center">{t('make_an_order.title')}</h1>
       <ul>
         <li className="d-flex align-items-center fs-5 mt-3">

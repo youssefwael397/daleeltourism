@@ -1,0 +1,110 @@
+/* General Gallery Styling */
+
+.gallery-container {
+    padding: 50px 0px !important;
+}
+
+.gallery-container .gallery-img div {
+    width: 100%;
+}
+
+.gallery-container .gallery-img img {
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.gallery-container .gallery-img img:hover {
+    opacity: 0.7;
+    box-shadow: 1px 0px 10px 0px #000;
+}
+
+/* Modal Styling */
+
+.gallery-modal {
+    top: 30px !important;
+}
+
+.gallery-modal .ant-modal-close{
+    top: 0px !important;
+}
+
+.gallery-modal .ant-modal-content {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0px;
+}
+
+.gallery-modal .ant-carousel .ant-image .ant-image-img {
+    height: 80vh !important;
+}
+
+.gallery-modal .ant-modal-root .ant-modal-mask {
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.gallery-modal .ant-modal-close {
+    color: #fff;
+    top: -30px;
+    right: 0px;
+}
+
+/* Carousel Styling */
+.gallery-modal .ant-carousel .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* .gallery-modal .ant-image {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+} */
+
+/* Carousel Arrow Styling */
+.gallery-modal .ant-carousel .slick-prev,
+.gallery-modal .ant-carousel .slick-next {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 30px !important;
+}
+
+.gallery-modal .ant-carousel .slick-prev::after,
+.gallery-modal .ant-carousel .slick-next::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    border: 0 solid currentcolor;
+    border-inline-width: 2px 0;
+    border-block-width: 2px 0;
+    border-radius: 1px;
+}
+
+.gallery-modal .ant-carousel .slick-prev::after {
+    transform: rotate(-45deg);
+}
+
+.gallery-modal .ant-carousel .slick-next::after {
+    transform: rotate(135deg);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .gallery-modal {
+        top: 30px !important;
+        width: 100% !important;
+    }
+
+    .gallery-container .gallery-img img {
+        height: 100% !important;
+    }
+
+    .gallery-modal .ant-carousel .ant-image .ant-image-img {
+        height: 100% !important;
+    }
+}

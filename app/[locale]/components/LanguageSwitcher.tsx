@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { Dropdown } from 'antd';
 import { DownOutlined, GlobalOutlined } from '@ant-design/icons';
 import { useTransition, ReactElement } from 'react';
@@ -50,8 +50,8 @@ const LanguageSwitcher: React.FC = (): ReactElement => {
         style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}
         className="d-inline-flex align-items-center"
       >
-        <GlobalOutlined style={{ fontSize: '30px' }} />{' '}
-        <DownOutlined style={{ fontSize: '16px', marginLeft: '8px' }} />
+        <GlobalOutlined style={{ fontSize: '30px', color: '#54afbe' }} />{' '}
+        <DownOutlined style={{ fontSize: '16px', marginLeft: '8px', color: '#54afbe' }} />
       </div>
     </Dropdown>
   );

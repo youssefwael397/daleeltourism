@@ -21,8 +21,8 @@ const MoreDetails: React.FC<IMoreDetails> = ({
 }) => {
   return (
     <div className="container">
-      <div className="d-flex gap-5 justify-content-center my-5">
-        <div className="description w-50">
+      <div className="d-flex gap-5 justify-content-center my-5 flex-column flex-md-row">
+        <div className="description w-100">
           <h2>{header}</h2>
           {/* <p>{}</p> */}
           {descriptions.map((item, index) => (
@@ -30,7 +30,7 @@ const MoreDetails: React.FC<IMoreDetails> = ({
           ))}
         </div>
         {moreInfo !== undefined ? (
-          <div className="more-info w-50">
+          <div className="more-info w-100">
             <h2>{secondHeader}</h2>
             {moreInfo[0].description === '' ? (
               <ul className="list-group">
