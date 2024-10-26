@@ -16,7 +16,9 @@ export interface IGallery {
 const Gallery: React.FC<IGallery> = ({ images }) => {
   const [visible, setVisible] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const [maxHeight, setMaxHeight] = useState<number>(0);
   const imageRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const imageHeights = useRef<number[]>([]);
 
   const handleImageClick = (index: number) => {
     setSelectedImageIndex(index);
@@ -48,6 +50,23 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
     };
   }, []);
 
+  useEffect(() => {
+    const loadHeights = () => {
+      imageHeights.current = [];
+      images.forEach((_, index) => {
+        const img = new (window as any).Image();
+        img.src = images[index].src;
+        img.onload = () => {
+          imageHeights.current[index] = img.height;
+          if (imageHeights.current.length === images.length) {
+            setMaxHeight(Math.max(...imageHeights.current));
+          }
+        };
+      });
+    };
+    loadHeights();
+  }, [images]);
+
   return (
     <div className="gallery-container bg-light">
       <div className="container">
@@ -66,7 +85,12 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
                 onClick={() => handleImageClick(index)}
                 preview={false}
                 className="img-fluid"
-                style={{ cursor: 'pointer', width: '100%', height: '270px' }}
+                style={{
+                  cursor: 'pointer',
+                  width: '100%',
+                  height: maxHeight ? `${maxHeight}px` : 'auto',
+                  objectFit: 'cover',
+                }}
               />
             </div>
           ))}
@@ -91,9 +115,9 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
               key={title}
               style={{ textAlign: 'center' }}
               id="gallery-inner-carousel"
-              className="position-relative "
+              className="position-relative"
             >
-              <Image src={src} alt={title} preview={false} width={'100'} />
+              <Image src={src} alt={title} preview={false} width={'100%'} />
               <p className="m-0 d-flex justify-content-center">
                 <span className="text-white bg-black bg-opacity-50 px-4 py-2 text-center">
                   {title}

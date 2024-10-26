@@ -27,6 +27,7 @@ const Prices: React.FC<IPrices> = ({ header, elements }) => {
         </div>
         <a
           href="https://api.whatsapp.com/send?phone=97470820639"
+          target='_blank'
           className="order-btn btn btn-primary"
         >
           {t('buttons.order')}

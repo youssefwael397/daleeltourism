@@ -20,9 +20,9 @@ const Footer = ({}) => {
       <section className="bg-light py-4 py-md-5 py-xl-8 border-top border-light">
         <div className="container-md overflow-hidden">
           <div className="row gy-4 gy-lg-0 justify-content-xl-between">
-            <div className="col-12 col-md-2 col-lg-2 col-xl-2">
+            <div className="col-12 col-md-4 col-lg-4 col-xl-2">
               <div className="widget">
-                <Link href="#!">
+                <Link href="/">
                   <Image src="/logo.png" alt="Logo" width={175} height={175} />
                 </Link>
               </div>
@@ -100,31 +100,10 @@ const Footer = ({}) => {
             <div className="col-xs-12 col-md-5 order-0 order-md-1">
               <div className="social-media-wrapper">
                 <ul className="list-unstyled m-0 p-0 d-flex justify-content-center justify-content-md-end">
-                  {/* <li className="me-3">
-                    <Link href="#!" className="link-dark link-opacity-75-hover">
-                      <FacebookFilled
-                        style={{ fontSize: '24px', color: '#4267B2' }}
-                      />
-                    </Link>
-                  </li> */}
-                  {/* <li className="me-3">
-                    <Link href="#!" className="link-dark link-opacity-75-hover">
-                      <YoutubeFilled
-                        style={{ fontSize: '24px', color: '#FF0000' }}
-                      />
-                    </Link>
-                  </li> */}
-                  {/* <li className="me-3">
-                    <Link href="#!" className="link-dark link-opacity-75-hover">
-                      <TwitterCircleFilled
-                        style={{ fontSize: '24px', color: '#1DA1F2' }}
-                      />
-                    </Link>
-                  </li> */}
                   <li className="me-3">
                     <Link
                       target="_blank"
-                      href="https://www.instagram.com/daleel.tourism.qatar/"
+                      href="https://www.instagram.com/daleel.tourism.qa/"
                       className="link-dark link-opacity-75-hover"
                     >
                       <InstagramFilled
