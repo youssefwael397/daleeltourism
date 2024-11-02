@@ -87,8 +87,9 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
                 className="img-fluid"
                 style={{
                   cursor: 'pointer',
-                  width: '100%',
-                  height: maxHeight ? `${maxHeight}px` : 'auto',
+                  // width: '100%',
+                  // height: maxHeight ? `${maxHeight}px` : 'auto',
+                  height: '400px',
                   objectFit: 'cover',
                 }}
               />
@@ -108,7 +109,7 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
           initialSlide={selectedImageIndex}
           dots={false}
           arrows
-          infinite={false}
+          infinite={true}
         >
           {images.map(({ src, title }) => (
             <div
@@ -118,11 +119,11 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
               className="position-relative"
             >
               <Image src={src} alt={title} preview={false} width={'100%'} />
-              <p className="m-0 d-flex justify-content-center">
+              {/* <p className="m-0 d-flex justify-content-center">
                 <span className="text-white bg-black bg-opacity-50 px-4 py-2 text-center">
                   {title}
                 </span>
-              </p>
+              </p> */}
             </div>
           ))}
         </Carousel>

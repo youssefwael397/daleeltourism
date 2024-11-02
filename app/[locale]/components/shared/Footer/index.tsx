@@ -22,7 +22,7 @@ const Footer = ({}) => {
           <div className="row gy-4 gy-lg-0 justify-content-xl-between">
             <div className="col-12 col-md-4 col-lg-4 col-xl-2">
               <div className="widget">
-                <Link href="/">
+                <Link target="_blank" href="/">
                   <Image src="/logo.png" alt="Logo" width={175} height={175} />
                 </Link>
               </div>
@@ -48,7 +48,8 @@ const Footer = ({}) => {
                 <h4 className="widget-title mb-4">{t('contacts')}</h4>
                 <p className="mb-1">
                   <Link
-                    href="https://wa.me/+97460023377"
+                    href="https://api.whatsapp.com/send?phone=97460023377"
+                    target="_blank"
                     className="link-secondary text-decoration-none"
                   >
                     <WhatsAppOutlined
@@ -60,6 +61,7 @@ const Footer = ({}) => {
                 </p>
                 <p className="mb-1">
                   <Link
+                    target="_blank"
                     href="https://t.me/qatartoursdaleel"
                     className="link-secondary text-decoration-none"
                   >
@@ -72,6 +74,7 @@ const Footer = ({}) => {
                 </p>
                 <p className="mb-1">
                   <Link
+                    target="_blank"
                     href="mailto:daleeltourism@gmail.com"
                     className="link-secondary text-decoration-none"
                   >
@@ -114,7 +117,7 @@ const Footer = ({}) => {
                   <li className="me-3">
                     <Link
                       target="_blank"
-                      href="https://wa.me/+97460023377"
+                      href="https://api.whatsapp.com/send?phone=97460023377"
                       className="link-dark link-opacity-75-hover"
                     >
                       <WhatsAppOutlined

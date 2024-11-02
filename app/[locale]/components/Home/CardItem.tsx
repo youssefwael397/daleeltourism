@@ -18,6 +18,7 @@ export interface CardItemType {
   moreDetails: IMoreDetails;
   gallery: IImage[];
   prices: JSX.Element[];
+  newPrices?: JSX.Element[];
 }
 
 const CardItem = ({

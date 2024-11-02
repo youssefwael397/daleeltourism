@@ -26,6 +26,16 @@ const DetailsCollapse: React.FC<DetailsCollapseProps> = ({ details }) => {
   };
 
   return <Collapse items={items} onChange={onChange} />;
+  // return (
+  //   <ul>
+  //     {details.map((e) => (
+  //       <li key={e.title}>
+  //         <strong className='fw-bold'>{e.title}</strong>
+  //         <p>{e.description}</p>
+  //       </li>
+  //     ))}
+  //   </ul>
+  // );
 };
 
 export default DetailsCollapse;

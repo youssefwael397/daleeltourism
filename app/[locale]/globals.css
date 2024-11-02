@@ -51,8 +51,21 @@ body {
 
 .prices-container p {
   font-size: 16px;
-  font-family: "Playpen Sans", cursive;
+  /* font-family: "Playpen Sans", cursive; */
   font-weight: 400;
+}
+
+.doha_header_img {
+  transform: translateY(-260px);
+}
+
+.more-info .ant-collapse-arrow {
+  font-size: 20px !important;
+}
+
+.plus-section-list li::before {
+  content: "-";
+  padding-right: 8px;
 }
 
 /* mobile screens */

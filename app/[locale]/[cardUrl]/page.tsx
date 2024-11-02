@@ -8,6 +8,7 @@ import Prices from '../components/Activity/Prices';
 import Faqs from '../components/Activity/Faqs';
 import MakeAnOrder from '../components/Activity/MakeAnOrder';
 import SimilarExcursions from '../components/Activity/SimilarExcursions';
+import NewPrices from '../components/Activity/NewPrices';
 
 const CardPage = ({
   params,
@@ -33,9 +34,10 @@ const CardPage = ({
       />
       <MoreDetails {...card.moreDetails} />
       <Gallery images={card.gallery} />
-      <Prices header={cardUrl} elements={card.prices} />
+      {/* <Prices header={cardUrl} elements={card.prices} /> */}
+      <NewPrices header={cardUrl} />
       <Faqs cardUrl={cardUrl} />
-      <MakeAnOrder />
+      {/* <MakeAnOrder /> */}
       {/* <SimilarExcursions /> */}
     </>
   );

@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslations } from 'next-intl';
 
 type PropsType = {
   title: string;
@@ -13,13 +13,21 @@ export default function SingleHeader({
   src,
   type,
 }: PropsType) {
-
   return (
     <div className="w-100">
       <div
         style={{ position: 'relative', maxHeight: '70vh', overflow: 'hidden' }}
       >
-        {type === 'img' && <img src={src} alt={title} className="w-100" />}
+        {type === 'img' && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={src}
+            alt={title}
+            className={`w-100 ${
+              subTitle == 'DOHA' || subTitle == 'ДОХУ' ? 'doha_header_img' : ''
+            }`}
+          />
+        )}
         {type === 'vid' && (
           <iframe
             src={src}

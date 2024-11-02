@@ -20,6 +20,7 @@ const Cards = (): CardItemType[] => {
           t('details.DOHA_TOUR.description3'),
           t('details.DOHA_TOUR.description4'),
           t('details.DOHA_TOUR.description5'),
+          t('details.DOHA_TOUR.description6'),
         ],
         secondHeader: t('details.DOHA_TOUR.attractionsHeader'),
         moreInfo: [
@@ -45,38 +46,68 @@ const Cards = (): CardItemType[] => {
             title: t('details.DOHA_TOUR.attractions.waqif.title'),
             description: t('details.DOHA_TOUR.attractions.waqif.description'),
           },
-          {
-            title: t('details.DOHA_TOUR.attractions.art_gallery.title'),
-            description: t(
-              'details.DOHA_TOUR.attractions.art_gallery.description'
-            ),
-          },
         ],
       },
       gallery: [
         {
-          src: '/assets/gallery/1/1.heic',
+          src: '/assets/gallery/1/1.jpg',
           title: t('gallery.DOHA_TOUR.1'),
         },
         {
-          src: '/assets/gallery/1/2.heic',
-          title: t('gallery.DOHA_TOUR.2'),
+          src: '/assets/gallery/1/2.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
         },
         {
           src: '/assets/gallery/1/3.jpg',
-          title: t('gallery.DOHA_TOUR.3'),
+          title: t('gallery.DOHA_TOUR.1'),
         },
         {
           src: '/assets/gallery/1/4.jpg',
-          title: t('gallery.DOHA_TOUR.4'),
+          title: t('gallery.DOHA_TOUR.1'),
         },
         {
           src: '/assets/gallery/1/5.jpg',
-          title: t('gallery.DOHA_TOUR.5'),
+          title: t('gallery.DOHA_TOUR.1'),
         },
         {
-          src: '/assets/gallery/1/6.jpeg',
-          title: t('gallery.DOHA_TOUR.6'),
+          src: '/assets/gallery/1/6.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
+        },
+        {
+          src: '/assets/gallery/1/7.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
+        },
+        {
+          src: '/assets/gallery/1/8.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
+        },
+        {
+          src: '/assets/gallery/1/9.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
+        },
+        {
+          src: '/assets/gallery/1/10.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
+        },
+        {
+          src: '/assets/gallery/1/11.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
+        },
+        {
+          src: '/assets/gallery/1/12.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
+        },
+        {
+          src: '/assets/gallery/1/13.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
+        },
+        {
+          src: '/assets/gallery/1/14.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
+        },
+        {
+          src: '/assets/gallery/1/15.jpg',
+          title: t('gallery.DOHA_TOUR.1'),
         },
       ],
       prices: [
@@ -117,6 +148,9 @@ const Cards = (): CardItemType[] => {
           </div>
         </div>,
       ],
+      // newPrices: {
+
+      // }
     },
     {
       title: t('headers.DOHA_TOUR_MUSEUM.title'),
