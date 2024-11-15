@@ -3,10 +3,13 @@ import React, { ReactNode } from 'react';
 
 interface IPrices {
   header: string;
+  cardPrices: JSX.Element[];
 }
 
-const NewPrices: React.FC<IPrices> = ({ header }) => {
+const NewPrices: React.FC<IPrices> = ({ header, cardPrices }) => {
+
   const t = useTranslations();
+  
   return (
     <div className="container my-5">
       <div
@@ -22,20 +25,18 @@ const NewPrices: React.FC<IPrices> = ({ header }) => {
               <div className="icon">
                 <i aria-hidden="true" className="fas fa-bus"></i>
               </div>
-              <div className="title text-uppercase">Групповая или</div>
+              <div className="title text-uppercase">
+                {t('newPrices.transportTitle')}
+              </div>
               <div className="icon ms-2">
                 <i aria-hidden="true" className="fas fa-car-side"></i>
               </div>
             </div>
             <div className="title text-uppercase mb-3">
-              Индивидуальная экскурсия
+              {t('newPrices.transportSubTitle')}
             </div>
             {/* changes in one page here for this section */}
-            <p>
-              На комфортном транспорте <br />
-              <strong>350$/ МАШИНУ</strong> <br />
-              Вместительность от 1-6 человек
-            </p>
+            {cardPrices[0]}
           </div>
           <hr />
           <div>
@@ -48,9 +49,7 @@ const NewPrices: React.FC<IPrices> = ({ header }) => {
               </div>
             </div>
             {/* changes will be here for this section */}
-            <p>
-              4+ <span className="text-uppercase">часа</span>
-            </p>
+            {cardPrices[1]}
           </div>
           <hr />
           <div>
@@ -62,13 +61,7 @@ const NewPrices: React.FC<IPrices> = ({ header }) => {
                 {t('newPrices.plus_title')}
               </div>
             </div>
-            <ul className="plus-section-list">
-              <li>Тур гид</li>
-              <li>Транспорт</li>
-              <li>Традиционные одеяния</li>
-              <li>Арабский чай + вода</li>
-              <li>Горячие местные лепёшки</li>
-            </ul>
+            {cardPrices[2]}
           </div>
 
           <hr />

@@ -11,7 +11,7 @@ const DetailsCollapse: React.FC<DetailsCollapseProps> = ({ details }) => {
     key: (index + 1).toString(),
     label: item.title,
     children: Array.isArray(item.description) ? (
-      <ul style={{ listStyleType: 'circle', paddingLeft: '20px' }}>
+      <ul style={{ listStyleType: 'square', paddingLeft: '20px' }}>
         {item.description.map((desc, i) => (
           <li key={i}>{desc}</li>
         ))}

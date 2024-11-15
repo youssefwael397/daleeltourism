@@ -5,6 +5,8 @@ import { ReactElement } from 'react';
 import { IMoreDetails } from '../Activity/MoreDetails';
 import { IImage } from '../Activity/Gallery';
 import { Link } from '@/navigation';
+import { useTranslations } from 'next-intl';
+
 
 const { Meta } = Card;
 
@@ -16,9 +18,8 @@ export interface CardItemType {
   header: string;
   headerType: 'img' | 'vid';
   moreDetails: IMoreDetails;
-  gallery: IImage[];
+  gallery: string[];
   prices: JSX.Element[];
-  newPrices?: JSX.Element[];
 }
 
 const CardItem = ({
@@ -26,6 +27,8 @@ const CardItem = ({
 }: {
   data: CardItemType;
 }): ReactElement => {
+  const t = useTranslations();
+
   return (
     <Link href={`/${data.url}`} passHref className="text-decoration-none">
       <Card
@@ -34,7 +37,7 @@ const CardItem = ({
         cover={<img alt={data.title} src={data.img} />}
         bordered
       >
-        <Meta className="text-center fs-3 fw-bold" title={data.title} />
+        <Meta className="text-center fs-3 fw-bold" title={t(`cards.${data.url}`)} />
       </Card>
     </Link>
   );

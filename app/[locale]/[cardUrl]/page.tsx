@@ -19,6 +19,7 @@ const CardPage = ({
 
   // Fetch card data on the server side
   const card = cards().find((item: CardItemType) => item.url === cardUrl);
+  console.log("🚀 ~ card:", card)
 
   if (!card) {
     return <div>There is an unexpected error</div>;
@@ -35,7 +36,7 @@ const CardPage = ({
       <MoreDetails {...card.moreDetails} />
       <Gallery images={card.gallery} />
       {/* <Prices header={cardUrl} elements={card.prices} /> */}
-      <NewPrices header={cardUrl} />
+      <NewPrices header={cardUrl} cardPrices={card.prices} />
       <Faqs cardUrl={cardUrl} />
       {/* <MakeAnOrder /> */}
       {/* <SimilarExcursions /> */}

@@ -6,11 +6,10 @@ import 'animate.css';
 
 export interface IImage {
   src: string;
-  title: string;
 }
 
 export interface IGallery {
-  images: IImage[];
+  images: string[];
 }
 
 const Gallery: React.FC<IGallery> = ({ images }) => {
@@ -44,6 +43,7 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
     });
 
     return () => {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       imageRefs.current.forEach((ref) => {
         if (ref) observer.unobserve(ref);
       });
@@ -55,7 +55,7 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
       imageHeights.current = [];
       images.forEach((_, index) => {
         const img = new (window as any).Image();
-        img.src = images[index].src;
+        img.src = images[index];
         img.onload = () => {
           imageHeights.current[index] = img.height;
           if (imageHeights.current.length === images.length) {
@@ -71,17 +71,17 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
     <div className="gallery-container bg-light">
       <div className="container">
         <div className="row">
-          {images.map(({ title, src }, index) => (
+          {images.map((src, index) => (
             <div
               className="col-md-4 gallery-img p-2 animate__animated"
-              key={title}
+              key={`img-${index}`}
               ref={(el) => {
                 imageRefs.current[index] = el;
               }}
             >
               <Image
                 src={src}
-                alt={title}
+                alt={`img-${index}`}
                 onClick={() => handleImageClick(index)}
                 preview={false}
                 className="img-fluid"
@@ -111,14 +111,19 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
           arrows
           infinite={true}
         >
-          {images.map(({ src, title }) => (
+          {images.map((src, index) => (
             <div
-              key={title}
+              key={`img-${index}`}
               style={{ textAlign: 'center' }}
               id="gallery-inner-carousel"
               className="position-relative"
             >
-              <Image src={src} alt={title} preview={false} width={'100%'} />
+              <Image
+                src={src}
+                alt={`img-${index}`}
+                preview={false}
+                width={'100%'}
+              />
               {/* <p className="m-0 d-flex justify-content-center">
                 <span className="text-white bg-black bg-opacity-50 px-4 py-2 text-center">
                   {title}

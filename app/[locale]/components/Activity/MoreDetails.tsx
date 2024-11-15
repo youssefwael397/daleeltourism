@@ -19,6 +19,7 @@ const MoreDetails: React.FC<IMoreDetails> = ({
   descriptions,
   moreInfo,
 }) => {
+  console.log("🚀 ~ secondHeader:", secondHeader)
   return (
     <div className="container">
       <div className="d-block gap-5 justify-content-center my-5 flex-row">
@@ -32,17 +33,7 @@ const MoreDetails: React.FC<IMoreDetails> = ({
         {moreInfo !== undefined ? (
           <div className="more-info w-100">
             <h2>{secondHeader}</h2>
-            {moreInfo[0].description === '' ? (
-              <ul className="list-group">
-                {moreInfo.map((item, index) => (
-                  <li className="list-group-item mb-5" key={index}>
-                    {item.title}
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <DetailsCollapse details={moreInfo} />
-            )}
+            <DetailsCollapse details={moreInfo} />
           </div>
         ) : (
           ''

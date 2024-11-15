@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import CardItem, { CardItemType } from './CardItem';
 
 const CardList = ({
