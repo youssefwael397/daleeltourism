@@ -109,8 +109,8 @@ const Cards = (): CardItemType[] => {
       title: t('headers.NORTHWEST_OF_QATAR.title'),
       subTitle: t('headers.NORTHWEST_OF_QATAR.subTitle'),
       url: 'NORTHWEST_OF_QATAR',
-      img: '/assets/headers/3.jfif',
-      header: '/assets/headers/3.jfif',
+      img: '/assets/headers/3.jpg',
+      header: '/assets/headers/3.jpg',
       headerType: 'img',
       moreDetails: {
         header: t('details.NORTHWEST_OF_QATAR.header'),
