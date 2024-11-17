@@ -19,13 +19,11 @@ const MoreDetails: React.FC<IMoreDetails> = ({
   descriptions,
   moreInfo,
 }) => {
-  console.log("🚀 ~ secondHeader:", secondHeader)
   return (
     <div className="container">
       <div className="d-block gap-5 justify-content-center my-5 flex-row">
         <div className="description w-100">
           <h2>{header}</h2>
-          {/* <p>{}</p> */}
           {descriptions.map((item, index) => (
             <p key={index}>{item}</p>
           ))}

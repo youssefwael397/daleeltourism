@@ -9,6 +9,12 @@ import Faqs from '../components/Activity/Faqs';
 import MakeAnOrder from '../components/Activity/MakeAnOrder';
 import SimilarExcursions from '../components/Activity/SimilarExcursions';
 import NewPrices from '../components/Activity/NewPrices';
+import type { Metadata } from 'next';
+
+
+export const metadata: Metadata = {
+  title: 'Daleel Tourism',
+};
 
 const CardPage = ({
   params,
@@ -19,7 +25,6 @@ const CardPage = ({
 
   // Fetch card data on the server side
   const card = cards().find((item: CardItemType) => item.url === cardUrl);
-  console.log("🚀 ~ card:", card)
 
   if (!card) {
     return <div>There is an unexpected error</div>;

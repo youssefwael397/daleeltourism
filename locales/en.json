@@ -1,7 +1,7 @@
 {
     "cards": {
         "DOHA_TOUR": "Doha Tour",
-        "DOHA_TOUR_MUSEUM": "Doha Tour + Museum",
+        "DOHA_TOUR_MUSEUM": "Safari Tour",
         "NORTHWEST_OF_QATAR": "Secrets and history",
         "MANGROVES_RESERVE": "Traditions and education",
         "FISHING_IN_DOHA": "Fishing in Doha",
@@ -22,8 +22,8 @@
     },
     "headers": {
         "DOHA_TOUR": {
-            "title": "EXPLORE THE CAPITAL OF QATAR:",
-            "subTitle": "DOHU"
+            "title": "Doha City Tour",
+            "subTitle": ""
         },
         "DOHA_TOUR_MUSEUM": {
             "title": "Safari Tour",
@@ -68,7 +68,7 @@
     },
     "details": {
         "DOHA_TOUR": {
-            "header": "Doha City Tour",
+            "header": "EXPLORE THE CAPITAL OF QATAR: DOHA",
             "descriptions": [
                 "Discover the rich heritage, fascinating history and cutting-edge achievements of Doha, the picturesque capital of Qatar! Your adventure begins in the colorful Doha Port, where the city's maritime soul comes alive.",
                 "Immerse yourself in the magical Katara Cultural Village, a hub of artistic expression and cultural wonders. From stunning theatres to tranquil concert halls, Katara is a feast for the senses.",
@@ -77,7 +77,7 @@
                 "Finally, stroll through the historic local market, Souq Waqif, a sea of ​​traditional crafts, spices and colourful souvenirs. Let the aromas and colours of this bustling market captivate your senses.",
                 "In Doha, every place tells a unique story, blending tradition with modernity to create an unforgettable mosaic of experiences for every traveler. Get ready to be captivated by the magic of this exciting city!"
             ],
-            "attractionsHeader": "Attractions",
+            "attractionsHeader": "YOU WILL VISIT:",
             "attractions": [
                 {
                     "title": "Doha Port",
@@ -88,8 +88,8 @@
                     "description": "Discover the magical world of Katara Cultural Village, where every corner is steeped in history and beauty. Stroll past the tranquil Blue Mosque, experience the spirit of sea adventure at the Dhow Museum, soak up the grandeur behind the walls of the Colosseum Amphitheatre and stroll along the air-conditioned streets of Galeries Lafayette. Then head to SNAN, a green oasis in the desert, and stroll through a park with hills adorned with exotic trees from around the world. Katara Cultural Village is a place where every step is filled with vivid impressions and amazing cultural richness."
                 },
                 {
-                    "title": "Island \"Pearl\"",
-                    "description": "The magical world of the Pearl Island in Qatar, where luxury and beauty come together in a perfect dance. Discover the quaint marina with yachts and boats, stroll through the cozy streets of Little Venice, also known as Qanat Quartier, and immerse yourself in the atmosphere of the central Medina - Medina Central. At each of these places, do not forget to make a stop for a photo shoot to capture every moment of your journey. The Pearl Island seems to make every visitor fall in love, tempting you to return here again and again."
+                    "title": "Pearl Island",
+                    "description": "The magical world of the Pearl Island in Qatar, where luxury and beauty come together in a perfect dance. Discover the quaint marina with yachts and boats, stroll through the cozy streets of Little Venice, also known as Qanat Quartier, and immerse yourself in the atmosphere of the central Medina - Medina Central. At each of these places, do not forget to make a stop for a photo shoot to capture every moment of your journey. The Pearl Island seems to fall in love with each visitor, tempting you to return here again and again."
                 },
                 {
                     "title": "Lusail City",
@@ -111,7 +111,7 @@
                 "Experience the magic of twilight as you dive into the tranquil waters of the inland sea, watching the sunset paint the sky in shades of gold and crimson. Spend time surrounded by elegance and tradition, dressed in exquisite flowing gowns and traditional Arabic abayas.",
                 "Join us on this unique journey that transcends the ordinary and immerses you in the grandeur of beautiful Qatar. Let every minute be a celebration of life, adventure and the eternal appeal of this magical land."
             ],
-            "attractionsHeader": "Attractions",
+            "attractionsHeader": "YOU WILL VISIT:",
             "attractions": [
                 {
                     "title": "Camel Travel: Magic on the Humpback Sailboat",
@@ -171,7 +171,7 @@
                 "End your expedition in Al Khor, a vibrant metropolis where tradition meets modernity in a vibrant mix of culture and commerce. Wander the bustling streets of colourful souks and bustling markets, where Qatari life is alive with energy and vitality.",
                 "And finally, admire the architectural marvel that is the World Cup Stadium, a symbol of Qatar's boundless ambition and passion for sport, where dreams are realized and history is made on the grandest stage."
             ],
-            "attractionsHeader": "Attractions",
+            "attractionsHeader": "YOU WILL VISIT:",
             "attractions": [
                 {
                     "title": "The Mysterious World of Mangrove Labyrinths",
@@ -223,7 +223,7 @@
                 "Feel the excitement build on the Camel Racing track, where the thunderous gallop of the royal camels creates a thrilling spectacle that combines tradition and adrenaline. Set against the timeless beauty of the desert, racing offers an unforgettable experience that combines the ancient charm of the sport with the vibrant energy of the present, promising memories that will last a lifetime.",
                 "End your adventure in a modern university campus, a futuristic oasis of knowledge and innovation that nurtures the spirit of exploration and inquiry. Here, architectural wonders blend seamlessly with academic excellence to create Tradition and Education a dynamic space where the past, present and future merge in a symphony of possibilities. Immerse yourself in a world where curiosity knows no bounds and inspiration awaits at every turn, inviting you to embark on a journey of discovery unlike any other."
             ],
-            "attractionsHeader": "Attractions",
+            "attractionsHeader": "YOU WILL VISIT:",
             "attractions": [
                 {
                     "title": "Mysterious Sculptures of Magic Embryos",
@@ -260,7 +260,7 @@
                         "Over the past two decades, the town has evolved into a vibrant community that boasts a host of amenities including a luxurious Premier Inn hotel, the lush 33-hole Education City Golf Club, the intellectual sanctuary of the Qatar National Library and the tranquil oasis of Oxygen Park, inviting visitors to immerse themselves in a world where learning and leisure are seamlessly intertwined.",
                         "Explore the corridors of knowledge in the Liberal Arts and Sciences building, witness groundbreaking medical research at Weill Cornell Medicine in Qatar, or delve into the world of art and design at VCUarts in Qatar. Unravel the mysteries of geopolitics at Georgetown University or immerse yourself in cutting-edge engineering at Texas A&M University in Qatar. With each institution offering a unique set of academic specialties, Education City is a testament to Qatar’s unwavering commitment to intellectual growth and global collaboration.",
                         "Beyond academia, Education City is brimming with cultural life, home to a host of centres dedicated to art, science and dialogue. From the equestrian elegance of Al Shaqab to the thought-provoking debates at Doha Debates and the artistic treasures of the Mathaf Arab Museum of Modern Art, every corner of this intellectual utopia exudes an atmosphere of inspiration and enlightenment.",
-                        "Whether you are looking to expand your intellectual horizons, engage in groundbreaking research, or simply immerse yourself in the cultural atmosphere of Education City, this educational wonder promises an unforgettable immersion into a world of knowledge, discovery, and innovation. Welcome to a world where knowledge knows no bounds and curiosity reigns supreme."
+                        "Whether you are looking to expand your intellectual horizons, engage in groundbreaking research, or simply immerse yourself in the cultural atmosphere of Education City, this educational marvel promises an unforgettable immersion into a world of knowledge, discovery, and innovation. Welcome to a world where knowledge knows no bounds and curiosity reigns supreme."
                     ]
                 }
             ]
@@ -272,10 +272,10 @@
                 "The vessel is equipped with everything necessary for trolling and spinning fishing, and there is a toilet on board.",
                 "And it doesn’t matter whether you are an experienced fisherman or a beginner, real excitement and a great mood will always be with you."
             ],
-            "attractionsHeader": "Attractions",
+            "attractionsHeader": "YOU WILL VISIT:",
             "attractions": [
                 {
-                    "title": "Transfer from and to the hotel",
+                    "title": "Transfer from the hotel and back",
                     "description": ""
                 },
                 {
@@ -303,7 +303,7 @@
                 "Rushing through the dunes, holding your breath on fast climbs and steep descents is a real pleasure for those who value active recreation.",
                 "The uniqueness of a safari in Qatar is that here you can take unique photographs against the backdrop of the golden sands of the endless sea of ​​the desert."
             ],
-            "attractionsHeader": "Attractions",
+            "attractionsHeader": "YOU WILL VISIT:",
             "attractions": [
                 {
                     "title": "Jeep riding",
@@ -326,8 +326,7 @@
                 "Riding on the dunes, feeling the adrenaline rush from fast take-offs and steep descents is a real pleasure for those who value active recreation.",
                 "The special thing about this safari is that it includes a visit to a UNESCO protected and recognized site. This is a rare place on the planet where the desert dunes meet the sea – Khor Al Adaid.",
                 "You can swim in the sea among the desert sands and end the day with a barbecue dinner in an authentic Bedouin camp surrounded by thousands of stars."
-            ],
-            "secondHeader": "Desert Safari"
+            ]
         },
         "YACHT_CHARTER_IN_QATAR": {
             "header": "Yacht Charter in Qatar",
@@ -390,7 +389,7 @@
             ],
             [
                 "5",
-                "hours"
+                "HOURS"
             ],
             [
                 "Transport",
@@ -413,7 +412,7 @@
             ],
             [
                 "5",
-                "hours"
+                "HOURS"
             ],
             [
                 "Tour Guide",
@@ -431,7 +430,7 @@
             ],
             [
                 "5",
-                "hours"
+                "HOURS"
             ],
             [
                 "Tour guide",
@@ -580,187 +579,6 @@
             "First choice for Russian speakers",
             "Certified Russian speaking guides",
             "8000+ satisfied tourists"
-        ]
-    },
-    "FAQ": {
-        "title": "Frequently asked questions",
-        "DOHA_TOUR": [
-            {
-                "q": "How to dress properly for an excursion?",
-                "a": "Strict dress code: knees and shoulders must be covered with opaque clothing for both women and men."
-            },
-            {
-                "q": "Conditions for visiting an excursion with children",
-                "a": "Children under 3 years old - free (without a seat on the bus on a group excursion).\nChildren 3-11 years old - child ticket.\nFrom 12 years old - adult ticket."
-            },
-            {
-                "q": "Do I need to bring drinking water with me?",
-                "a": "Each person will be provided with one bottle of water on the bus. If you need more, you can take water with you."
-            },
-            {
-                "q": "Will we be taken back to the hotel?",
-                "a": "Yes, the transfer is both ways."
-            }
-        ],
-        "DOHA_TOUR_MUSEUM": [
-            {
-                "q": "How to dress properly for an excursion?",
-                "a": "Strict dress code: knees and shoulders must be covered with opaque clothing for both women and men."
-            },
-            {
-                "q": "Conditions for visiting an excursion with children",
-                "a": "Children under 3 years old - free (without a seat on the bus on a group excursion).\nChildren 3-11 years old - child ticket.\nFrom 12 years old - adult ticket."
-            },
-            {
-                "q": "Do I need to bring drinking water with me?",
-                "a": "Each person will be provided with one bottle of water on the bus. If you need more, you can take water with you."
-            },
-            {
-                "q": "Will we be taken back to the hotel?",
-                "a": "Yes, the transfer is both ways."
-            }
-        ],
-        "NORTHWEST_OF_QATAR": [
-            {
-                "q": "How to dress properly for an excursion?",
-                "a": "Dress code: smart casual (closed clothing for visiting museums, palaces and mosques).\nClothing should be long (to the ankles and wrists), opaque and without cuts.\nWomen must cover their heads with a scarf when visiting a mosque.\nTattoos should also be covered with clothing.\nIt is recommended to bring warm clothes as the bus is air-conditioned."
-            },
-            {
-                "q": "Conditions for visiting an excursion with children",
-                "a": "The tour is conducted on an individual basis.\nTicket surcharges apply only to guests over 12 years old.\nChildren under 12 do not pay tickets - admission is free."
-            },
-            {
-                "q": "Duration of the excursion",
-                "a": "The excursion lasts half a day."
-            },
-            {
-                "q": "Will we be taken back to the hotel?",
-                "a": "Yes, the transfer is both ways."
-            }
-        ],
-        "MANGROVES_RESERVE": [
-            {
-                "q": "How should I dress?",
-                "a": "Dress code: comfortable, sporty, closed clothes. It is recommended to bring hats, sunglasses and sunscreen."
-            },
-            {
-                "q": "Can I take water and food with me?",
-                "a": "Water will be provided on the bus at a volume of 0.5 ml per person, and water and food will be provided during lunch."
-            },
-            {
-                "q": "Conditions for visiting an excursion with children",
-                "a": "Children under 6 years old are not allowed on the tour.\nChildren from 6 years old can take part in the tour."
-            },
-            {
-                "q": "How long is the tour?",
-                "a": "The tour lasts about 4 hours."
-            }
-        ],
-        "FISHING_IN_DOHA": [
-            {
-                "q": "Dress code",
-                "a": "Dress code: sportswear and beachwear.\nYou must bring swimming equipment, a towel, a hat, sunglasses and cream."
-            },
-            {
-                "q": "What documents should I take with me?",
-                "a": "You must have your original passport with you to pass inspection at the port of departure."
-            },
-            {
-                "q": "Can I take water and food with me?",
-                "a": "There will be water on board, but you can take additional drinks and snacks. The boat is equipped with a portable refrigerator."
-            },
-            {
-                "q": "Weather conditions",
-                "a": "In case of adverse weather conditions we will notify you as soon as possible.\nFishing will be rescheduled to another date or the cost of the excursion will be refunded."
-            }
-        ],
-        "DESERT_SAFARI": [
-            {
-                "q": "Is it possible to take a ride behind the wheel of a jeep?",
-                "a": "For safety reasons, guests are not allowed to drive a jeep during the safari. You will be served by a professional driver."
-            },
-            {
-                "q": "Is it possible to choose a seat in the car?",
-                "a": "Yes, sure."
-            },
-            {
-                "q": "What is the best dress for safari?",
-                "a": "Dress code: sportswear, comfortable clothing. Due to the possible drop in air temperature at night in the desert, it is recommended to take warm clothes with you."
-            },
-            {
-                "q": "Is it possible to go on a jeep safari with children?",
-                "a": "Yes, however extreme riding is not recommended for children under 6 years old. Children under 12 years old must be accompanied by an adult."
-            },
-            {
-                "q": "Can pregnant women participate?",
-                "a": "No."
-            },
-            {
-                "q": "Will we be taken back to the hotel?",
-                "a": "Yes, the transfer is both ways."
-            }
-        ],
-        "SAFARI_WITH_DINNER": [
-            {
-                "q": "Is it possible to take a ride behind the wheel of a jeep?",
-                "a": "For safety reasons, guests are not allowed to drive a jeep during the safari. You will be served by a professional driver."
-            },
-            {
-                "q": "Is it possible to choose a seat in the car?",
-                "a": "Yes, sure."
-            },
-            {
-                "q": "What is the best dress for safari?",
-                "a": "Dress code: sportswear, comfortable clothing. Due to possible drop in air temperature at night in the desert, it is recommended to bring warm clothes.\nWhen booking an 8-hour excursion, bring swimming equipment."
-            },
-            {
-                "q": "Is it possible to go on a jeep safari with children?",
-                "a": "Yes, however extreme riding is not recommended for children under 6 years old. Children under 12 years old must be accompanied by an adult."
-            },
-            {
-                "q": "Can pregnant women participate?",
-                "a": "No."
-            },
-            {
-                "q": "Will we be taken back to the hotel?",
-                "a": "Yes, the transfer is both ways."
-            },
-            {
-                "q": "Changes for Ramadan and Religious Holidays",
-                "a": "Entertainment may be changed or cancelled.\nThe serving of alcoholic beverages may be prohibited.\nThis may also apply in cases of national mourning."
-            }
-        ],
-        "YACHT_CHARTER_IN_QATAR": [
-            {
-                "q": "Why do you need to take your passports with you?",
-                "a": "The Coast Guard requires all passengers to show their passports when the ship leaves for sea, otherwise the cruise may not take place."
-            },
-            {
-                "q": "How should I dress?",
-                "a": "Dress code: beach, comfortable clothes. You need to have swimming equipment with you."
-            },
-            {
-                "q": "Is it possible to go on a yacht trip with children?",
-                "a": "Yes, children aged 6-7 years can already enjoy a yacht ride."
-            },
-            {
-                "q": "Is it possible to steer a yacht yourself?",
-                "a": "No. In Doha, a local license is required to operate a boat or yacht."
-            }
-        ],
-        "HELICOPTER_FLIGHT": [
-            {
-                "q": "Dress code",
-                "a": "Smart casual, comfortable clothing. Hats and scarves are not permitted on board."
-            },
-            {
-                "q": "Can I bring food and drinks with me?",
-                "a": "Only water and light snacks are allowed on board.\nOther drinks are prohibited."
-            },
-            {
-                "q": "Can I use my phone on board?",
-                "a": "Yes, but only in flight mode. Mobile communications are prohibited."
-            }
         ]
     },
     "make_an_order": {

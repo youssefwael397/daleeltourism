@@ -9,7 +9,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.DOHA_TOUR.title'),
       subTitle: t('headers.DOHA_TOUR.subTitle'),
       url: 'DOHA_TOUR',
-      img: '/assets/covers/1.jpeg',
+      img: '/assets/headers/1.jpg',
       header: '/assets/headers/1.jpg',
       headerType: 'img',
       moreDetails: {
@@ -58,7 +58,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.DOHA_TOUR_MUSEUM.title'),
       subTitle: t('headers.DOHA_TOUR_MUSEUM.subTitle'),
       url: 'DOHA_TOUR_MUSEUM',
-      img: '/assets/covers/2.jpeg',
+      img: '/assets/headers/2.jpg',
       header: '/assets/headers/2.jpg',
       headerType: 'img',
       moreDetails: {
@@ -109,7 +109,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.NORTHWEST_OF_QATAR.title'),
       subTitle: t('headers.NORTHWEST_OF_QATAR.subTitle'),
       url: 'NORTHWEST_OF_QATAR',
-      img: '/assets/covers/3.jpg',
+      img: '/assets/headers/3.jfif',
       header: '/assets/headers/3.jfif',
       headerType: 'img',
       moreDetails: {
@@ -160,7 +160,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.MANGROVES_RESERVE.title'),
       subTitle: t('headers.MANGROVES_RESERVE.subTitle'),
       url: 'MANGROVES_RESERVE',
-      img: '/assets/covers/4.jpg',
+      img: '/assets/headers/4.jpg',
       header: '/assets/headers/4.jpg',
       headerType: 'img',
       moreDetails: {
@@ -200,7 +200,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.FISHING_IN_DOHA.title'),
       subTitle: t('headers.FISHING_IN_DOHA.subTitle'),
       url: 'FISHING_IN_DOHA',
-      img: '/assets/covers/5.jpeg',
+      img: '/assets/headers/5.jpeg',
       header: '/assets/headers/5.jpeg',
       headerType: 'img',
       moreDetails: {
@@ -240,7 +240,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.DESERT_SAFARI.title'),
       subTitle: t('headers.DESERT_SAFARI.subTitle'),
       url: 'DESERT_SAFARI',
-      img: '/assets/covers/6.jpg',
+      img: '/assets/headers/6.jpg',
       header: '/assets/headers/6.jpg',
       headerType: 'img',
       moreDetails: {
@@ -280,14 +280,14 @@ const Cards = (): CardItemType[] => {
       title: t('headers.SAFARI_WITH_DINNER.title'),
       subTitle: t('headers.SAFARI_WITH_DINNER.subTitle'),
       url: 'SAFARI_WITH_DINNER',
-      img: '/assets/covers/7.jpeg',
+      img: '/assets/headers/7.jpg',
       header: '/assets/headers/7.jpg',
       headerType: 'img',
       moreDetails: {
         header: t('details.SAFARI_WITH_DINNER.header'),
         descriptions: t.raw('details.SAFARI_WITH_DINNER.descriptions'),
-        secondHeader: t('details.SAFARI_WITH_DINNER.attractionsHeader'),
-        moreInfo: t.raw('details.SAFARI_WITH_DINNER.attractions'),
+        // secondHeader: t('details.SAFARI_WITH_DINNER.attractionsHeader'),
+        // moreInfo: t.raw('details.SAFARI_WITH_DINNER.attractions'),
       },
       gallery: [
         '/assets/gallery/7/1.jpg',
@@ -320,7 +320,7 @@ const Cards = (): CardItemType[] => {
       title: t('headers.YACHT_CHARTER_IN_QATAR.title'),
       subTitle: t('headers.YACHT_CHARTER_IN_QATAR.subTitle'),
       url: 'YACHT_CHARTER_IN_QATAR',
-      img: '/assets/covers/8.jpg',
+      img: '/assets/headers/8.jpg',
       header: '/assets/headers/8.jpg',
       headerType: 'img',
       moreDetails: {
@@ -356,14 +356,14 @@ const Cards = (): CardItemType[] => {
       title: t('headers.HELICOPTER_FLIGHT.title'),
       subTitle: t('headers.HELICOPTER_FLIGHT.subTitle'),
       url: 'HELICOPTER_FLIGHT',
-      img: '/assets/covers/9.jpg',
+      img: '/assets/headers/9.jpg',
       header: '/assets/headers/9.jpg',
       headerType: 'img',
       moreDetails: {
         header: t('details.HELICOPTER_FLIGHT.header'),
         descriptions: t.raw('details.HELICOPTER_FLIGHT.descriptions'),
-        secondHeader: t('details.HELICOPTER_FLIGHT.attractionsHeader'),
-        moreInfo: t.raw('details.HELICOPTER_FLIGHT.attractions'),
+        // secondHeader: t('details.HELICOPTER_FLIGHT.attractionsHeader'),
+        // moreInfo: t.raw('details.HELICOPTER_FLIGHT.attractions'),
       },
       gallery: [
         '/assets/gallery/9/1.jpg',
@@ -396,14 +396,14 @@ const Cards = (): CardItemType[] => {
       title: t('headers.QUEST_THEME_PARK.title'),
       subTitle: t('headers.QUEST_THEME_PARK.subTitle'),
       url: 'QUEST_THEME_PARK',
-      img: '/assets/covers/10.jpg',
+      img: '/assets/headers/10.jpg',
       header: '/assets/headers/10.jpg',
       headerType: 'img',
       moreDetails: {
         header: t('details.QUEST_THEME_PARK.header'),
         descriptions: t.raw('details.QUEST_THEME_PARK.descriptions'),
-        secondHeader: t('details.QUEST_THEME_PARK.attractionsHeader'),
-        moreInfo: t.raw('details.QUEST_THEME_PARK.attractions'),
+        // secondHeader: t('details.QUEST_THEME_PARK.attractionsHeader'),
+        // moreInfo: t.raw('details.QUEST_THEME_PARK.attractions'),
       },
       gallery: [
         '/assets/gallery/10/1.jpg',
@@ -436,15 +436,14 @@ const Cards = (): CardItemType[] => {
       title: t('headers.MERYAL_AQUAPARK.title'),
       subTitle: t('headers.MERYAL_AQUAPARK.subTitle'),
       url: 'MERYAL_AQUAPARK',
-      img: '/assets/covers/11.jpeg',
-      header:
-        'https://www.youtube.com/embed/BC7D3ek5qr4?autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fmyqatar.travel&widgetid=1',
-      headerType: 'vid',
+      img: '/assets/headers/11.jpg',
+      header: '/assets/headers/11.jpg',
+      headerType: 'img',
       moreDetails: {
         header: t('details.MERYAL_AQUAPARK.header'),
         descriptions: t.raw('details.MERYAL_AQUAPARK.descriptions'),
-        secondHeader: t('details.MERYAL_AQUAPARK.attractionsHeader'),
-        moreInfo: t.raw('details.MERYAL_AQUAPARK.attractions'),
+        // secondHeader: t('details.MERYAL_AQUAPARK.attractionsHeader'),
+        // moreInfo: t.raw('details.MERYAL_AQUAPARK.attractions'),
       },
       gallery: [
         '/assets/gallery/11/1.jpg',

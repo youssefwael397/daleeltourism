@@ -33,11 +33,6 @@ const dummyFaqs: FaqItem[] = [
 const Faqs = ({ cardUrl }: { cardUrl: string }) => {
   // Load translations
   const t = useTranslations();
-  const tFaqs = useTranslations('faqs');
-
-  // Get the specific category FAQs
-  const faqCategory = tFaqs.raw(cardUrl);
-
   return (
     <div className="faqs-container bg-light pt-3">
       <div className="d-flex gap-5 container justify-content-center align-items-center">

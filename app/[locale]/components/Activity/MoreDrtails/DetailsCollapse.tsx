@@ -15,7 +15,8 @@ const DetailsCollapse: React.FC<DetailsCollapseProps> = ({ details }) => {
         {item.description.map((desc, i) => (
           <>
             <li key={i}>{desc}</li>
-            <br />
+
+            {i + 1 < item.description.length ? <br /> : ''}
           </>
         ))}
       </ul>
