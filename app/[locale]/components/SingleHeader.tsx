@@ -56,7 +56,7 @@ export default function SingleHeader({
             textAlign: 'center',
           }}
         >
-          <h2 className="text-white">
+          <h2 className="text-white text-uppercase">
             {title}
             <p>{subTitle}</p>
           </h2>
