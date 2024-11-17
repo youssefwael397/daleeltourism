@@ -106,6 +106,7 @@ const Gallery: React.FC<IGallery> = ({ images }) => {
         width="80%"
       >
         <Carousel
+          key={selectedImageIndex}
           initialSlide={selectedImageIndex}
           dots={false}
           arrows

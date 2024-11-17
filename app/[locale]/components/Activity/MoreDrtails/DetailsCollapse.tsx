@@ -1,6 +1,7 @@
 'use client';
 import { Collapse } from 'antd';
 import { IMoreInfoItem } from '../MoreDetails';
+import { Fragment } from 'react';
 
 interface DetailsCollapseProps {
   details: IMoreInfoItem[];
@@ -8,16 +9,16 @@ interface DetailsCollapseProps {
 
 const DetailsCollapse: React.FC<DetailsCollapseProps> = ({ details }) => {
   const items = details.map((item, index) => ({
-    key: (index + 1).toString(),
+    key: item.title,
     label: item.title,
     children: Array.isArray(item.description) ? (
       <ul style={{ listStyleType: 'none', paddingLeft: '20px' }}>
         {item.description.map((desc, i) => (
-          <>
-            <li key={i}>{desc}</li>
+          <Fragment key={item.title + i}>
+            <li>{desc}</li>
 
             {i + 1 < item.description.length ? <br /> : ''}
-          </>
+          </Fragment>
         ))}
       </ul>
     ) : (
