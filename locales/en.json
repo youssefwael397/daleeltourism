@@ -2,15 +2,15 @@
     "cards": {
         "DOHA_TOUR": "Doha Tour",
         "DOHA_TOUR_MUSEUM": "Safari Tour",
-        "NORTHWEST_OF_QATAR": "Secrets and history",
-        "MANGROVES_RESERVE": "Traditions and education",
-        "FISHING_IN_DOHA": "Fishing in Doha",
-        "DESERT_SAFARI": "Desert Safari",
-        "SAFARI_WITH_DINNER": "Dinner Safari",
+        "NORTHWEST_OF_QATAR": "Secrets and History",
+        "MANGROVES_RESERVE": "Traditions and Education",
+        "FISHING_IN_DOHA": "Unique Photoshoot",
+        "DESERT_SAFARI": "NIGHTTIME QATAR",
+        "SAFARI_WITH_DINNER": "Safari with Dinner",
         "YACHT_CHARTER_IN_QATAR": "Yacht Charter in Qatar",
-        "HELICOPTER_FLIGHT": "Helicopter flight",
+        "HELICOPTER_FLIGHT": "Helicopter Flight",
         "QUEST_THEME_PARK": "Quest Theme Park",
-        "MERYAL_AQUAPARK": "Merial Aquapark"
+        "MERYAL_AQUAPARK": "Meryal Water Park"
     },
     "footer": {
         "reliablePartner": "Welcome to DALEEL TOURISM, where we don’t just show you Qatar – we turn your trip into real magic\nOur certified Russian-speaking guides are real magicians with vast knowledge and experience with tourists from different countries, ready to reveal to you the hidden secrets, vibrant cultures, exquisite tastes and valuable traditions of Qatar.\nJoin the team of happy travelers who have already immersed themselves in the world of Qatar with us, and create memories that will stay with you forever. Your unforgettable adventure awaits you right here and now!",
@@ -30,31 +30,31 @@
             "subTitle": ""
         },
         "NORTHWEST_OF_QATAR": {
-            "title": "Explore history",
-            "subTitle": "countries & secrets of the Desert"
+            "title": "Explore History",
+            "subTitle": "of the Country & Desert Secrets"
         },
         "MANGROVES_RESERVE": {
-            "title": "Traditions and education",
+            "title": "Traditions and Education",
             "subTitle": ""
         },
         "FISHING_IN_DOHA": {
-            "title": "Deep Sea Fishing",
-            "subTitle": "in Doha"
+            "title": "Unique Photoshoot",
+            "subTitle": ""
         },
         "DESERT_SAFARI": {
-            "title": "Jeep Safari in the Desert",
-            "subTitle": "in Qatar"
+            "title": "NIGHTTIME QATAR",
+            "subTitle": ""
         },
         "SAFARI_WITH_DINNER": {
             "title": "Jeep Safari",
-            "subTitle": "in Qatar with dinner"
+            "subTitle": "in Qatar with Dinner"
         },
         "YACHT_CHARTER_IN_QATAR": {
-            "title": "Sea walks",
+            "title": "Sea Excursions",
             "subTitle": "in Qatar"
         },
         "HELICOPTER_FLIGHT": {
-            "title": "Helicopter flight",
+            "title": "Helicopter Flight",
             "subTitle": "in Doha"
         },
         "QUEST_THEME_PARK": {
@@ -62,7 +62,7 @@
             "subTitle": "in Doha"
         },
         "MERYAL_AQUAPARK": {
-            "title": "Merial Aquapark",
+            "title": "Merial Water Park",
             "subTitle": "in Doha"
         }
     },
@@ -77,7 +77,7 @@
                 "Finally, stroll through the historic local market, Souq Waqif, a sea of ​​traditional crafts, spices and colourful souvenirs. Let the aromas and colours of this bustling market captivate your senses.",
                 "In Doha, every place tells a unique story, blending tradition with modernity to create an unforgettable mosaic of experiences for every traveler. Get ready to be captivated by the magic of this exciting city!"
             ],
-            "attractionsHeader": "YOU WILL VISIT:",
+            "attractionsHeader": "Attractions:",
             "attractions": [
                 {
                     "title": "Doha Port",
@@ -111,7 +111,7 @@
                 "Experience the magic of twilight as you dive into the tranquil waters of the inland sea, watching the sunset paint the sky in shades of gold and crimson. Spend time surrounded by elegance and tradition, dressed in exquisite flowing gowns and traditional Arabic abayas.",
                 "Join us on this unique journey that transcends the ordinary and immerses you in the grandeur of beautiful Qatar. Let every minute be a celebration of life, adventure and the eternal appeal of this magical land."
             ],
-            "attractionsHeader": "YOU WILL VISIT:",
+            "attractionsHeader": "Attractions:",
             "attractions": [
                 {
                     "title": "Camel Travel: Magic on the Humpback Sailboat",
@@ -171,7 +171,7 @@
                 "End your expedition in Al Khor, a vibrant metropolis where tradition meets modernity in a vibrant mix of culture and commerce. Wander the bustling streets of colourful souks and bustling markets, where Qatari life is alive with energy and vitality.",
                 "And finally, admire the architectural marvel that is the World Cup Stadium, a symbol of Qatar's boundless ambition and passion for sport, where dreams are realized and history is made on the grandest stage."
             ],
-            "attractionsHeader": "YOU WILL VISIT:",
+            "attractionsHeader": "Attractions:",
             "attractions": [
                 {
                     "title": "The Mysterious World of Mangrove Labyrinths",
@@ -223,7 +223,7 @@
                 "Feel the excitement build on the Camel Racing track, where the thunderous gallop of the royal camels creates a thrilling spectacle that combines tradition and adrenaline. Set against the timeless beauty of the desert, racing offers an unforgettable experience that combines the ancient charm of the sport with the vibrant energy of the present, promising memories that will last a lifetime.",
                 "End your adventure in a modern university campus, a futuristic oasis of knowledge and innovation that nurtures the spirit of exploration and inquiry. Here, architectural wonders blend seamlessly with academic excellence to create Tradition and Education a dynamic space where the past, present and future merge in a symphony of possibilities. Immerse yourself in a world where curiosity knows no bounds and inspiration awaits at every turn, inviting you to embark on a journey of discovery unlike any other."
             ],
-            "attractionsHeader": "YOU WILL VISIT:",
+            "attractionsHeader": "Attractions:",
             "attractions": [
                 {
                     "title": "Mysterious Sculptures of Magic Embryos",
@@ -266,56 +266,112 @@
             ]
         },
         "FISHING_IN_DOHA": {
-            "header": "Fishing in Qatar",
+            "header": "BREATHTAKING PHOTO SHOOT WITH CLASSIC CARS IN QATAR",
             "descriptions": [
-                "Accompanied by an experienced team, you will set off on a comfortable boat to the waves to meet adventures. Feel like a real fisherman among the sea waves.",
-                "The vessel is equipped with everything necessary for trolling and spinning fishing, and there is a toilet on board.",
-                "And it doesn’t matter whether you are an experienced fisherman or a beginner, real excitement and a great mood will always be with you."
+                "We offer you the chance to enjoy luxury like never before with our exclusive tour of Qatar. A personal driver will pick you up from the hotel and take you through the picturesque streets of Qatar. We invite you to immerse yourself in a world of elegance, where beautiful dresses and traditional Eastern attire await you.",
+                "Embark on a journey through stunning locations where you have the freedom to stop at your leisure. Whether against the backdrop of modern landscapes or the serene beauty of Qatar's desert views, a professional photographer will capture every moment with precision and artistry.",
+                "Try on an exquisite couture suit or traditional clothing and pose next to sports cars and iconic landmarks. This unique blend of elegance and culture promises an unforgettable adventure where every shot tells a story of luxury and refinement. Enjoy the charm of Qatar with style, creating memories that will last a lifetime. Immerse yourself in a world where curiosity knows no bounds, and inspiration waits at every step, inviting you to embark on a journey of discoveries like no other."
             ],
-            "attractionsHeader": "YOU WILL VISIT:",
+            "attractionsHeader": "Attractions:",
             "attractions": [
                 {
-                    "title": "Transfer from the hotel and back",
-                    "description": ""
+                    "title": "Flowing Dresses in the Clouds",
+                    "description": [
+                        "A vibrant and unforgettable photo shoot in Qatar, with dresses floating in the desert wind. Immerse yourself in a world where elegance meets whimsy, as these dresses create a sense of flight against the stunning landscapes of Qatar. Capture the essence of beauty and grace as the bright colors of flowing fabrics blend with the hues of the desert and city, creating a mesmerizing and unforgettable visual spectacle."
+                    ]
                 },
                 {
-                    "title": "Boat 10 meters",
-                    "description": ""
+                    "title": "Speed and Passion",
+                    "description": [
+                        "An exciting photo shoot in Qatar, where the focus will be on sleek sports cars. Designed for stunning performance, these cars emphasize dynamic handling, maximum speed, and the incredible sensation of driving. Sports cars, created in Europe in the early 1910s, are now produced by manufacturers worldwide, embodying the legacy of speed and racing capabilities. Dive into a colorful world of luxury and excitement, posing next to these automotive marvels against the backdrop of Qatar's breathtaking landscapes."
+                    ]
                 },
                 {
-                    "title": "On board there is an echo sounder, GPS, toilet",
-                    "description": ""
+                    "title": "Oriental Splendor",
+                    "description": [
+                        "A photo shoot in traditional Eastern attire in Qatar is a vibrant and engaging event, combining rich cultural heritage with stunning modern landscapes. Picture flowing, intricately embroidered abayas and elegant tobes set against the golden deserts of Qatar or the graceful architecture of Doha. The contrast between timeless traditions and contemporary surroundings creates a captivating visual image. Every fabric, every fold tells a story of identity and craftsmanship, while the warm desert light enhances the vibrant colors and intricate details of the clothing. This is not just a photo shoot, but an unforgettable celebration of culture, beauty, and artistry."
+                    ]
                 },
                 {
-                    "title": "Fishing equipment - trolling, casting, jigging and bottom fishing",
-                    "description": ""
+                    "title": "Breathtaking Corners",
+                    "description": [
+                        "An unforgettable visual journey, where breathtaking landscapes unfold before the camera. Imagine endless golden dunes of the desert, shimmering blue waters of the Persian Gulf, and the futuristic skyline of Doha — all serving as the stunning backdrop for an unforgettable photo shoot! Whether you're capturing the glow of the sunset over the desert or the modern elegance of the city's skyscrapers, every shot is filled with a sense of wonder and grandeur. The vibrant contrasts of natural beauty and cutting-edge architecture promise to turn every photograph into an enticing blend of tradition and modernity, creating truly magical experiences."
+                    ]
                 },
                 {
-                    "title": "Maximum 6 people per fishing trip.",
-                    "description": ""
+                    "title": "Car Legends",
+                    "description": [
+                        "A photo shoot with classic cars in picturesque locations across Qatar is a dazzling combination of vintage charm and scenic beauty. Elegant, polished cars from a bygone era, parked against the endless deserts of Qatar, sparkling coastlines, or the breathtaking horizon of Doha.",
+                        "The dazzling curves of these timeless cars, paired with the vibrant colors of the landscape, create a captivating contrast that turns every shot into a work of art."
+                    ]
                 }
             ]
         },
         "DESERT_SAFARI": {
-            "header": "Safari",
+            "header": "HAVE AN UNFORGETTABLE EVENING IN QATAR",
             "descriptions": [
-                "Desert safari always brings joy and adrenaline to all participants!",
-                "Rushing through the dunes, holding your breath on fast climbs and steep descents is a real pleasure for those who value active recreation.",
-                "The uniqueness of a safari in Qatar is that here you can take unique photographs against the backdrop of the golden sands of the endless sea of ​​the desert."
+                "We invite you to an exciting evening tour around Qatar, starting from the comfort of your hotel. The first stop is a cruise on traditional dhow boats, opening up the magical world of the waters.",
+                "Next, you will take a walk around the Pearl Island, where luxurious boutiques, cozy cafes and restaurants, as well as magnificent yachts docked at the marina await you.",
+                "The next stop is Al-Maha Island, the ideal entertainment destination for the visitors of the 2022 FIFA World Cup in Qatar, and beyond. This winter resort is open from November to April each year, offering the best in entertainment and pleasure.",
+                "We will then visit Lusail Stadium, where many football matches have taken place. Owned by the Qatar Football Association, it is the largest stadium in Qatar and the Middle East; one of the eight stadiums built for the 2022 FIFA World Cup.",
+                "Our journey will continue with a walk along the Commercial Boulevard, a dynamic, diverse, and unique place for shopping, business, and living.",
+                "Then, we will stop at the amphitheater in Katara Village, where you can enjoy the atmosphere of culture and art.",
+                "Discover the famous Raffles Hotel located in the magnificent Katara Towers, inspired by the interweaving of swords.",
+                "Finally, our tour will end with shopping at the Vendome Mall, where you can enjoy a variety of shops and restaurants. After the tour, you can stay in the mall for shopping or return to your hotel with the tour guide."
             ],
-            "attractionsHeader": "YOU WILL VISIT:",
+            "attractionsHeader": "Attractions",
             "attractions": [
                 {
-                    "title": "Jeep riding",
-                    "description": "An exciting, extreme jeep ride in the desert will be a wonderful experience and will leave a lot of impressions."
+                    "title": "Sea Adventure on Dhow Boats",
+                    "description": [
+                        "Embark on a magical journey aboard a traditional dhow boat, a vessel steeped in history and charm. With its elegant wooden design and iconic triangular sails, the dhow is a continuation of centuries-old maritime traditions, believed to have originated through the ingenuity of Arab or Indian craftsmen.",
+                        "As you sail across the calm waters of the Persian Gulf, the sky will be painted with enchanting sunset hues, creating a breathtaking backdrop for your adventure. This evening cruise invites you to explore Doha’s stunning landmarks, from the picturesque Corniche waterfront to the culturally rich Katara Village and the luxurious Pearl of Qatar. Every turn reveals a new sight, rich with stories of heritage and culture.",
+                        "Whether sharing this experience with friends or enjoying a tranquil escape alone, the dhow cruise promises an unforgettable retreat where every moment is a celebration of Doha’s beauty and maritime heritage. Step aboard, relax, and let the gentle waves carry you into a world of wonders."
+                    ]
                 },
                 {
-                    "title": "Photo stop in the desert",
-                    "description": "The desert landscapes are striking in their picturesque expanses. We will stop at sunset and enjoy the view of the sun leaning towards the horizon."
+                    "title": "Pearl Island Walk",
+                    "description": [
+                        "Welcome to the Pearl Island in Qatar, a breathtaking island embodying luxury and innovation, located near the prestigious West Bay area of Doha.",
+                        "This stunning location features Mediterranean-style yacht docks adorned with elegant yachts, as well as magnificent residential towers, luxurious villas, and world-class hotels that attract travelers from around the world.",
+                        "Stroll through pedestrian-friendly squares where beautiful landscaped gardens create a serene atmosphere. The Pearl Island is a haven for shopaholics, offering premium designer boutiques and exclusive showrooms perfect for luxury retail. Whether you want to enjoy refreshing ice cream or dine at a five-star restaurant, the island’s diverse cuisine will offer something for every taste.",
+                        "The Pearl Qatar, often called the 'Arabian Riviera', is not only a visual delight but also a vibrant community with around 25,000 residences and a thriving population of 52,000. Spanning an impressive four million square meters and boasting 32 kilometers of scenic coastline, this unique complex stands as a testament to grandeur and innovation, making it one of the most remarkable attractions in the Middle East. Come experience the elegance and charm of the Pearl of Qatar — it promises to enchant and inspire."
+                    ]
                 },
                 {
-                    "title": "Visiting the bay",
-                    "description": "This is one of the few places on the planet where the endless desert sands meet the sea – Khor Al-Adaid."
+                    "title": "Al-Maha Island Tour: A Paradise for Entertainment",
+                    "description": [
+                        "The enchanting Al-Maha Island, a stunning 230,000-square-meter oasis, promises an unforgettable blend of entertainment and luxury. This vibrant location is home to the impressive Lusail Winter Wonderland, where magic comes to life, and the stylish Nammos Beach Club, offering the perfect spot to relax by the shimmering waters.",
+                        "Indulge in the island’s elite dining district, home to several of the world’s best restaurants, including renowned names like Zuma, LPM, Em Sherif, Carbone, and Tatel. For those preferring a more casual atmosphere, restaurants such as Rosso Pomodoro, Pura Vida, and Karaki Lounge Moka Café offer delightful selections of dishes.",
+                        "Al-Maha Island is destined to become the ultimate entertainment and relaxation hub, where luxury seamlessly blends with fun. Whether you're lounging on the beach, savoring exquisite cuisine, or exploring the vibrant attractions, this island invites you to immerse yourself in a world of luxury and excitement."
+                    ]
+                },
+                {
+                    "title": "Admire the Grandeur of Lusail Stadium",
+                    "description": [
+                        "Lusail Stadium, a breathtaking architectural marvel and the crown jewel of Qatar’s sports landscape. Located in the bustling city of Lusail, just 20 kilometers north of Doha, this magnificent stadium is the largest in Qatar and the Middle East, with a seating capacity of 88,966.",
+                        "Designed by the renowned firm Foster + Partners, Lusail Stadium showcases stunning futuristic design, inspired by the delicate interplay of light and shadow seen in traditional lanterns (fanar), along with intricate motifs reflecting the rich heritage of Arab and Islamic art.",
+                        "Opened on September 9, 2022, the stadium made headlines by hosting the Lusail Super Cup, setting the stage for the world to witness its magnificence. It was a key venue for the 2022 FIFA World Cup, hosting ten thrilling matches, including the unforgettable final between Argentina and France on December 18, 2022.",
+                        "As a model of innovation, Lusail Stadium boasts cutting-edge environmental solutions, including outdoor cooling technology and highly efficient facades that minimize energy consumption, earning it a prestigious five-star rating in the Global Sustainability Assessment System.",
+                        "In the future, the stadium’s capacity will be reduced to 40,000 spectators, and it is set to remain a favorite destination for football fans and a landmark in the heart of Qatar. Experience the excitement and elegance of this world-class venue, where history and modernity combine in a striking way!"
+                    ]
+                },
+                {
+                    "title": "Shopping and Entertainment at Commercial Boulevard",
+                    "description": [
+                        "Lusail Boulevard is the epitome of modern urban life, where stunning architecture seamlessly blends with vibrant retail, diverse entertainment, and numerous restaurants and cafes. This lively area features pedestrian and bike paths that effortlessly lead you to the iconic Lusail Stadium.",
+                        "Located in the meticulously planned city of Lusail, north of Doha, Lusail Commercial Boulevard stretches for 1.3 kilometers and features 18 stylish buildings. Designed as the largest integrated shopping complex in the Persian Gulf, it serves as the gateway to the thriving center of Lusail and will become a key business hub.",
+                        "As one of the official fan zones for the 2022 FIFA World Cup, Lusail Boulevard played a crucial role in the grand sports event in Qatar. The area also houses an exciting amusement park, offering various themed attractions that engage both children and adults in technological, scientific, and exotic adventures.",
+                        "Lusail Boulevard, where high-end stores, premium offices, and luxurious residential complexes dynamically coexist, is full of life. This commercial district, modeled after the famous Champs-Élysées, spans an impressive 250,000 square meters, housing top-tier shops and entertainment venues that create an international atmosphere.",
+                        "The project also emphasizes pedestrian convenience and easy access to underground parking for 2,000 vehicles, ensuring comfort for both residents and visitors. Lusail Boulevard is not just a destination; it is a vibrant center of life, where the heart of Lusail beats strongly, uniting modern urbanism with Qatar’s rich cultural heritage."
+                    ]
+                },
+                {
+                    "title": "Stop at the Magical Amphitheater",
+                    "description": [
+                        "Located in the bustling center of Katara Cultural Village, the Katara Amphitheater is a stunning architectural landmark, harmoniously blending classical Greek design with timeless Islamic motifs. This remarkable site majestically rises under the clear blue sky, overlooking the sparkling waters of the Persian Gulf.",
+                        "Built in 2008 and officially opened on December 11, 2011, the amphitheater covers an area of 3,275 square meters and can seat 5,000 spectators. It pays homage to the rich architectural traditions..."
+                    ]
                 }
             ]
         },
@@ -339,7 +395,7 @@
         "HELICOPTER_FLIGHT": {
             "header": "Helicopter flight",
             "descriptions": [
-                "Take to the skies above Qatar's capital, picturesque Doha, on a 30-minute helicopter tour. Enjoy views of the city and see its main attractions YOU WILL VISIT.",
+                "Take to the skies above Qatar's capital, picturesque Doha, on a 30-minute helicopter tour. Enjoy views of the city and see its main attractions Attractions.",
                 "You will admire the Katara Cultural Village, located on the east coast between the West Bay area and Pearl Island, which stretches 32 km into the azure Persian Sea, sparkling with the roofs of skyscrapers.",
                 "You will see the unique architectural Zigzag Towers, which are the tallest and largest residential zigzag towers in the world.",
                 "And, at the end of the tour, you will fly along the coast and see Lake Alcotafia."
@@ -442,27 +498,27 @@
         ],
         "FISHING_IN_DOHA": [
             [
-                "By comfortable transport",
-                "350$/CAR",
-                "Capacity from 1-6 persons"
+                "PHOTO SHOOT",
+                "COST $250",
+                "Capacity from 1-6 people"
             ],
             [
-                "4+",
+                "3+",
                 "hours"
             ],
             [
-                "Tour guide",
-                "Transport",
-                "Traditional clothing",
-                "Arabic tea + water",
-                "Hot local flatbreads"
+                "Driver",
+                "Breathtaking locations",
+                "Pickup from hotel",
+                "Professional photographer",
+                "Tea/coffee, water, food"
             ]
         ],
         "DESERT_SAFARI": [
             [
                 "By comfortable transport",
-                "350$/CAR",
-                "Capacity from 1-6 persons"
+                "350$/ PER CAR",
+                "Capacity from 1-6 people"
             ],
             [
                 "4+",
@@ -470,10 +526,10 @@
             ],
             [
                 "Tour guide",
+                "Dhow boat ticket",
+                "Pick up from hotel",
                 "Transport",
-                "Traditional clothing",
-                "Arabic tea + water",
-                "Hot local flatbreads"
+                "Tea/coffee, water, food"
             ]
         ],
         "SAFARI_WITH_DINNER": [

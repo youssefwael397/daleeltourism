@@ -211,8 +211,8 @@ const Cards = (): CardItemType[] => {
       title: t('headers.FISHING_IN_DOHA.title'),
       subTitle: t('headers.FISHING_IN_DOHA.subTitle'),
       url: 'FISHING_IN_DOHA',
-      img: '/assets/headers/5.jpeg',
-      header: '/assets/headers/5.jpeg',
+      img: '/assets/headers/5.jfif',
+      header: '/assets/headers/5.jfif',
       headerType: 'img',
       moreDetails: {
         header: t('details.FISHING_IN_DOHA.header'),
@@ -221,29 +221,39 @@ const Cards = (): CardItemType[] => {
         moreInfo: t.raw('details.FISHING_IN_DOHA.attractions'),
       },
       gallery: [
-        '/assets/gallery/5/1.jpeg',
-        '/assets/gallery/5/2.jpeg',
-        '/assets/gallery/5/3.jpeg',
-        '/assets/gallery/5/4.jpeg',
-        '/assets/gallery/5/5.jpeg',
-        '/assets/gallery/5/6.jpeg',
+        '/assets/gallery/5/1.jfif',
+        '/assets/gallery/5/2.jfif',
+        '/assets/gallery/5/3.jfif',
+        '/assets/gallery/5/4.jfif',
+        '/assets/gallery/5/5.jfif',
+        '/assets/gallery/5/6.jfif',
+        '/assets/gallery/5/7.jfif',
+        '/assets/gallery/5/8.jfif',
+        '/assets/gallery/5/9.jfif',
+        '/assets/gallery/5/10.jfif',
+        '/assets/gallery/5/11.jfif',
+        '/assets/gallery/5/12.jfif',
+        '/assets/gallery/5/13.jfif',
+        '/assets/gallery/5/14.jfif',
+        '/assets/gallery/5/15.jfif',
       ],
       prices: [
         <p key={1}>
-          {t.raw('prices.DOHA_TOUR.0.0')} <br />
-          <strong>{t.raw('prices.DOHA_TOUR.0.1')}</strong> <br />
-          {t.raw('prices.DOHA_TOUR.0.2')}
+          {t.raw('prices.FISHING_IN_DOHA.0.0')} <br />
+          <strong>{t.raw('prices.FISHING_IN_DOHA.0.1')}</strong>
         </p>,
         <p key={2}>
-          {t.raw('prices.DOHA_TOUR.1.0')}{' '}
+          {t.raw('prices.FISHING_IN_DOHA.1.0')}{' '}
           <span className="text-uppercase">
-            {t.raw('prices.DOHA_TOUR.1.1')}
+            {t.raw('prices.FISHING_IN_DOHA.1.1')}
           </span>
         </p>,
         <ul key={3} className="plus-section-list">
-          {t.raw('prices.DOHA_TOUR.2').map((info: string, index: number) => (
-            <li key={index}>{info}</li>
-          ))}
+          {t
+            .raw('prices.FISHING_IN_DOHA.2')
+            .map((info: string, index: number) => (
+              <li key={index}>{info}</li>
+            ))}
         </ul>,
       ],
     },
@@ -270,18 +280,18 @@ const Cards = (): CardItemType[] => {
       ],
       prices: [
         <p key={1}>
-          {t.raw('prices.DOHA_TOUR.0.0')} <br />
-          <strong>{t.raw('prices.DOHA_TOUR.0.1')}</strong> <br />
-          {t.raw('prices.DOHA_TOUR.0.2')}
+          {t.raw('prices.DESERT_SAFARI.0.0')} <br />
+          <strong>{t.raw('prices.DESERT_SAFARI.0.1')}</strong> <br />
+          {t.raw('prices.DESERT_SAFARI.0.2')}
         </p>,
         <p key={2}>
-          {t.raw('prices.DOHA_TOUR.1.0')}{' '}
+          {t.raw('prices.DESERT_SAFARI.1.0')}{' '}
           <span className="text-uppercase">
-            {t.raw('prices.DOHA_TOUR.1.1')}
+            {t.raw('prices.DESERT_SAFARI.1.1')}
           </span>
         </p>,
         <ul key={3} className="plus-section-list">
-          {t.raw('prices.DOHA_TOUR.2').map((info: string, index: number) => (
+          {t.raw('prices.DESERT_SAFARI.2').map((info: string, index: number) => (
             <li key={index}>{info}</li>
           ))}
         </ul>,
