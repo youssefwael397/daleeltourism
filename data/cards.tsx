@@ -237,11 +237,9 @@ const Cards = (): CardItemType[] => {
         '/assets/gallery/5/14.jfif',
         '/assets/gallery/5/15.jfif',
       ],
+      pricesSectionTitles: t.raw('pricesTitles.FISHING_IN_DOHA'),
       prices: [
-        <p key={1}>
-          {t.raw('prices.FISHING_IN_DOHA.0.0')} <br />
-          <strong>{t.raw('prices.FISHING_IN_DOHA.0.1')}</strong>
-        </p>,
+        <p key={1}>{t.raw('prices.FISHING_IN_DOHA.0.0')}</p>,
         <p key={2}>
           {t.raw('prices.FISHING_IN_DOHA.1.0')}{' '}
           <span className="text-uppercase">
@@ -261,8 +259,8 @@ const Cards = (): CardItemType[] => {
       title: t('headers.DESERT_SAFARI.title'),
       subTitle: t('headers.DESERT_SAFARI.subTitle'),
       url: 'DESERT_SAFARI',
-      img: '/assets/headers/6.jpg',
-      header: '/assets/headers/6.jpg',
+      img: '/assets/headers/6.jfif',
+      header: '/assets/headers/6.jfif',
       headerType: 'img',
       moreDetails: {
         header: t('details.DESERT_SAFARI.header'),
@@ -270,14 +268,9 @@ const Cards = (): CardItemType[] => {
         secondHeader: t('details.DESERT_SAFARI.attractionsHeader'),
         moreInfo: t.raw('details.DESERT_SAFARI.attractions'),
       },
-      gallery: [
-        '/assets/gallery/6/1.jpg',
-        '/assets/gallery/6/2.jpg',
-        '/assets/gallery/6/3.jpg',
-        '/assets/gallery/6/4.jpg',
-        '/assets/gallery/6/5.jpg',
-        '/assets/gallery/6/6.jpg',
-      ],
+      gallery: Array.from({ length: 36 }, (_, index) => index).map(
+        (number) => `/assets/gallery/6/${number+1}.jfif`
+      ),
       prices: [
         <p key={1}>
           {t.raw('prices.DESERT_SAFARI.0.0')} <br />
@@ -291,9 +284,11 @@ const Cards = (): CardItemType[] => {
           </span>
         </p>,
         <ul key={3} className="plus-section-list">
-          {t.raw('prices.DESERT_SAFARI.2').map((info: string, index: number) => (
-            <li key={index}>{info}</li>
-          ))}
+          {t
+            .raw('prices.DESERT_SAFARI.2')
+            .map((info: string, index: number) => (
+              <li key={index}>{info}</li>
+            ))}
         </ul>,
       ],
     },

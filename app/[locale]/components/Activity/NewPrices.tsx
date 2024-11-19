@@ -4,12 +4,16 @@ import React, { ReactNode } from 'react';
 interface IPrices {
   header: string;
   cardPrices: JSX.Element[];
+  sectionTitles?: string[];
 }
 
-const NewPrices: React.FC<IPrices> = ({ header, cardPrices }) => {
-
+const NewPrices: React.FC<IPrices> = ({
+  header,
+  cardPrices,
+  sectionTitles,
+}) => {
   const t = useTranslations();
-  
+
   return (
     <div className="container my-5">
       <div
@@ -26,15 +30,20 @@ const NewPrices: React.FC<IPrices> = ({ header, cardPrices }) => {
                 <i aria-hidden="true" className="fas fa-bus"></i>
               </div>
               <div className="title text-uppercase">
-                {t('newPrices.transportTitle')}
+                {sectionTitles?.length == 0
+                  ? t('newPrices.transportTitle')
+                  : sectionTitles?.[0]
+                }
               </div>
               <div className="icon ms-2">
                 <i aria-hidden="true" className="fas fa-car-side"></i>
               </div>
             </div>
-            <div className="title text-uppercase mb-3">
-              {t('newPrices.transportSubTitle')}
-            </div>
+            {sectionTitles?.length == 0 ? (
+              <div className="title text-uppercase mb-3">
+                {t('newPrices.transportSubTitle')}
+              </div>
+            ) : null}
             {/* changes in one page here for this section */}
             {cardPrices[0]}
           </div>

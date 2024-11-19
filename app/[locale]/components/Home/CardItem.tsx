@@ -20,6 +20,7 @@ export interface CardItemType {
   moreDetails: IMoreDetails;
   gallery: string[];
   prices: JSX.Element[];
+  pricesSectionTitles?: string[];
 }
 
 const CardItem = ({

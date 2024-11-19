@@ -11,7 +11,6 @@ import SimilarExcursions from '../components/Activity/SimilarExcursions';
 import NewPrices from '../components/Activity/NewPrices';
 import type { Metadata } from 'next';
 
-
 export const metadata: Metadata = {
   title: 'Daleel Tourism',
 };
@@ -19,7 +18,7 @@ export const metadata: Metadata = {
 const CardPage = ({
   params,
 }: {
-  params: { cardUrl: string};
+  params: { cardUrl: string };
 }): ReactElement => {
   const { cardUrl } = params;
 
@@ -41,7 +40,11 @@ const CardPage = ({
       <MoreDetails {...card.moreDetails} />
       <Gallery images={card.gallery} />
       {/* <Prices header={cardUrl} elements={card.prices} /> */}
-      <NewPrices header={cardUrl} cardPrices={card.prices} />
+      <NewPrices
+        header={cardUrl}
+        cardPrices={card.prices}
+        sectionTitles={card.pricesSectionTitles}
+      />
       <Faqs cardUrl={cardUrl} />
       {/* <MakeAnOrder /> */}
       {/* <SimilarExcursions /> */}
