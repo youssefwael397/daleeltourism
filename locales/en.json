@@ -3,14 +3,12 @@
         "DOHA_TOUR": "Doha Tour",
         "DOHA_TOUR_MUSEUM": "Safari Tour",
         "NORTHWEST_OF_QATAR": "Secrets and history",
-        "MANGROVES_RESERVE": "Traditions and education",
+        "MANGROVES_RESERVE": "A TRIP TO THE COUNTRYSIDE",
         "FISHING_IN_DOHA": "Unique Photoshoot",
         "DESERT_SAFARI": "NIGHT QATAR",
-        "SAFARI_WITH_DINNER": "Dinner Safari",
-        "YACHT_CHARTER_IN_QATAR": "Yacht Charter in Qatar",
-        "HELICOPTER_FLIGHT": "Helicopter flight",
-        "QUEST_THEME_PARK": "Quest Theme Park",
-        "MERYAL_AQUAPARK": "Merial Aquapark"
+        "SAFARI_WITH_DINNER": "FISHING IN QATAR",
+        "YACHT_CHARTER_IN_QATAR": "MUSEUMS OF QATAR",
+        "HELICOPTER_FLIGHT": "ISLANDS TOUR"
     },
     "footer": {
         "reliablePartner": "Welcome to DALEEL TOURISM, where we don’t just show you Qatar – we turn your trip into real magic\nOur certified Russian-speaking guides are real magicians with vast knowledge and experience with tourists from different countries, ready to reveal to you the hidden secrets, vibrant cultures, exquisite tastes and valuable traditions of Qatar.\nJoin the team of happy travelers who have already immersed themselves in the world of Qatar with us, and create memories that will stay with you forever. Your unforgettable adventure awaits you right here and now!",
@@ -34,7 +32,7 @@
             "subTitle": "countries & secrets of the Desert"
         },
         "MANGROVES_RESERVE": {
-            "title": "Traditions and education",
+            "title": "A TRIP TO THE COUNTRYSIDE",
             "subTitle": ""
         },
         "FISHING_IN_DOHA": {
@@ -46,24 +44,16 @@
             "subTitle": ""
         },
         "SAFARI_WITH_DINNER": {
-            "title": "Jeep Safari",
-            "subTitle": "in Qatar with dinner"
+            "title": "FISHING IN QATAR",
+            "subTitle": ""
         },
         "YACHT_CHARTER_IN_QATAR": {
-            "title": "Sea walks",
-            "subTitle": "in Qatar"
+            "title": "MUSEUMS OF QATAR",
+            "subTitle": ""
         },
         "HELICOPTER_FLIGHT": {
-            "title": "Helicopter flight",
-            "subTitle": "in Doha"
-        },
-        "QUEST_THEME_PARK": {
-            "title": "Quest Theme Park",
-            "subTitle": "in Doha"
-        },
-        "MERYAL_AQUAPARK": {
-            "title": "Merial Aquapark",
-            "subTitle": "in Doha"
+            "title": "ISLANDS TOUR",
+            "subTitle": ""
         }
     },
     "details": {
@@ -85,11 +75,11 @@
                 },
                 {
                     "title": "Cultural Village \"Katara\"",
-                    "description": "Discover the magical world of Katara Cultural Village, where every corner is filled with history and beauty. Stroll past the tranquil Blue Mosque, experience the spirit of sea adventure at the Dhow Museum. Take in the grandeur behind the walls of the Colosseum-Amphitheatre and stroll along the cozy alley of Galeries Lafayette with its air-conditioned streets. Then head to SNAN, a green oasis in the desert, and stroll through a park with hills adorned with exotic trees from around the world. Katara Cultural Village is a place where every step is filled with vivid impressions and amazing cultural richness."
+                    "description": "Discover the magical world of Katara Cultural Village, where every corner is steeped in history and beauty. Stroll past the tranquil Blue Mosque, experience the spirit of sea adventure at the Dhow Museum, soak up the grandeur behind the walls of the Colosseum Amphitheatre and stroll along the air-conditioned streets of Galeries Lafayette. Then head to SNAN, a green oasis in the desert, and stroll through a park with hills adorned with exotic trees from around the world. Katara Cultural Village is a place where every step is filled with vivid impressions and amazing cultural richness."
                 },
                 {
                     "title": "Pearl Island",
-                    "description": "The magical world of the Pearl Island in Qatar, where luxury and beauty come together in a perfect dance. Discover the quaint marina with yachts and boats, stroll through the cozy streets of Little Venice, also known as Qanat Quartier, and immerse yourself in the atmosphere of the central Medina - Medina Central. At each of these places, do not forget to make a stop for a photo shoot to capture every moment of your journey. The Pearl Island seems to fall in love with each visitor, tempting you to return here again and again."
+                    "description": "The magical world of the Pearl Island in Qatar, where luxury and beauty come together in a perfect dance. Discover the quaint marina with yachts and boats, stroll through the cozy streets of Little Venice, also known as Qanat Quartier, and immerse yourself in the atmosphere of the central Medina - Medina Central. At each of these places, do not forget to make a stop for a photo shoot to capture every moment of your journey. The Pearl Island seems to make every visitor fall in love, tempting you to return here again and again."
                 },
                 {
                     "title": "Lusail City",
@@ -165,7 +155,6 @@
             "header": "EXPLORE THE COUNTRY'S HISTORY & THE SECRETS OF THE DESERT",
             "descriptions": [
                 "Embark on a fascinating journey through the treasures of Qatar, where each stop promises a new and unforgettable experience. Begin your adventure at the unique Mangrove Island, a hidden gem that exudes tranquility and mystery, offering a glimpse into a world untouched by time. Explore its winding waterways and lush greenery, immersing yourself in the serenity of this natural oasis.",
-                "Then head to the charming Baladna Farm, a place of pastoral charm and rustic beauty. Enjoy the sights and sounds of rural life, surrounded by rolling fields and the gentle hum of farming activities. Experience the harmony between tradition and modernity first-hand, learning about age-old farming methods and innovative agricultural techniques.",
                 "Continue your odyssey with an installation by renowned artist Olafur Eliasson, a mesmerizing blend of art and nature that challenges perception and awakens contemplation. Immerse yourself in the immersive world created by Eliasson’s visionary works, where light, space, and form merge to inspire wonder and introspection.",
                 "Along the way, experience Qatar’s rich history at Zubarah Fort, a majestic national heritage site. Wander the ancient corridors of this UNESCO World Heritage Site, where echoes of the past tell tales of valor and resilience. Feel the weight of history in every stone of this formidable fortress, standing proudly above the sands of time.",
                 "End your expedition in Al Khor, a vibrant metropolis where tradition meets modernity in a vibrant mix of culture and commerce. Wander the bustling streets of colourful souks and bustling markets, where Qatari life is alive with energy and vitality.",
@@ -259,7 +248,7 @@
                         "Take a journey through time and knowledge to a city of intellectual exploration and academic excellence. Founded in 1997 as a secluded institute and now a vibrant campus housing eight prestigious international universities, this educational oasis has evolved into a kaleidoscope of diversity, attracting students from over 50 countries to its hallowed halls.",
                         "Over the past two decades, the town has evolved into a vibrant community that boasts a host of amenities including a luxurious Premier Inn hotel, the lush 33-hole Education City Golf Club, the intellectual sanctuary of the Qatar National Library and the tranquil oasis of Oxygen Park, inviting visitors to immerse themselves in a world where learning and leisure are seamlessly intertwined.",
                         "Explore the corridors of knowledge in the Liberal Arts and Sciences building, witness groundbreaking medical research at Weill Cornell Medicine in Qatar, or delve into the world of art and design at VCUarts in Qatar. Unravel the mysteries of geopolitics at Georgetown University or immerse yourself in cutting-edge engineering at Texas A&M University in Qatar. With each institution offering a unique set of academic specialties, Education City is a testament to Qatar’s unwavering commitment to intellectual growth and global collaboration.",
-                        "Beyond academia, Education City is brimming with cultural life, home to a host of centres dedicated to art, science and dialogue. From the equestrian elegance of Al Shaqab to the thought-provoking debates at Doha Debates and the artistic treasures of the Mathaf Arab Museum of Modern Art, every corner of this intellectual utopia exudes an atmosphere of inspiration and enlightenment.",
+                        "Beyond academia, Education City is teeming with cultural life, housing a number of centres dedicated to art, science and dialogue. From the equestrian elegance of Al Shaqab to the thought-provoking debates at Doha Debates and the artistic treasures of the Mathaf Arab Museum of Modern Art, every corner of this intellectual utopia exudes an atmosphere of inspiration and enlightenment.",
                         "Whether you are looking to expand your intellectual horizons, engage in groundbreaking research, or simply immerse yourself in the cultural atmosphere of Education City, this educational marvel promises an unforgettable immersion into a world of knowledge, discovery, and innovation. Welcome to a world where knowledge knows no bounds and curiosity reigns supreme."
                     ]
                 }
@@ -310,12 +299,11 @@
         "DESERT_SAFARI": {
             "header": "SPEND AN UNFORGETTABLE EVENING IN QATAR",
             "descriptions": [
-                "Join us for an exciting evening tour of Qatar, starting from the comfort of your hotel. The first stop is a cruise on a traditional dhow boat, which will take you to the magical world of the water.",
-                "After that, you will go for a walk around the island \"Pearl\", where you will find luxurious boutiques, cozy cafes and restaurants, as well as luxurious yachts parked in the marina.",
+                "Join us for an exciting evening tour of Qatar, starting from the comfort of your hotel. The first stop is a traditional dhow cruise, which will take you to the magical world of the water.",
+                "After that, you will go for a walk in the magical world of water spaces, where an unforgettable walk along the Pearl Island awaits you, full of luxurious boutiques, cozy cafes and restaurants, as well as magnificent yachts moored in the marina. Here you will plunge into the atmosphere of a chic crystal alley, stretching for 450 meters, where you will be amazed not only by huge crystal trees and unique exhibitions, but also by dazzling crystal paintings, one of which is dedicated to winter - something that is not in Qatar. This place, filled with the glitter and atmosphere of night Qatar, is proud of the largest number of crystals in the world, weighing as much as 10 tons!",
                 "Next stop is Al Maha Island, which is the perfect entertainment destination for visitors to the 2022 FIFA World Cup Qatar and beyond. This winter resort is open from November to April each year, offering the best in entertainment and pleasure.",
                 "Next we will visit Lusail Stadium, which has hosted many football matches, owned by the Qatar Football Association, it is the largest stadium by capacity in Qatar and the Middle East; one of eight stadiums built for the 2022 FIFA World Cup",
                 "Our journey continues with a stroll along Commercial Boulevard, a dynamic, diverse and unique place for shopping, business and living.",
-                "Then we will stop at the amphitheater in the village of \"Katara\" where you can enjoy the atmosphere of culture and art.",
                 "Discover the iconic Raffles Hotel, housed in the magnificent sword-inspired Katara Towers.",
                 "Finally, our tour will end with shopping at the Vendome Mall, where you can enjoy a variety of shops and restaurants. At the end of the tour, you can stay in the mall for shopping or return to the hotel with a tour guide."
             ],
@@ -339,11 +327,11 @@
                     ]
                 },
                 {
-                    "title": "Al Maha Island Tour: A Paradise for Entertainment",
+                    "title": "Al Maha Island Tour: Entertainment Paradise",
                     "description": [
                         "The enchanting Al Maha Island, a stunning 230,000 square metre oasis that promises an unforgettable combination of entertainment and luxury. This vibrant destination is home to the spectacular Lusail Winter Wonderland, where the magic comes to life, and the stylish Nammos Beach Club, offering the perfect place to relax by the shimmering waters.",
                         "Treat yourself to a meal in the island’s upscale restaurant district, home to some of the world’s finest restaurants, including well-known names such as Zuma, LPM, Em Sherif, Carbone and Tatel. For those who prefer a more casual atmosphere, restaurants such as Rosso Pomodoro, Pura Vida and Karaki Lounge Moka Cafe offer a delicious selection of cuisine.",
-                        "Al Maha Island is destined to be the ultimate destination for leisure and entertainment, where luxury meets fun. Whether you are relaxing on the beach, enjoying fine cuisine or exploring vibrant attractions, this island invites you to immerse yourself in a world of luxury and excitement."
+                        "Al Maha Island is destined to be the ultimate destination for relaxation and entertainment, where luxury meets fun. Whether you are relaxing on the beach, enjoying fine cuisine or exploring vibrant attractions, this island invites you to immerse yourself in a world of luxury and excitement."
                     ]
                 },
                 {
@@ -352,7 +340,7 @@
                         "Lusail Stadium, a breathtaking architectural marvel and the crown jewel of Qatar's sporting landscape. Situated in the bustling city of Lusail, just 20 kilometres north of Doha, this magnificent stadium is the largest in Qatar and the Middle East, with a capacity of 88,966.",
                         "Designed by renowned firm Foster + Partners, Lusail Stadium features a stunning futuristic design inspired by the subtle play of light and shadow seen in traditional lanterns, as well as intricate motifs reflecting the rich heritage of Arabic and Islamic art.",
                         "Opened on September 9, 2022, the stadium made headlines by hosting the Lusail Super Cup, setting the stage for the world to witness its splendor. It was a key venue for the 2022 FIFA World Cup, hosting ten thrilling matches, including the unforgettable final between Argentina and France on December 18, 2022.",
-                        "A model of innovation, Lusail Stadium boasts cutting-edge environmental solutions, including external cooling technology and high-performance façades that minimise energy consumption, earning it a prestigious five-star rating from the Global Sustainability Assessment Framework.",
+                        "A model of innovation, Lusail Stadium boasts cutting-edge environmental solutions, including external cooling technology and high-performance façades that minimise energy consumption, earning it a prestigious five-star rating under the Global Sustainability Assessment Framework.",
                         "With a future capacity planned to be reduced to 40,000 spectators, Lusail Stadium promises to remain a favourite destination for football fans and an iconic landmark in the heart of Qatar. Experience the excitement and elegance of this world-class venue where history and modernity combine in a spectacular way!"
                     ]
                 },
@@ -399,45 +387,82 @@
             ]
         },
         "SAFARI_WITH_DINNER": {
-            "header": "Dinner on Safari",
+            "header": "FISHING IN THE PERSIAN GULF",
             "descriptions": [
-                "Desert safari in Qatar is an adventure that fills all participants with strong emotions!",
-                "Riding the dunes, feeling the adrenaline rush from fast take-offs and steep descents is a real pleasure for those who value active recreation.",
-                "The special thing about this safari is that it includes a visit to a UNESCO protected and recognized site. This is a rare place on the planet where the desert dunes meet the sea – Khor Al Adaid.",
-                "You can swim in the sea among the desert sands and end the day with a barbecue dinner in an authentic Bedouin camp surrounded by thousands of stars."
+                "Get ready for an unforgettable fishing adventure in the Persian Gulf, where you will not only enjoy exciting fishing, but also amazing seascapes, fresh sea air and many new impressions! This will be a real encounter with nature, which will fill your day with joy and excitement.",
+                "Your adventure will begin with a comfortable transfer from your hotel. On board you will be met by our friendly Russian-speaking guide and experienced fisherman, who will not only take you through all the stages of fishing, but also share his secrets so that you can catch the coveted fish. Do not forget to take your passport with you - you will need to show it to the coast guard before going out to sea.",
+                "Once you are on board, your boat will head out to sea where the crystal clear water and bright sunshine create ideal fishing conditions. The Gulf is rich in marine ecosystems including coral reefs, tidal salt marshes, mangroves and seagrass beds. There are over 500 species of fish including blackspotted sharpshooters, two-banded red mullet, yellow banded angelfish and many more such as barracudas, damselfish, groupers and dolphins!",
+                "Your fishing will not only be interesting, but also educational. With each cast of the line, you will discover an amazing underwater world where you can meet mollusks, sharks, rays and even turtles.",
+                "After a successful fishing trip, you can enjoy dinner in a cozy fisherman's restaurant on the seashore, where the chefs will cook your caught fish. Imagine enjoying a magnificent view of the sunset, enjoying aromatic dishes and fresh seafood!",
+                "This fishing adventure in Qatar is not just an active holiday, but an opportunity to immerse yourself in the local culture, enjoy contact with nature and create unforgettable memories.",
+                "Discover all the delights of fishing in the Persian Gulf, where every moment is filled with joy, excitement and closeness to nature. Don’t miss the chance to experience this amazing adventure – we are waiting for you on board!"
             ]
         },
         "YACHT_CHARTER_IN_QATAR": {
-            "header": "Yacht Charter in Qatar",
+            "header": "Explore the richness of Qatar's traditions and history: unforgettable memories in museums",
             "descriptions": [
-                "Yacht charter in Qatar is a great opportunity to spend time on the water with comfort and luxury, enjoy the beauty of the coast, have a romantic date or relax with family and friends.",
-                "Situated right on the water, Doha offers beautiful views of the city as you stroll along.",
-                "Dive into the warm sea, sunbathe under the soft rays of the sun and feel like an exclusive guest on board a snow-white yacht in Doha."
+                "Join us on an exciting and unforgettable journey through Qatar’s most distinguished museums, where every step is steeped in history, art and heritage. This is a unique opportunity to immerse yourself in the rich tapestry of traditions, achievements and beauty of this amazing country, discovering its deep roots and modern grandeur.",
+                "Let's start our tour with the National Museum of Qatar, a true architectural masterpiece created by the outstanding architect Jean Nouvel. Inspired by the shape of the mineral \"Desert Rose\", this museum not only amazes with its external beauty, but also offers visitors a unique opportunity to touch the centuries-old history of Qatar. In its halls you will be able to see impressive exhibits that tell about the life of the Bedouins, the richness of the flora and fauna of the Arabian Peninsula, as well as the key events that shaped modern Qatar. Each gallery is a separate story, full of vivid emotions and deep meanings, allowing you to better understand the culture and traditions of this region.",
+                "The next stop on our exciting journey is the Museum of Islamic Art, located on the picturesque Doha Corniche. This museum is home to one of the greatest collections of Islamic art in the world, spanning over 1,400 years of history. In its halls, you can admire magnificent manuscripts, exquisite textiles, fine ceramics and other artefacts collected from three continents. The architecture of the museum is a work of art in itself, and the surrounding park invites you to take quiet walks, allowing you to enjoy the beauty of both art and nature. This place is inspiring and fills the soul with harmony, offering a unique atmosphere for contemplation.",
+                "Afterwards, we will head to the Olympic Sports Museum 321, which opened its doors in 2022. This modern space has become a true hub of sports culture, where you can learn about the development of the Olympic movement and sporting achievements both in Qatar and around the world. The museum offers interactive exhibits that will allow you to delve deeper into the world of sports, as well as unique artefacts such as Olympic medals and historical posters from the Games. This place inspires sports and demonstrates how physical activity brings people together, creating an atmosphere of friendship and competition.",
+                "We will finish our journey with an evening ride on a traditional Dhow boat. This is a unique opportunity to enjoy the beauty of the sunset over the Arabian Gulf, when the sky is painted in bright shades of orange and pink. During this romantic ride, you will be able to admire the magnificent views of the city, its skyscrapers and historical buildings that come alive in the light of the sunset. On board, you will be offered traditional snacks and drinks, which will make this evening even more memorable and cozy.",
+                "A trip to Qatar’s museums is not just a tour, but a real cultural odyssey that will leave you with unforgettable impressions and a desire to return again. Each museum will tell its own unique story, and an evening ride on a Dhow boat will add romance and magic to your trip. Let yourself be immersed in the atmosphere of Qatar’s culture and art, and you will take with you the most vivid and inspiring"
+            ],
+            "attractions": [
+                {
+                    "title": "Age-old secrets and cultural heritage: The National Museum of Qatar",
+                    "description": [
+                        "Opening its doors on March 28, 2019, the National Museum of Qatar is a new symbol of the country’s culture and heritage. Designed by renowned architect Jean Nouvel, the museum is inspired by the Desert Rose crystal that is endemic to the region. Its unique architecture of interlocking discs not only impresses with its form but also provides comfort to visitors, protecting them from the scorching desert heat.",
+                        "The museum is located on the site of an old building that opened in 1975 and includes the historic palace of Sheikh Abdullah bin Jassim Al Thani, a central element of Qatari national identity. Since its opening, the museum has become a cultural hub, displaying some 8,000 exhibits that cover a wide range of topics: from the natural history of the desert and the Persian Gulf to artifacts of Bedouin culture and historical events such as tribal wars and the discovery of oil.",
+                        "Visitors can enjoy guided tours of galleries that sequentially illustrate the development of Qatar, from its ancient history to its modern achievements. The exhibits feature archaeological finds, architectural elements, textiles, jewellery and historical documents, providing a deeper understanding of the country’s cultural heritage.",
+                        "The museum is actively involved in international cultural exchanges and exhibitions, including collaboration with the National Museum of Mongolia and participation in exhibitions at Expo 2023 in Doha. In 2023, the Explorer online platform was launched, providing access to collections and interactive materials.",
+                        "Since its opening, the National Museum of Qatar has become one of the most visited sites in the country, attracting over 450,000 visitors in its first year. More than just a museum, it is a living link between the past and the present, where every visitor can feel proud of Qatar’s rich culture and heritage."
+                    ]
+                },
+                {
+                    "title": "Treasures of Islam: A Dive into the Museum of Islamic Art",
+                    "description": [
+                        "Situated on Doha’s picturesque Corniche, the Museum of Islamic Art (MIA) is a landmark building designed by renowned architect I.M. Pei. Opened on November 22, 2008, the museum is set on an artificial island and surrounded by a park, creating an atmosphere of tranquility and seclusion. Its unique design, inspired by traditional Islamic architecture, with geometric patterns and an abundance of light, attracts and inspires visitors.",
+                        "With 45,000 m² of space, the MIA houses one of the most comprehensive collections of Islamic art, spanning more than 1,400 years and three continents. Objects range from metalwork and ceramics to textiles and glass, collected from countries such as Spain, Egypt, Iran, Iraq and India. Particular attention is paid to manuscripts, among which stands out the famous page of the Blue Quran, one of the most exquisite examples in the world.",
+                        "The museum is actively involved in cultural initiatives, including exhibitions and educational programs. Since 2022, following an extensive renovation, MIA will feature over 1,100 new exhibits and updated galleries, creating an “immersive cultural experience” for visitors of all ages. In 2022, the museum became the first carbon-neutral museum in the Middle East, underlining its commitment to sustainability.",
+                        "MIA is also home to the IDAM restaurant, headed by chef Alain Ducasse, which offers gourmet cuisine inspired by Mediterranean traditions. The museum park, surrounded by cafes and playgrounds, is the setting for cultural events and fairs held twice a week.",
+                        "Since its opening, the Museum of Islamic Art has become an important hub for Qatar's cultural life, attracting locals and tourists alike to learn more about the rich heritage of Islamic art and culture."
+                    ]
+                },
+                {
+                    "title": "Sporting feats and inspiration: Olympic Sports Museum 321",
+                    "description": [
+                        "3-2-1 The Olympic and Sports Arts Museum in Doha, which opened on 30 March 2022, is the first sports museum in the Middle East dedicated to both local and international sports. The opening took place under the patronage of the Emir of Qatar, Tamim bin Hamad Al Thani, and in its first eight months, the museum attracted more than 100,000 visitors, becoming an important cultural and educational platform.",
+                        "The museum’s architecture, designed by Spanish architect Joan Sibina, impresses with its unique cylindrical shape, surrounded by five coloured rings symbolising the Olympic Games. These rings, placed at different heights and angles, give the building a dynamic and contemporary appearance. Inside, the museum is decorated with traditional Islamic screens, creating an atmosphere that reflects the rich culture of Qatar. The connection between the main exhibitions and the Khalifa International Stadium is through a glass walkway, which creates a sense of unity with the history of sport.",
+                        "The museum comprises seven unique exhibition spaces, each offering a fascinating journey through the world of sport. In the World of Emotions, visitors can learn about the impact of sport on Qatar, while the Global History of Sport takes visitors through sporting history from the 8th century to the early 20th century. One of the most significant galleries is the Olympic Games, which displays torches from various games and artefacts that reflect the spirit of the Olympic Movement. The Hall of Athletes delights with items related to 90 sporting heroes, from Pele’s uniform to Michael Schumacher’s Formula 1 car.",
+                        "Equally fascinating is the Qatar: The Host Nation gallery, which highlights major sporting events held in the country since the 2006 Asian Games. Sport in Qatar shows how traditional games and international competitions have evolved, while the Active Zone offers an interactive experience with 18 stations to test sports skills, inspiring visitors to lead an active lifestyle.",
+                        "The museum actively participates in cultural events, organizing temporary exhibitions and educational programs. Among them are exhibitions dedicated to the history of football in Qatar and achievements in equestrian sports. The museum also holds master classes and events for children and adolescents aimed at increasing physical literacy and respect for sports.",
+                        "Visitors can enjoy healthy cuisine at Naua Restaurant and 3-2-1 Café, where the menu is designed by Chef Tom Aikens, making the museum visit not only educational but also enjoyable for foodies.",
+                        "3-2-1 The Olympic and Sports Arts Museum has become an important place where sporting history meets contemporary achievements. It inspires people of all ages by creating a bridge between cultural heritage and active lifestyles, and highlights that sport is not just a game, but a powerful tool for unification and inspiration."
+                    ]
+                },
+                {
+                    "title": "Sunset Romance: An Evening Ride on a Traditional Dhow",
+                    "description": [
+                        "An evening ride on a traditional Dhow boat is a unique experience that will give you an unforgettable Qatar experience. These beautiful wooden boats, emblematic of the country's maritime heritage, are the perfect way to enjoy the splendor of the sunset over the Arabian Gulf.",
+                        "During the boat ride, you will be able to see picturesque views of Doha, where modern skyscrapers harmoniously coexist with traditional architecture. The boat sails along the waterfront, revealing breathtaking panoramas of the cityscape illuminated by the warm light of the sunset. This moment becomes especially magical when the sun slowly sinks below the horizon, painting the sky in bright shades of orange and pink.",
+                        "On board the boat, you can enjoy traditional Qatari food and drinks, and relax to the sounds of soft music.",
+                        "A dhow ride is not only an opportunity to enjoy the beauty of nature, but also a wonderful way to bond with loved ones, spend a romantic evening or simply enjoy a moment of calm in the midst of life. This experience will leave you with warm memories and a desire to return to Qatar again to experience its magic once again."
+                    ]
+                }
             ]
         },
         "HELICOPTER_FLIGHT": {
-            "header": "Helicopter flight",
+            "header": "VIBRANT ISLAND HAPPINESS: IMMERSION IN BEAUTY AND ADVENTURE!",
             "descriptions": [
-                "Take to the skies above Qatar's capital, picturesque Doha, on a 30-minute helicopter tour. Enjoy views of the city and see its main attractions Attractions.",
-                "You will admire the Katara Cultural Village, located on the east coast between the West Bay area and Pearl Island, which stretches 32 km into the azure Persian Sea, sparkling with the roofs of skyscrapers.",
-                "You will see the unique architectural Zigzag Towers, which are the tallest and largest residential zigzag towers in the world.",
-                "And, at the end of the tour, you will fly along the coast and see Lake Alcotafia."
-            ]
-        },
-        "QUEST_THEME_PARK": {
-            "header": "Quest Theme Park",
-            "descriptions": [
-                "Quest is a 32,000 sq m indoor theme park located in Mshaireb as part of the mixed-use Doha Oasis. It features thrilling rides including the EpiQ Coaster, the world’s tallest roller coaster, and Magma Blast, the world’s tallest indoor tower drop.",
-                "And those who prefer less extreme entertainment will find simulators with multimedia control and virtual reality attractions in the park.",
-                "Quest is a great place for family recreation, there are many miniature attractions for young guests and family celebrations.",
-                "In this kingdom of wonders everyone will find something fascinating and interesting for themselves."
-            ]
-        },
-        "MERYAL_AQUAPARK": {
-            "header": "Merial Aquapark",
-            "descriptions": [
-                "Dive into a world of adventure at Merial Water Park. Qatar’s largest water park offers 45 thrilling rides and 52 incredible water slides. Only Merial is home to the world’s tallest slide, Icon Tower.",
-                "The park is located on the coast, allowing everyone to relax on the sandy beach. You can also grab a bite to eat at any of the many restaurants and cafes."
+                "Join us on an unforgettable yacht tour that will allow you to enjoy the beauty of Qatar from the crystal clear waters of the Arabian Gulf. This exciting experience includes several stops, each of which will give you a unique experience.",
+                "Let's start with a transfer from your hotel to the port. Our drivers will meet you at your hotel and take you to the port where your adventure begins. Along the way, you will be able to enjoy the views of the city and learn about its culture, as well as see how modern architecture harmoniously combines with traditional elements.",
+                "From the dock, you will board a modern yacht ready to set sail. Comfort and style await you, as well as a welcoming atmosphere that sets the mood for an unforgettable journey. Enjoy the fresh sea breeze and the beauty of the surrounding waters as you sail towards the island. Discover the splendor of the Persian Gulf, where clear waters meet bright skies!",
+                "On the island, you will have the opportunity to swim in the warm waters, relax on the beach and watch the mesmerizing sunset. This moment will be the culmination of your day, when the sun will slowly sink below the horizon, painting the sky in bright shades of orange and pink. Sunset on the island is not just a spectacle, it is real magic that you will remember for a long time.",
+                "After some rest, we will head to Pearl Island. This artificial island, built on the site of former pearl fishing, has become a symbol of luxury and modernity. Here you can explore the surroundings, enjoying luxurious views of yachts and magnificent villas, as well as unique architecture that makes this island a real work of art.",
+                "Next, we will sail along the Doha Corniche, where a panoramic view of the majestic skyscrapers of the capital opens up. Evening Qatar in the city lights will create an unforgettable picture that you will want to remember forever. The Corniche is the heart of Doha, where the best restaurants, cafes and parks, as well as cultural attractions are concentrated.",
+                "We will then return to the port, ending our sea voyage. You will be able to share impressions and enjoy the last moments on board. After arriving at the port, we will continue the tour, exploring Doha Port. This is a modern place where you can see many yachts and boats, and enjoy the atmosphere of a dynamic seaport, which is an important part of the Qatari economy.",
+                "At the end of our tour, we will transfer you back to your hotel where you can relax after a busy day. This tour is the perfect way to enjoy the beauty and culture of Qatar while creating unforgettable memories of your trip."
             ]
         }
     },
@@ -521,7 +546,7 @@
         ],
         "FISHING_IN_DOHA": [
             [
-                "COST $250"
+                "COST 250$"
             ],
             [
                 "3+",
@@ -555,92 +580,58 @@
         ],
         "SAFARI_WITH_DINNER": [
             [
-                "By comfortable transport",
-                "350$/CAR",
-                "Capacity from 1-6 persons"
+                "On a comfortable boat",
+                "600$ / BOAT",
+                "Capacity from 1-4 persons"
             ],
             [
-                "4+",
-                "hours"
+                "5-6",
+                "HOURS"
             ],
             [
-                "Tour guide",
-                "Transport",
-                "Traditional clothing",
-                "Arabic tea + water",
-                "Hot local flatbreads"
+                "Transport/driver",
+                "Russian Speaking Guide/Fisherman",
+                "Bait, all appropriate",
+                "fishing equipment",
+                "Traditional tea/coffee",
+                "Dates/Fruits",
+                "Water and drinks."
             ]
         ],
         "YACHT_CHARTER_IN_QATAR": [
             [
                 "By comfortable transport",
-                "350$/CAR",
-                "Capacity from 1-6 persons"
+                "500$/CAR",
+                "Capacity 1-4 adults + children"
             ],
             [
-                "4+",
-                "hours"
+                "5",
+                "HOURS"
             ],
             [
                 "Tour guide",
+                "Dhow Ticket",
+                "We'll pick you up from your hotel",
                 "Transport",
-                "Traditional clothing",
-                "Arabic tea + water",
-                "Hot local flatbreads"
+                "Tea/coffee, water, food"
             ]
         ],
         "HELICOPTER_FLIGHT": [
             [
                 "By comfortable transport",
-                "350$/CAR",
+                "600$/CAR",
                 "Capacity from 1-6 persons"
             ],
             [
                 "4+",
-                "hours"
+                "HOURS"
             ],
             [
                 "Tour guide",
-                "Transport",
-                "Traditional clothing",
-                "Arabic tea + water",
-                "Hot local flatbreads"
-            ]
-        ],
-        "QUEST_THEME_PARK": [
-            [
-                "By comfortable transport",
-                "350$/CAR",
-                "Capacity from 1-6 persons"
-            ],
-            [
-                "4+",
-                "hours"
-            ],
-            [
-                "Tour guide",
-                "Transport",
-                "Traditional clothing",
-                "Arabic tea + water",
-                "Hot local flatbreads"
-            ]
-        ],
-        "MERYAL_AQUAPARK": [
-            [
-                "By comfortable transport",
-                "350$/CAR",
-                "Capacity from 1-6 persons"
-            ],
-            [
-                "4+",
-                "hours"
-            ],
-            [
-                "Tour guide",
-                "Transport",
-                "Traditional clothing",
-                "Arabic tea + water",
-                "Hot local flatbreads"
+                "Transfer from and to the hotel",
+                "Comfortable car and yacht",
+                "Traditional attire and flowing dresses for photo shoot",
+                "Water, drinks, fruits, dates"
             ]
         ]
     },

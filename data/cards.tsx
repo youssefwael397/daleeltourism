@@ -77,12 +77,17 @@ const Cards = (): CardItemType[] => {
         '/assets/gallery/2/7.jfif',
         '/assets/gallery/2/8.jfif',
         '/assets/gallery/2/9.jfif',
-        '/assets/gallery/2/10.jfif',
+        '/assets/gallery/2/10.jpg',
         '/assets/gallery/2/11.jfif',
-        '/assets/gallery/2/12.jfif',
+        '/assets/gallery/2/12.jpg',
         '/assets/gallery/2/13.jfif',
         '/assets/gallery/2/14.jfif',
-        '/assets/gallery/2/15.jfif',
+        '/assets/gallery/2/15.jpg',
+        '/assets/gallery/2/16.jpg',
+        '/assets/gallery/2/17.jpg',
+        '/assets/gallery/2/18.jpg',
+        '/assets/gallery/2/19.jpg',
+        '/assets/gallery/2/20.jpg',
       ],
       prices: [
         <p key={1}>
@@ -121,7 +126,6 @@ const Cards = (): CardItemType[] => {
       gallery: [
         '/assets/gallery/3/1.jfif',
         '/assets/gallery/3/2.jfif',
-        '/assets/gallery/3/3.jfif',
         '/assets/gallery/3/4.jfif',
         '/assets/gallery/3/5.jfif',
         '/assets/gallery/3/6.jfif',
@@ -130,8 +134,6 @@ const Cards = (): CardItemType[] => {
         '/assets/gallery/3/9.jfif',
         '/assets/gallery/3/10.jfif',
         '/assets/gallery/3/11.jfif',
-        '/assets/gallery/3/12.jfif',
-        '/assets/gallery/3/13.jfif',
         '/assets/gallery/3/14.jfif',
         '/assets/gallery/3/15.jfif',
       ],
@@ -172,7 +174,7 @@ const Cards = (): CardItemType[] => {
       gallery: [
         '/assets/gallery/4/1.jfif',
         '/assets/gallery/4/2.jfif',
-        '/assets/gallery/4/3.jfif',
+        '/assets/gallery/4/3.jpg',
         '/assets/gallery/4/4.jfif',
         '/assets/gallery/4/5.jfif',
         '/assets/gallery/4/6.jfif',
@@ -185,6 +187,23 @@ const Cards = (): CardItemType[] => {
         '/assets/gallery/4/13.jfif',
         '/assets/gallery/4/14.jfif',
         '/assets/gallery/4/15.jfif',
+        '/assets/gallery/4/16.jpg',
+        '/assets/gallery/4/17.jpg',
+        '/assets/gallery/4/18.jpg',
+        '/assets/gallery/4/19.jpg',
+        '/assets/gallery/4/20.jpg',
+        '/assets/gallery/4/21.jpg',
+        '/assets/gallery/4/22.jpg',
+        '/assets/gallery/4/23.jpg',
+        '/assets/gallery/4/24.jpg',
+        '/assets/gallery/4/25.jpg',
+        '/assets/gallery/4/26.jpg',
+        '/assets/gallery/4/27.jpg',
+        '/assets/gallery/4/28.jpg',
+        '/assets/gallery/4/29.jpg',
+        '/assets/gallery/4/30.jpg',
+        '/assets/gallery/4/31.jpg',
+        '/assets/gallery/4/32.jpg',
       ],
       prices: [
         <p key={1}>
@@ -269,7 +288,7 @@ const Cards = (): CardItemType[] => {
         moreInfo: t.raw('details.DESERT_SAFARI.attractions'),
       },
       gallery: Array.from({ length: 36 }, (_, index) => index).map(
-        (number) => `/assets/gallery/6/${number+1}.jfif`
+        (number) => `/assets/gallery/6/${number + 1}.jfif`
       ),
       prices: [
         <p key={1}>
@@ -296,8 +315,8 @@ const Cards = (): CardItemType[] => {
       title: t('headers.SAFARI_WITH_DINNER.title'),
       subTitle: t('headers.SAFARI_WITH_DINNER.subTitle'),
       url: 'SAFARI_WITH_DINNER',
-      img: '/assets/headers/7.jpg',
-      header: '/assets/headers/7.jpg',
+      img: '/assets/headers/7.jfif',
+      header: '/assets/headers/7.jfif',
       headerType: 'img',
       moreDetails: {
         header: t('details.SAFARI_WITH_DINNER.header'),
@@ -306,29 +325,33 @@ const Cards = (): CardItemType[] => {
         // moreInfo: t.raw('details.SAFARI_WITH_DINNER.attractions'),
       },
       gallery: [
-        '/assets/gallery/7/1.jpg',
-        '/assets/gallery/7/2.jpeg',
-        '/assets/gallery/7/3.jpeg',
-        '/assets/gallery/7/4.jpeg',
-        '/assets/gallery/7/5.jpg',
-        '/assets/gallery/7/6.jpg',
+        '/assets/gallery/7/1.jfif',
+        '/assets/gallery/7/2.jfif',
+        '/assets/gallery/7/3.jfif',
+        '/assets/gallery/7/4.jfif',
+        '/assets/gallery/7/5.jfif',
+        '/assets/gallery/7/6.jfif',
+        '/assets/gallery/7/7.jfif',
+        '/assets/gallery/7/8.jfif',
       ],
       prices: [
         <p key={1}>
-          {t.raw('prices.DOHA_TOUR.0.0')} <br />
-          <strong>{t.raw('prices.DOHA_TOUR.0.1')}</strong> <br />
-          {t.raw('prices.DOHA_TOUR.0.2')}
+          {t.raw('prices.SAFARI_WITH_DINNER.0.0')} <br />
+          <strong>{t.raw('prices.SAFARI_WITH_DINNER.0.1')}</strong> <br />
+          {t.raw('prices.SAFARI_WITH_DINNER.0.2')}
         </p>,
         <p key={2}>
-          {t.raw('prices.DOHA_TOUR.1.0')}{' '}
+          {t.raw('prices.SAFARI_WITH_DINNER.1.0')}{' '}
           <span className="text-uppercase">
-            {t.raw('prices.DOHA_TOUR.1.1')}
+            {t.raw('prices.SAFARI_WITH_DINNER.1.1')}
           </span>
         </p>,
         <ul key={3} className="plus-section-list">
-          {t.raw('prices.DOHA_TOUR.2').map((info: string, index: number) => (
-            <li key={index}>{info}</li>
-          ))}
+          {t
+            .raw('prices.SAFARI_WITH_DINNER.2')
+            .map((info: string, index: number) => (
+              <li key={index}>{info}</li>
+            ))}
         </ul>,
       ],
     },
@@ -336,19 +359,16 @@ const Cards = (): CardItemType[] => {
       title: t('headers.YACHT_CHARTER_IN_QATAR.title'),
       subTitle: t('headers.YACHT_CHARTER_IN_QATAR.subTitle'),
       url: 'YACHT_CHARTER_IN_QATAR',
-      img: '/assets/headers/8.jpg',
-      header: '/assets/headers/8.jpg',
+      img: '/assets/headers/8.jfif',
+      header: '/assets/headers/8.jfif',
       headerType: 'img',
       moreDetails: {
         header: t('details.YACHT_CHARTER_IN_QATAR.header'),
         descriptions: t.raw('details.YACHT_CHARTER_IN_QATAR.descriptions'),
       },
-      gallery: [
-        '/assets/gallery/8/1.jpeg',
-        '/assets/gallery/8/2.jpeg',
-        '/assets/gallery/8/3.jpeg',
-        '/assets/gallery/8/4.jpeg',
-      ],
+      gallery: Array.from({ length: 26 }, (_, index) => index).map(
+        (number) => `/assets/gallery/8/${number + 1}.jfif`
+      ),
       prices: [
         <p key={1}>
           {t.raw('prices.DOHA_TOUR.0.0')} <br />
@@ -372,8 +392,8 @@ const Cards = (): CardItemType[] => {
       title: t('headers.HELICOPTER_FLIGHT.title'),
       subTitle: t('headers.HELICOPTER_FLIGHT.subTitle'),
       url: 'HELICOPTER_FLIGHT',
-      img: '/assets/headers/9.jpg',
-      header: '/assets/headers/9.jpg',
+      img: '/assets/headers/9.jfif',
+      header: '/assets/headers/9.jfif',
       headerType: 'img',
       moreDetails: {
         header: t('details.HELICOPTER_FLIGHT.header'),
@@ -381,92 +401,9 @@ const Cards = (): CardItemType[] => {
         // secondHeader: t('details.HELICOPTER_FLIGHT.attractionsHeader'),
         // moreInfo: t.raw('details.HELICOPTER_FLIGHT.attractions'),
       },
-      gallery: [
-        '/assets/gallery/9/1.jpg',
-        '/assets/gallery/9/2.jpg',
-        '/assets/gallery/9/3.jpg',
-        '/assets/gallery/9/4.jpg',
-        '/assets/gallery/9/5.jpeg',
-        '/assets/gallery/9/6.jpg',
-      ],
-      prices: [
-        <p key={1}>
-          {t.raw('prices.DOHA_TOUR.0.0')} <br />
-          <strong>{t.raw('prices.DOHA_TOUR.0.1')}</strong> <br />
-          {t.raw('prices.DOHA_TOUR.0.2')}
-        </p>,
-        <p key={2}>
-          {t.raw('prices.DOHA_TOUR.1.0')}{' '}
-          <span className="text-uppercase">
-            {t.raw('prices.DOHA_TOUR.1.1')}
-          </span>
-        </p>,
-        <ul key={3} className="plus-section-list">
-          {t.raw('prices.DOHA_TOUR.2').map((info: string, index: number) => (
-            <li key={index}>{info}</li>
-          ))}
-        </ul>,
-      ],
-    },
-    {
-      title: t('headers.QUEST_THEME_PARK.title'),
-      subTitle: t('headers.QUEST_THEME_PARK.subTitle'),
-      url: 'QUEST_THEME_PARK',
-      img: '/assets/headers/10.jpg',
-      header: '/assets/headers/10.jpg',
-      headerType: 'img',
-      moreDetails: {
-        header: t('details.QUEST_THEME_PARK.header'),
-        descriptions: t.raw('details.QUEST_THEME_PARK.descriptions'),
-        // secondHeader: t('details.QUEST_THEME_PARK.attractionsHeader'),
-        // moreInfo: t.raw('details.QUEST_THEME_PARK.attractions'),
-      },
-      gallery: [
-        '/assets/gallery/10/1.jpg',
-        '/assets/gallery/10/2.jpg',
-        '/assets/gallery/10/3.jpg',
-        '/assets/gallery/10/4.jpg',
-        '/assets/gallery/10/5.jpg',
-        '/assets/gallery/10/6.jpg',
-      ],
-      prices: [
-        <p key={1}>
-          {t.raw('prices.DOHA_TOUR.0.0')} <br />
-          <strong>{t.raw('prices.DOHA_TOUR.0.1')}</strong> <br />
-          {t.raw('prices.DOHA_TOUR.0.2')}
-        </p>,
-        <p key={2}>
-          {t.raw('prices.DOHA_TOUR.1.0')}{' '}
-          <span className="text-uppercase">
-            {t.raw('prices.DOHA_TOUR.1.1')}
-          </span>
-        </p>,
-        <ul key={3} className="plus-section-list">
-          {t.raw('prices.DOHA_TOUR.2').map((info: string, index: number) => (
-            <li key={index}>{info}</li>
-          ))}
-        </ul>,
-      ],
-    },
-    {
-      title: t('headers.MERYAL_AQUAPARK.title'),
-      subTitle: t('headers.MERYAL_AQUAPARK.subTitle'),
-      url: 'MERYAL_AQUAPARK',
-      img: '/assets/headers/11.jpg',
-      header: '/assets/headers/11.jpg',
-      headerType: 'img',
-      moreDetails: {
-        header: t('details.MERYAL_AQUAPARK.header'),
-        descriptions: t.raw('details.MERYAL_AQUAPARK.descriptions'),
-        // secondHeader: t('details.MERYAL_AQUAPARK.attractionsHeader'),
-        // moreInfo: t.raw('details.MERYAL_AQUAPARK.attractions'),
-      },
-      gallery: [
-        '/assets/gallery/11/1.jpg',
-        '/assets/gallery/11/2.jpg',
-        '/assets/gallery/11/3.jpg',
-        '/assets/gallery/11/4.jpg',
-      ],
+      gallery: Array.from({ length: 44 }, (_, index) => index).map(
+        (number) => `/assets/gallery/9/${number + 1}.jfif`
+      ),
       prices: [
         <p key={1}>
           {t.raw('prices.DOHA_TOUR.0.0')} <br />
