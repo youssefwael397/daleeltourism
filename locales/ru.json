@@ -5,7 +5,7 @@
         "NORTHWEST_OF_QATAR": "Тайны и история",
         "MANGROVES_RESERVE": "ПОЕЗДКА ЗАГОРОД",
         "FISHING_IN_DOHA": "Уникальная Фотосессия",
-        "DESERT_SAFARI": "НОЧНОЙ КАТАР",
+        "DESERT_SAFARI": "Ночной Катар",
         "SAFARI_WITH_DINNER": "РЫБАЛКА В КАТАРЕ",
         "YACHT_CHARTER_IN_QATAR": "МУЗЕИ КАТАРА",
         "HELICOPTER_FLIGHT": "ТУР ОСТРОВОВ"
@@ -40,7 +40,7 @@
             "subTitle": ""
         },
         "DESERT_SAFARI": {
-            "title": "НОЧНОЙ КАТАР",
+            "title": "Ночной Катар",
             "subTitle": ""
         },
         "SAFARI_WITH_DINNER": {
