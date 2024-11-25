@@ -371,18 +371,18 @@ const Cards = (): CardItemType[] => {
       ),
       prices: [
         <p key={1}>
-          {t.raw('prices.DOHA_TOUR.0.0')} <br />
-          <strong>{t.raw('prices.DOHA_TOUR.0.1')}</strong> <br />
-          {t.raw('prices.DOHA_TOUR.0.2')}
+          {t.raw('prices.YACHT_CHARTER_IN_QATAR.0.0')} <br />
+          <strong>{t.raw('prices.YACHT_CHARTER_IN_QATAR.0.1')}</strong> <br />
+          {t.raw('prices.YACHT_CHARTER_IN_QATAR.0.2')}
         </p>,
         <p key={2}>
-          {t.raw('prices.DOHA_TOUR.1.0')}{' '}
+          {t.raw('prices.YACHT_CHARTER_IN_QATAR.1.0')}{' '}
           <span className="text-uppercase">
-            {t.raw('prices.DOHA_TOUR.1.1')}
+            {t.raw('prices.YACHT_CHARTER_IN_QATAR.1.1')}
           </span>
         </p>,
         <ul key={3} className="plus-section-list">
-          {t.raw('prices.DOHA_TOUR.2').map((info: string, index: number) => (
+          {t.raw('prices.YACHT_CHARTER_IN_QATAR.2').map((info: string, index: number) => (
             <li key={index}>{info}</li>
           ))}
         </ul>,
@@ -406,18 +406,18 @@ const Cards = (): CardItemType[] => {
       ),
       prices: [
         <p key={1}>
-          {t.raw('prices.DOHA_TOUR.0.0')} <br />
-          <strong>{t.raw('prices.DOHA_TOUR.0.1')}</strong> <br />
-          {t.raw('prices.DOHA_TOUR.0.2')}
+          {t.raw('prices.HELICOPTER_FLIGHT.0.0')} <br />
+          <strong>{t.raw('prices.HELICOPTER_FLIGHT.0.1')}</strong> <br />
+          {t.raw('prices.HELICOPTER_FLIGHT.0.2')}
         </p>,
         <p key={2}>
-          {t.raw('prices.DOHA_TOUR.1.0')}{' '}
+          {t.raw('prices.HELICOPTER_FLIGHT.1.0')}{' '}
           <span className="text-uppercase">
-            {t.raw('prices.DOHA_TOUR.1.1')}
+            {t.raw('prices.HELICOPTER_FLIGHT.1.1')}
           </span>
         </p>,
         <ul key={3} className="plus-section-list">
-          {t.raw('prices.DOHA_TOUR.2').map((info: string, index: number) => (
+          {t.raw('prices.HELICOPTER_FLIGHT.2').map((info: string, index: number) => (
             <li key={index}>{info}</li>
           ))}
         </ul>,

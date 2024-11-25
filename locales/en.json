@@ -3,12 +3,12 @@
         "DOHA_TOUR": "Doha Tour",
         "DOHA_TOUR_MUSEUM": "Safari Tour",
         "NORTHWEST_OF_QATAR": "Secrets and history",
-        "MANGROVES_RESERVE": "A TRIP TO THE COUNTRYSIDE",
+        "MANGROVES_RESERVE": "A trip to the countryside",
         "FISHING_IN_DOHA": "Unique Photoshoot",
         "DESERT_SAFARI": "NIGHT QATAR",
-        "SAFARI_WITH_DINNER": "FISHING IN QATAR",
-        "YACHT_CHARTER_IN_QATAR": "MUSEUMS OF QATAR",
-        "HELICOPTER_FLIGHT": "ISLANDS TOUR"
+        "SAFARI_WITH_DINNER": "Fishing In Qatar",
+        "YACHT_CHARTER_IN_QATAR": "Museums Of Qatar",
+        "HELICOPTER_FLIGHT": "Islands Tour"
     },
     "footer": {
         "reliablePartner": "Welcome to DALEEL TOURISM, where we don’t just show you Qatar – we turn your trip into real magic\nOur certified Russian-speaking guides are real magicians with vast knowledge and experience with tourists from different countries, ready to reveal to you the hidden secrets, vibrant cultures, exquisite tastes and valuable traditions of Qatar.\nJoin the team of happy travelers who have already immersed themselves in the world of Qatar with us, and create memories that will stay with you forever. Your unforgettable adventure awaits you right here and now!",
@@ -32,7 +32,7 @@
             "subTitle": "countries & secrets of the Desert"
         },
         "MANGROVES_RESERVE": {
-            "title": "A TRIP TO THE COUNTRYSIDE",
+            "title": "A trip to the countryside",
             "subTitle": ""
         },
         "FISHING_IN_DOHA": {
@@ -44,15 +44,15 @@
             "subTitle": ""
         },
         "SAFARI_WITH_DINNER": {
-            "title": "FISHING IN QATAR",
+            "title": "Fishing In Qatar",
             "subTitle": ""
         },
         "YACHT_CHARTER_IN_QATAR": {
-            "title": "MUSEUMS OF QATAR",
+            "title": "Museums Of Qatar",
             "subTitle": ""
         },
         "HELICOPTER_FLIGHT": {
-            "title": "ISLANDS TOUR",
+            "title": "Islands Tour",
             "subTitle": ""
         }
     },
