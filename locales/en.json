@@ -1,14 +1,14 @@
 {
     "cards": {
-        "DOHA_TOUR": "Doha Tour",
-        "DOHA_TOUR_MUSEUM": "Safari Tour",
-        "NORTHWEST_OF_QATAR": "Secrets and history",
-        "MANGROVES_RESERVE": "A trip to the countryside",
-        "FISHING_IN_DOHA": "Unique Photoshoot",
-        "DESERT_SAFARI": "NIGHT QATAR",
-        "SAFARI_WITH_DINNER": "Fishing In Qatar",
-        "YACHT_CHARTER_IN_QATAR": "Museums Of Qatar",
-        "HELICOPTER_FLIGHT": "Islands Tour"
+        "capital_tour": "Doha Tour",
+        "safari_tour": "Safari Tour",
+        "secrets_and_history": "Secrets and history",
+        "countryside_trip": "Trip out of town",
+        "cars_photoshoot_in_qatar": "Unique Photoshoot",
+        "qatar_nightlife_tour": "NIGHT QATAR",
+        "fishing_tour_qatar": "Fishing In Qatar",
+        "qatar_museums_tour": "Museums Of Qatar",
+        "islands_tour_qatar": "Islands Tour"
     },
     "footer": {
         "reliablePartner": "Welcome to DALEEL TOURISM, where we don’t just show you Qatar – we turn your trip into real magic\nOur certified Russian-speaking guides are real magicians with vast knowledge and experience with tourists from different countries, ready to reveal to you the hidden secrets, vibrant cultures, exquisite tastes and valuable traditions of Qatar.\nJoin the team of happy travelers who have already immersed themselves in the world of Qatar with us, and create memories that will stay with you forever. Your unforgettable adventure awaits you right here and now!",
@@ -19,45 +19,45 @@
         "copyright": "© 2024. All rights reserved Daleel Tourism"
     },
     "headers": {
-        "DOHA_TOUR": {
+        "capital_tour": {
             "title": "Doha City Tour",
             "subTitle": ""
         },
-        "DOHA_TOUR_MUSEUM": {
+        "safari_tour": {
             "title": "Safari Tour",
             "subTitle": ""
         },
-        "NORTHWEST_OF_QATAR": {
+        "secrets_and_history": {
             "title": "Explore history",
             "subTitle": "countries & secrets of the Desert"
         },
-        "MANGROVES_RESERVE": {
-            "title": "A trip to the countryside",
+        "countryside_trip": {
+            "title": "Trip out of town",
             "subTitle": ""
         },
-        "FISHING_IN_DOHA": {
+        "cars_photoshoot_in_qatar": {
             "title": "Unique Photoshoot",
             "subTitle": ""
         },
-        "DESERT_SAFARI": {
+        "qatar_nightlife_tour": {
             "title": "NIGHT QATAR",
             "subTitle": ""
         },
-        "SAFARI_WITH_DINNER": {
+        "fishing_tour_qatar": {
             "title": "Fishing In Qatar",
             "subTitle": ""
         },
-        "YACHT_CHARTER_IN_QATAR": {
+        "qatar_museums_tour": {
             "title": "Museums Of Qatar",
             "subTitle": ""
         },
-        "HELICOPTER_FLIGHT": {
+        "islands_tour_qatar": {
             "title": "Islands Tour",
             "subTitle": ""
         }
     },
     "details": {
-        "DOHA_TOUR": {
+        "capital_tour": {
             "header": "EXPLORE THE CAPITAL OF QATAR: DOHA",
             "descriptions": [
                 "Discover the rich heritage, fascinating history and cutting-edge achievements of Doha, the picturesque capital of Qatar! Your adventure begins in the colorful Doha Port, where the city's maritime soul comes alive.",
@@ -91,7 +91,7 @@
                 }
             ]
         },
-        "DOHA_TOUR_MUSEUM": {
+        "safari_tour": {
             "header": "EXPLORE THE COUNTRY'S HISTORY & THE SECRETS OF THE DESERT",
             "descriptions": [
                 "Imagine yourself on an unforgettable safari tour in a world where the desert and sea collide right in the heart of Qatar. Enjoy a unique experience with our Safari Tour, starting with a thrilling jeep safari through the golden dunes, where the sunset landscapes envelop you in a mystical aura.",
@@ -151,7 +151,7 @@
                 }
             ]
         },
-        "NORTHWEST_OF_QATAR": {
+        "secrets_and_history": {
             "header": "EXPLORE THE COUNTRY'S HISTORY & THE SECRETS OF THE DESERT",
             "descriptions": [
                 "Embark on a fascinating journey through the treasures of Qatar, where each stop promises a new and unforgettable experience. Begin your adventure at the unique Mangrove Island, a hidden gem that exudes tranquility and mystery, offering a glimpse into a world untouched by time. Explore its winding waterways and lush greenery, immersing yourself in the serenity of this natural oasis.",
@@ -166,7 +166,7 @@
                     "title": "The Mysterious World of Mangrove Labyrinths",
                     "description": [
                         "Embark on a fascinating journey through Al Thakir, Qatar’s ancient and vast mangrove forest, a vibrant oasis teeming with birdlife, marine wonders and verdant landscapes. Experience the beauty of this unique ecosystem as you kayak through its winding waterways, encountering majestic flamingos and a variety of marine life.",
-                        "Enjoy the ecological wonders of the mangrove forests, the serene Al Thakirah Beach, a true paradise for sun worshippers and nature lovers alike. Capture breathtaking views of the sunrise and sunset as you stroll along the wooden walkways, surrounded by a symphony of birdsong and rustling mangrove leaves."
+                        "Enjoy the ecological wonders of the mangrove forests, the serene Al Thakirah Beach is a paradise for sun worshippers and nature lovers alike. Capture breathtaking views of the sunrise and sunset as you stroll along the wooden walkways, surrounded by a symphony of birdsong and rustling mangrove leaves."
                     ]
                 },
                 {
@@ -204,7 +204,7 @@
                 }
             ]
         },
-        "MANGROVES_RESERVE": {
+        "countryside_trip": {
             "header": "EXPLORING THE COUNTRY & SUBURBAN AREAS",
             "descriptions": [
                 "Embark on a fascinating journey through the most intriguing attractions of Qatar, where every step reveals a magical world waiting to be explored. The enigmatic statues of embryos beckon with their mysterious charm.",
@@ -254,7 +254,7 @@
                 }
             ]
         },
-        "FISHING_IN_DOHA": {
+        "cars_photoshoot_in_qatar": {
             "header": "FASCINATING CLASSIC CARS PHOTO SHOOT IN QATAR",
             "descriptions": [
                 "Experience luxury like no other with our private tour of Qatar. A private driver will pick you up from your hotel and take you through the picturesque streets of Qatar. We invite you to immerse yourself in a world of elegance, where magnificent dresses and traditional oriental attire await you.",
@@ -296,7 +296,7 @@
                 }
             ]
         },
-        "DESERT_SAFARI": {
+        "qatar_nightlife_tour": {
             "header": "SPEND AN UNFORGETTABLE EVENING IN QATAR",
             "descriptions": [
                 "Join us for an exciting evening tour of Qatar, starting from the comfort of your hotel. The first stop is a traditional dhow cruise, which will take you to the magical world of the water.",
@@ -386,7 +386,7 @@
                 }
             ]
         },
-        "SAFARI_WITH_DINNER": {
+        "fishing_tour_qatar": {
             "header": "FISHING IN THE PERSIAN GULF",
             "descriptions": [
                 "Get ready for an unforgettable fishing adventure in the Persian Gulf, where you will not only enjoy exciting fishing, but also amazing seascapes, fresh sea air and many new impressions! This will be a real encounter with nature, which will fill your day with joy and excitement.",
@@ -398,7 +398,7 @@
                 "Discover all the delights of fishing in the Persian Gulf, where every moment is filled with joy, excitement and closeness to nature. Don’t miss the chance to experience this amazing adventure – we are waiting for you on board!"
             ]
         },
-        "YACHT_CHARTER_IN_QATAR": {
+        "qatar_museums_tour": {
             "header": "Explore the richness of Qatar's traditions and history: unforgettable memories in museums",
             "descriptions": [
                 "Join us on an exciting and unforgettable journey through Qatar’s most distinguished museums, where every step is steeped in history, art and heritage. This is a unique opportunity to immerse yourself in the rich tapestry of traditions, achievements and beauty of this amazing country, discovering its deep roots and modern grandeur.",
@@ -452,7 +452,7 @@
                 }
             ]
         },
-        "HELICOPTER_FLIGHT": {
+        "islands_tour_qatar": {
             "header": "VIBRANT ISLAND HAPPINESS: IMMERSION IN BEAUTY AND ADVENTURE!",
             "descriptions": [
                 "Join us on an unforgettable yacht tour that will allow you to enjoy the beauty of Qatar from the crystal clear waters of the Arabian Gulf. This exciting experience includes several stops, each of which will give you a unique experience.",
@@ -467,7 +467,7 @@
         }
     },
     "prices": {
-        "DOHA_TOUR": [
+        "capital_tour": [
             [
                 "By comfortable transport",
                 "350$/CAR",
@@ -485,7 +485,7 @@
                 "Hot local flatbreads"
             ]
         ],
-        "DOHA_TOUR_MUSEUM": [
+        "safari_tour": [
             [
                 "By comfortable transport",
                 "300$/CAR",
@@ -508,7 +508,7 @@
                 "Tea/water/food"
             ]
         ],
-        "NORTHWEST_OF_QATAR": [
+        "secrets_and_history": [
             [
                 "By comfortable transport",
                 "450$/CAR",
@@ -526,7 +526,7 @@
                 "Arabic tea and water"
             ]
         ],
-        "MANGROVES_RESERVE": [
+        "countryside_trip": [
             [
                 "By comfortable transport",
                 "500$/CAR",
@@ -544,7 +544,7 @@
                 "Tea/coffee, water"
             ]
         ],
-        "FISHING_IN_DOHA": [
+        "cars_photoshoot_in_qatar": [
             [
                 "COST 250$"
             ],
@@ -560,7 +560,7 @@
                 "Tea/coffee, water, food"
             ]
         ],
-        "DESERT_SAFARI": [
+        "qatar_nightlife_tour": [
             [
                 "By comfortable transport",
                 "350$/CAR",
@@ -578,7 +578,7 @@
                 "Tea/coffee, water, food"
             ]
         ],
-        "SAFARI_WITH_DINNER": [
+        "fishing_tour_qatar": [
             [
                 "On a comfortable boat",
                 "600$ / BOAT",
@@ -598,7 +598,7 @@
                 "Water and drinks."
             ]
         ],
-        "YACHT_CHARTER_IN_QATAR": [
+        "qatar_museums_tour": [
             [
                 "By comfortable transport",
                 "500$/CAR",
@@ -616,7 +616,7 @@
                 "Tea/coffee, water, food"
             ]
         ],
-        "HELICOPTER_FLIGHT": [
+        "islands_tour_qatar": [
             [
                 "By comfortable transport",
                 "600$/CAR",
@@ -636,7 +636,7 @@
         ]
     },
     "pricesTitles": {
-        "FISHING_IN_DOHA": [
+        "cars_photoshoot_in_qatar": [
             "PHOTOSHOOT"
         ]
     },
