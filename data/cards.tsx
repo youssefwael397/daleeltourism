@@ -86,8 +86,6 @@ const Cards = (): CardItemType[] => {
         '/assets/gallery/2/16.jpg',
         '/assets/gallery/2/17.jpg',
         '/assets/gallery/2/18.jpg',
-        '/assets/gallery/2/19.jpg',
-        '/assets/gallery/2/20.jpg',
       ],
       prices: [
         <p key={1}>
